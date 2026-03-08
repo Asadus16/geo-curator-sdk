@@ -39,12 +39,32 @@ export interface EnumConfig {
   type: string;
 }
 
+/** A query data block — live filter rendered at view time */
+export interface QueryDataBlockConfig {
+  /** Display name for this data block */
+  name: string;
+  /** The type key to filter by (from types section or root type key) */
+  filterType: string;
+  /** View to render: "table" | "list" | "gallery" | "bullets" */
+  view?: "table" | "list" | "gallery" | "bullets";
+}
+
+/** A collection data block — hand-picked entities */
+export interface CollectionDataBlockConfig {
+  /** Display name for this data block */
+  name: string;
+  /** Source name + entity names to include */
+  items: { source: string; names: string[] };
+  /** View to render: "table" | "list" | "gallery" | "bullets" */
+  view?: "table" | "list" | "gallery" | "bullets";
+}
+
 /** Describes one JSON data file and how to map its fields to entities */
 export interface EntitySourceConfig {
   /** Path to the JSON file (relative to data_to_publish/) */
   file: string;
-  /** Key from the types section — what type these entities are */
-  type: string;
+  /** Key from the types section — what type these entities are. If omitted, entities have no type. */
+  type?: string;
   /** Map of JSON field name → property key from the properties section.
    *  Only needed for fields beyond name/description (those are auto-mapped). */
   valueFields?: Record<string, string>;
@@ -53,10 +73,20 @@ export interface EntitySourceConfig {
   relationFields?: Record<string, { property: string; source: string }>;
   /** JSON field containing markdown text blocks (array of strings) */
   blocksField?: string;
+  /** View for text blocks relation: "table" | "list" | "gallery" | "bullets" */
+  blocksView?: "table" | "list" | "gallery" | "bullets";
   /** JSON field containing an image URL to upload as avatar */
   avatarField?: string;
+  /** JSON field containing an image URL to upload as cover */
+  coverField?: string;
   /** Processing order — sources with lower numbers are processed first (default: 0) */
   order?: number;
+  /** Query data blocks to attach to entities in this source */
+  queryDataBlocks?: QueryDataBlockConfig[];
+  /** Collection data blocks to attach to entities in this source */
+  collectionDataBlocks?: CollectionDataBlockConfig[];
+  /** Whether to check the API for duplicate entities before creating (default: false) */
+  checkDuplicates?: boolean;
 }
 
 /** Pre-existing entities already on Geo that should be reused, not re-created */

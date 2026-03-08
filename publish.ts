@@ -54,6 +54,7 @@ async function main() {
   console.log(`  Entities created:   ${stats.entities}`);
   console.log(`  Relations created:  ${stats.relations}`);
   console.log(`  Text blocks:        ${stats.blocks}`);
+  console.log(`  Data blocks:        ${stats.dataBlocks}`);
   console.log(`  Images uploaded:    ${stats.images}`);
   printOpsSummary(ops);
 

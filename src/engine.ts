@@ -5,17 +5,23 @@
  * ready to publish. Handles:
  *   - Custom schema creation (types + properties)
  *   - Enum entity creation
- *   - Entity creation with typed values
+ *   - Entity creation with typed values (proper dataType -> value type mapping)
  *   - Relation linking (by name reference across sources)
- *   - Text blocks with position ordering
- *   - Avatar image uploads
+ *   - Text blocks with position ordering and view support
+ *   - Query data blocks and collection data blocks with views
+ *   - Avatar and cover image uploads
+ *   - Runtime duplicate checking via API
  */
 
 import * as fs from "fs";
 import path from "node:path";
-import { Graph, Position, type Op, ContentIds } from "@geoprotocol/geo-sdk";
+import { Graph, Position, type Op } from "@geoprotocol/geo-sdk";
 import type { BountyConfig, EntitySourceConfig } from "./config";
-import { ROOT_TYPES, ROOT_PROPERTIES, VALUE_TYPE_MAP } from "./constants";
+import {
+  ROOT_TYPES, ROOT_PROPERTIES, VALUE_TYPE_MAP, ROOT_PROPERTY_TYPES,
+  QUERY_DATA_SOURCE, COLLECTION_DATA_SOURCE, VIEWS,
+} from "./constants";
+import { queryEntityByName } from "./client";
 
 // ─── Build Result ────────────────────────────────────────────────────────────
 
@@ -29,6 +35,7 @@ export interface BuildResult {
     entities: number;
     relations: number;
     blocks: number;
+    dataBlocks: number;
     images: number;
   };
 }
@@ -40,21 +47,30 @@ export async function buildOps(
   dataDir: string
 ): Promise<BuildResult> {
   const ops: Op[] = [];
-  const stats = { properties: 0, types: 0, enums: 0, entities: 0, relations: 0, blocks: 0, images: 0 };
+  const stats = {
+    properties: 0, types: 0, enums: 0, entities: 0,
+    relations: 0, blocks: 0, dataBlocks: 0, images: 0,
+  };
 
-  // Resolved property IDs: key → ID (merging root properties + custom)
+  // Resolved property IDs: key -> ID
   const propertyIds = new Map<string, string>();
-  // Resolved type IDs: key → ID
+  // Resolved property dataTypes: key -> GeoDataType string (e.g. "TEXT", "BOOLEAN")
+  const propertyDataTypes = new Map<string, string>();
+  // Resolved type IDs: key -> ID
   const typeIds = new Map<string, string>();
-  // Resolved enum IDs: name → ID
+  // Resolved enum IDs: name -> ID
   const enumIds = new Map<string, string>();
-  // Entity IDs per source: sourceName → Map<entityName, entityId>
+  // Entity IDs per source: sourceName -> Map<entityName, entityId>
   const entityIdsBySource: Record<string, Map<string, string>> = {};
+  // Track last block position per parent entity
+  const lastPosByEntity: Record<string, string> = {};
 
-  // ── Step 1: Register root space properties by key ────────────────────────
-  // These are always available for use in configs without declaring them
+  // ── Step 1: Register root space properties + types ───────────────────────
   for (const [key, id] of Object.entries(ROOT_PROPERTIES)) {
     propertyIds.set(key, id);
+  }
+  for (const [key, dataType] of Object.entries(ROOT_PROPERTY_TYPES)) {
+    propertyDataTypes.set(key, dataType);
   }
   for (const [key, id] of Object.entries(ROOT_TYPES)) {
     typeIds.set(key, id);
@@ -70,8 +86,9 @@ export async function buildOps(
       const { id, ops: propOps } = Graph.createProperty(createArgs);
       ops.push(...propOps);
       propertyIds.set(key, prop.id || id);
+      propertyDataTypes.set(key, prop.dataType);
       stats.properties++;
-      console.log(`    + Property: "${prop.name}" (${prop.dataType}) → ${prop.id || id}`);
+      console.log(`    + Property: "${prop.name}" (${prop.dataType}) -> ${prop.id || id}`);
     }
   }
 
@@ -90,7 +107,7 @@ export async function buildOps(
       ops.push(...typeOps);
       typeIds.set(key, type.id || id);
       stats.types++;
-      console.log(`    + Type: "${type.name}" → ${type.id || id}`);
+      console.log(`    + Type: "${type.name}" -> ${type.id || id}`);
     }
   }
 
@@ -100,7 +117,7 @@ export async function buildOps(
     for (const enumDef of config.enums) {
       const enumTypeId = typeIds.get(enumDef.type);
       if (!enumTypeId) {
-        console.warn(`    ! Skipping enum "${enumDef.name}" — type "${enumDef.type}" not found`);
+        console.warn(`    ! Skipping enum "${enumDef.name}" -- type "${enumDef.type}" not found`);
         continue;
       }
 
@@ -111,7 +128,7 @@ export async function buildOps(
       ops.push(...enumOps);
       enumIds.set(enumDef.name, enumDef.id || id);
       stats.enums++;
-      console.log(`    + Enum: "${enumDef.name}" (${enumDef.type}) → ${enumDef.id || id}`);
+      console.log(`    + Enum: "${enumDef.name}" (${enumDef.type}) -> ${enumDef.id || id}`);
     }
   }
 
@@ -135,7 +152,7 @@ export async function buildOps(
   for (const [sourceName, source] of sortedSources) {
     const filePath = path.join(dataDir, source.file);
     if (!fs.existsSync(filePath)) {
-      console.warn(`\n  ! Skipping source "${sourceName}" — file not found: ${filePath}`);
+      console.warn(`\n  ! Skipping source "${sourceName}" -- file not found: ${filePath}`);
       continue;
     }
 
@@ -145,9 +162,10 @@ export async function buildOps(
     }
     const idMap = entityIdsBySource[sourceName];
 
-    const entityTypeId = typeIds.get(source.type);
-    if (!entityTypeId) {
-      console.warn(`\n  ! Skipping source "${sourceName}" — type "${source.type}" not found`);
+    // Type is optional (entities without types are allowed)
+    const entityTypeId = source.type ? typeIds.get(source.type) : undefined;
+    if (source.type && !entityTypeId) {
+      console.warn(`\n  ! Skipping source "${sourceName}" -- type "${source.type}" not found`);
       continue;
     }
 
@@ -159,33 +177,44 @@ export async function buildOps(
         continue;
       }
 
-      // Skip if already exists (from existingEntities)
+      // Skip if already in our map (from existingEntities)
       if (idMap.has(item.name)) {
         continue;
       }
 
-      // Build typed values from valueFields mapping
-      const values = buildValues(item, source, propertyIds);
+      // Runtime duplicate checking via API
+      if (source.checkDuplicates) {
+        const existingId = await queryEntityByName(item.name);
+        if (existingId) {
+          console.log(`    ~ "${item.name}" already exists (${existingId}), reusing`);
+          idMap.set(item.name, existingId);
+          continue;
+        }
+      }
 
-      // Build relations from relationFields mapping
+      // Build typed values using dataType from config (NOT heuristics)
+      const values = buildValues(item, source, propertyIds, propertyDataTypes);
+
+      // Build relations from relationFields
       const relations = buildRelations(item, source, propertyIds, entityIdsBySource, enumIds);
 
-      const { id, ops: entityOps } = Graph.createEntity({
+      const createArgs: any = {
         name: item.name,
         description: item.description,
-        types: [entityTypeId],
         values,
         relations,
-      });
+      };
+      if (entityTypeId) createArgs.types = [entityTypeId];
+
+      const { id, ops: entityOps } = Graph.createEntity(createArgs);
       ops.push(...entityOps);
       idMap.set(item.name, id);
       stats.entities++;
-      console.log(`    + ${item.name} → ${id}`);
+      console.log(`    + ${item.name} -> ${id}`);
     }
 
-    // ── Text Blocks ────────────────────────────────────────────────────────
+    // ── Text Blocks ──────────────────────────────────────────────────────
     if (source.blocksField) {
-      const lastPos: Record<string, string> = {};
       for (const item of data) {
         const blocks = item[source.blocksField];
         if (!blocks || !Array.isArray(blocks) || blocks.length === 0) continue;
@@ -201,22 +230,147 @@ export async function buildOps(
           });
           ops.push(...blockOps);
 
-          const pos = Position.generateBetween(lastPos[parentId] ?? null, null);
-          lastPos[parentId] = pos;
+          const pos = Position.generateBetween(lastPosByEntity[parentId] ?? null, null);
+          lastPosByEntity[parentId] = pos;
 
-          const { ops: relOps } = Graph.createRelation({
+          const relArgs: any = {
             fromEntity: parentId,
             toEntity: blockId,
             type: ROOT_PROPERTIES.blocks,
             position: pos,
-          });
+          };
+
+          // Set view on blocks relation if specified
+          if (source.blocksView) {
+            const viewId = VIEWS[source.blocksView];
+            if (viewId) {
+              relArgs.entityRelations = {
+                [ROOT_PROPERTIES.view]: { toEntity: viewId },
+              };
+            }
+          }
+
+          const { ops: relOps } = Graph.createRelation(relArgs);
           ops.push(...relOps);
           stats.blocks++;
         }
       }
     }
 
-    // ── Avatar Images ──────────────────────────────────────────────────────
+    // ── Query Data Blocks ────────────────────────────────────────────────
+    if (source.queryDataBlocks) {
+      for (const qdb of source.queryDataBlocks) {
+        const filterTypeId = typeIds.get(qdb.filterType);
+        if (!filterTypeId) {
+          console.warn(`    ! Skipping query data block "${qdb.name}" -- type "${qdb.filterType}" not found`);
+          continue;
+        }
+
+        // Attach to all entities in this source
+        for (const item of data) {
+          const parentId = idMap.get(item.name);
+          if (!parentId) continue;
+
+          const queryFilter = JSON.stringify({
+            spaceId: { in: [process.env["SPACE_ID"]] },
+            filter: { [ROOT_PROPERTIES.types]: { is: filterTypeId } },
+          });
+
+          const { id: blockId, ops: blockOps } = Graph.createEntity({
+            name: qdb.name,
+            types: [ROOT_TYPES.data_block],
+            values: [{ property: ROOT_PROPERTIES.filter, type: "text", value: queryFilter }],
+            relations: {
+              [ROOT_PROPERTIES.data_source_type]: { toEntity: QUERY_DATA_SOURCE },
+            },
+          });
+          ops.push(...blockOps);
+
+          const pos = Position.generateBetween(lastPosByEntity[parentId] ?? null, null);
+          lastPosByEntity[parentId] = pos;
+
+          const relArgs: any = {
+            fromEntity: parentId,
+            toEntity: blockId,
+            type: ROOT_PROPERTIES.blocks,
+            position: pos,
+          };
+          if (qdb.view) {
+            const viewId = VIEWS[qdb.view];
+            if (viewId) {
+              relArgs.entityRelations = {
+                [ROOT_PROPERTIES.view]: { toEntity: viewId },
+              };
+            }
+          }
+
+          const { ops: relOps } = Graph.createRelation(relArgs);
+          ops.push(...relOps);
+          stats.dataBlocks++;
+          console.log(`    + Query data block "${qdb.name}" on "${item.name}" (${qdb.view || "default"} view)`);
+        }
+      }
+    }
+
+    // ── Collection Data Blocks ───────────────────────────────────────────
+    if (source.collectionDataBlocks) {
+      for (const cdb of source.collectionDataBlocks) {
+        const itemIds: { toEntity: string }[] = [];
+        const sourceMap = entityIdsBySource[cdb.items.source];
+        if (sourceMap) {
+          for (const name of cdb.items.names) {
+            const eid = sourceMap.get(name);
+            if (eid) itemIds.push({ toEntity: eid });
+          }
+        }
+
+        if (itemIds.length === 0) {
+          console.warn(`    ! Skipping collection data block "${cdb.name}" -- no items found`);
+          continue;
+        }
+
+        // Attach to all entities in this source
+        for (const item of data) {
+          const parentId = idMap.get(item.name);
+          if (!parentId) continue;
+
+          const { id: blockId, ops: blockOps } = Graph.createEntity({
+            name: cdb.name,
+            types: [ROOT_TYPES.data_block],
+            relations: {
+              [ROOT_PROPERTIES.data_source_type]: { toEntity: COLLECTION_DATA_SOURCE },
+              [ROOT_PROPERTIES.collection_item]: itemIds,
+            },
+          });
+          ops.push(...blockOps);
+
+          const pos = Position.generateBetween(lastPosByEntity[parentId] ?? null, null);
+          lastPosByEntity[parentId] = pos;
+
+          const relArgs: any = {
+            fromEntity: parentId,
+            toEntity: blockId,
+            type: ROOT_PROPERTIES.blocks,
+            position: pos,
+          };
+          if (cdb.view) {
+            const viewId = VIEWS[cdb.view];
+            if (viewId) {
+              relArgs.entityRelations = {
+                [ROOT_PROPERTIES.view]: { toEntity: viewId },
+              };
+            }
+          }
+
+          const { ops: relOps } = Graph.createRelation(relArgs);
+          ops.push(...relOps);
+          stats.dataBlocks++;
+          console.log(`    + Collection data block "${cdb.name}" on "${item.name}" (${itemIds.length} items, ${cdb.view || "default"} view)`);
+        }
+      }
+    }
+
+    // ── Avatar Images ────────────────────────────────────────────────────
     if (source.avatarField) {
       for (const item of data) {
         const avatarUrl = item[source.avatarField];
@@ -236,11 +390,39 @@ export async function buildOps(
         const { ops: attachOps } = Graph.createRelation({
           fromEntity: parentId,
           toEntity: imageId,
-          type: ContentIds.AVATAR_PROPERTY,
+          type: ROOT_PROPERTIES.avatar,
         });
         ops.push(...attachOps);
         stats.images++;
-        console.log(`      Image: ${imageId} (CID: ${cid})`);
+        console.log(`      Avatar: ${imageId} (CID: ${cid})`);
+      }
+    }
+
+    // ── Cover Images ─────────────────────────────────────────────────────
+    if (source.coverField) {
+      for (const item of data) {
+        const coverUrl = item[source.coverField];
+        if (!coverUrl) continue;
+
+        const parentId = idMap.get(item.name);
+        if (!parentId) continue;
+
+        console.log(`    Uploading cover for "${item.name}"...`);
+        const { id: imageId, ops: imageOps, cid } = await Graph.createImage({
+          url: coverUrl,
+          name: `${item.name} Cover`,
+          network: "TESTNET",
+        });
+        ops.push(...imageOps);
+
+        const { ops: attachOps } = Graph.createRelation({
+          fromEntity: parentId,
+          toEntity: imageId,
+          type: ROOT_PROPERTIES.cover,
+        });
+        ops.push(...attachOps);
+        stats.images++;
+        console.log(`      Cover: ${imageId} (CID: ${cid})`);
       }
     }
   }
@@ -253,10 +435,16 @@ export async function buildOps(
 
 // ─── Helpers ────────────────────────────────────────────────────────────────
 
+/**
+ * Build typed value array from JSON item fields.
+ * Uses the property's dataType from config to determine the correct SDK value type string.
+ * NO heuristics -- explicit mapping only via VALUE_TYPE_MAP.
+ */
 function buildValues(
   item: Record<string, any>,
   source: EntitySourceConfig,
-  propertyIds: Map<string, string>
+  propertyIds: Map<string, string>,
+  propertyDataTypes: Map<string, string>
 ): any[] {
   const values: any[] = [];
   if (!source.valueFields) return values;
@@ -271,8 +459,25 @@ function buildValues(
       continue;
     }
 
-    // Look up the property config to determine the value type
-    const valueType = getValueType(propKey, propertyIds);
+    // Get the dataType from config, then map to SDK value type string
+    const dataType = propertyDataTypes.get(propKey);
+    if (!dataType) {
+      console.warn(`      ! No dataType for property "${propKey}" -- defaulting to "text"`);
+      values.push({ property: propId, type: "text", value: val });
+      continue;
+    }
+
+    const valueType = VALUE_TYPE_MAP[dataType];
+    if (!valueType) {
+      if (dataType === "RELATION") {
+        console.warn(`      ! Property "${propKey}" is RELATION -- use relationFields instead of valueFields`);
+        continue;
+      }
+      console.warn(`      ! Unknown dataType "${dataType}" for property "${propKey}" -- defaulting to "text"`);
+      values.push({ property: propId, type: "text", value: val });
+      continue;
+    }
+
     values.push({ property: propId, type: valueType, value: val });
   }
   return values;
@@ -297,12 +502,10 @@ function buildRelations(
 
     const sourceMap = entityIdsBySource[relConfig.source];
 
-    // Handle array of names (many relations) or single name
     const names = Array.isArray(val) ? val : [val];
     const targets: { toEntity: string }[] = [];
 
     for (const name of names) {
-      // Check entity sources first, then enum IDs
       const entityId = sourceMap?.get(name) ?? enumIds.get(name);
       if (entityId) {
         targets.push({ toEntity: entityId });
@@ -316,14 +519,4 @@ function buildRelations(
     }
   }
   return relations;
-}
-
-/** Infer SDK value type from property key name conventions */
-function getValueType(propKey: string, _propertyIds: Map<string, string>): string {
-  const key = propKey.toLowerCase();
-  if (key.includes("date") || key.includes("_date") || key === "birth_date" || key === "date_founded") return "date";
-  if (key.includes("bool") || key.startsWith("is_") || key.startsWith("is")) return "boolean";
-  if (key.includes("float") || key.includes("finding") || key.includes("score") || key.includes("rating")) return "float64";
-  if (key.includes("int") || key.includes("count") || key.includes("number")) return "int64";
-  return "text";
 }

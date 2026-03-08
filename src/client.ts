@@ -123,7 +123,7 @@ export async function publishOps(
         name: editName,
         spaceId,
         ops,
-        author: address,
+        author: spaceId, // must be the spaceId, not the wallet address
         network: "TESTNET",
       });
       ({ cid, editId, to, calldata } = result);

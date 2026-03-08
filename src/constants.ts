@@ -86,10 +86,12 @@ export const VALID_DATA_TYPES = [
 export type GeoDataType = typeof VALID_DATA_TYPES[number];
 
 // ─── Value type strings the SDK accepts ──────────────────────────────────────
+// These are the exact strings passed as `type` in Graph.createEntity values.
+// Verified from geo-sdk-tutorial/courses/05-entities.ts (the canonical source).
 
 export const VALUE_TYPE_MAP: Record<string, string> = {
   TEXT:      "text",
-  BOOLEAN:  "boolean",
+  BOOLEAN:  "bool",
   INTEGER:  "int64",
   FLOAT:    "float64",
   DATE:     "date",
@@ -97,4 +99,11 @@ export const VALUE_TYPE_MAP: Record<string, string> = {
   DATETIME: "datetime",
   POINT:    "point",
   SCHEDULE: "schedule",
+};
+
+// Well-known root property → dataType mapping (for root properties used in valueFields)
+export const ROOT_PROPERTY_TYPES: Record<string, string> = {
+  web_url:      "TEXT",
+  birth_date:   "DATE",
+  date_founded: "DATE",
 };
