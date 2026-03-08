@@ -1,0 +1,36 @@
+{
+  "name": "Simple Knowledge Graph",
+  "editName": "Curator SDK: Simple entities",
+
+  "sources": {
+    "topics": {
+      "file": "topics.json",
+      "type": "topic",
+      "order": 0
+    },
+    "people": {
+      "file": "people.json",
+      "type": "person",
+      "order": 1,
+      "valueFields": {
+        "web_url": "web_url",
+        "birth_date": "birth_date"
+      },
+      "relationFields": {
+        "topics": { "property": "topics", "source": "topics" }
+      }
+    },
+    "projects": {
+      "file": "projects.json",
+      "type": "project",
+      "order": 2,
+      "valueFields": {
+        "web_url": "web_url"
+      },
+      "relationFields": {
+        "topics": { "property": "topics", "source": "topics" }
+      },
+      "blocksField": "blocks"
+    }
+  }
+}

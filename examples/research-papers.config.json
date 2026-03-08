@@ -1,0 +1,63 @@
+{
+  "name": "AI Research Papers Bounty",
+  "editName": "Curator SDK: AI Research Papers",
+
+  "properties": {
+    "publishedDate":  { "name": "Published Date",  "dataType": "DATE" },
+    "arxivUrl":       { "name": "ArXiv URL",       "dataType": "TEXT" },
+    "citationCount":  { "name": "Citation Count",   "dataType": "INTEGER" },
+    "paperAbstract":  { "name": "Abstract",         "dataType": "TEXT" },
+    "authors":        { "name": "Authors",           "dataType": "RELATION" },
+    "researchField":  { "name": "Research Field",    "dataType": "RELATION" }
+  },
+
+  "types": {
+    "paper": {
+      "name": "Research Paper",
+      "properties": ["publishedDate", "arxivUrl", "citationCount", "paperAbstract", "authors", "researchField"]
+    },
+    "researcher": {
+      "name": "Researcher",
+      "properties": ["web_url"]
+    },
+    "field": {
+      "name": "Research Field",
+      "properties": []
+    }
+  },
+
+  "sources": {
+    "fields": {
+      "file": "fields.json",
+      "type": "field",
+      "order": 0
+    },
+    "researchers": {
+      "file": "researchers.json",
+      "type": "researcher",
+      "order": 1,
+      "valueFields": {
+        "website": "web_url"
+      },
+      "relationFields": {
+        "fields": { "property": "topics", "source": "fields" }
+      }
+    },
+    "papers": {
+      "file": "papers.json",
+      "type": "paper",
+      "order": 2,
+      "valueFields": {
+        "published_date": "publishedDate",
+        "arxiv_url": "arxivUrl",
+        "citations": "citationCount",
+        "abstract": "paperAbstract"
+      },
+      "relationFields": {
+        "authors": { "property": "authors", "source": "researchers" },
+        "field": { "property": "researchField", "source": "fields" }
+      },
+      "blocksField": "sections"
+    }
+  }
+}

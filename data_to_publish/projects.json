@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Ethereum",
+    "description": "A decentralized, open-source blockchain platform with smart contract functionality.",
+    "web_url": "https://ethereum.org",
+    "topics": ["Blockchain", "Smart Contracts"],
+    "blocks": [
+      "## Overview",
+      "Ethereum is a decentralized, open-source blockchain system that features smart contract functionality. It was proposed in 2013 by **Vitalik Buterin** and went live on **July 30, 2015**.",
+      "## Key Facts",
+      "- **Consensus:** Proof of Stake (since The Merge, Sept 2022)\n- **Block time:** ~12 seconds\n- **Smart contract languages:** Solidity, Vyper"
+    ]
+  },
+  {
+    "name": "Geo",
+    "description": "A decentralized knowledge graph protocol enabling collaborative, permissionless knowledge curation.",
+    "web_url": "https://geobrowser.io",
+    "topics": ["Blockchain", "Decentralized Knowledge Graphs"],
+    "blocks": [
+      "## What is Geo?",
+      "Geo is a decentralized protocol for structuring and sharing knowledge on the internet. It combines a **knowledge graph** data model with **blockchain-based** governance.",
+      "The protocol allows anyone to create, edit, and organize information as interconnected entities — each with typed properties, relations, and rich content blocks."
+    ]
+  }
+]

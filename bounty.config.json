@@ -1,0 +1,81 @@
+{
+  "name": "DeFi Protocols Bounty",
+  "editName": "Curator SDK: DeFi Protocols",
+
+  "properties": {
+    "contractAddress": { "id": "a989bbb42cf24db69307afd1d1400b96", "name": "Contract Address", "dataType": "TEXT" },
+    "chain":           { "id": "85f29d5e429543b08ebb463c5e3f093c", "name": "Chain",            "dataType": "TEXT" },
+    "isVerified":      { "id": "63b4ca067ff74ccdb718bcaa40c41e6c", "name": "Is Verified",      "dataType": "BOOLEAN" },
+    "upgradeability":  { "id": "fb4e59fccf6b4620a4f11dde090a9e99", "name": "Upgradeability",   "dataType": "TEXT" },
+    "isProxy":         { "id": "717978c99c194c4092109020b4bf4975", "name": "Is Proxy",         "dataType": "BOOLEAN" },
+    "explorerUrl":     { "id": "ddf541d4cdf44eeb9bd3a6dea0350363", "name": "Explorer URL",     "dataType": "TEXT" },
+    "githubUrl":       { "id": "1acafff966664af398ff174198092d67", "name": "GitHub URL",       "dataType": "TEXT" },
+    "contractType":    { "id": "33904ee933274651b6d5cb83cd201e89", "name": "Contract Type",    "dataType": "RELATION" },
+    "protocol":        { "id": "396560cd09104e5f89dda31cdfe53f5b", "name": "Protocol",         "dataType": "RELATION" },
+    "license":         { "id": "00645cda81a94bd391d733a4392903f6", "name": "License",          "dataType": "RELATION" },
+    "scTopic":         { "id": "d0219202f42647de98df7ad49d256168", "name": "Topic",            "dataType": "TEXT" }
+  },
+
+  "types": {
+    "smartContract": {
+      "id": "fbed18f8756b4643bc6e0d8a77ecff4d",
+      "name": "Smart Contract",
+      "properties": ["contractAddress", "chain", "isVerified", "upgradeability", "isProxy", "explorerUrl", "githubUrl", "contractType", "protocol", "license", "scTopic"]
+    },
+    "contractType": {
+      "id": "9376f0e9559a4bb0abac7bb254e86f35",
+      "name": "Contract Type",
+      "properties": []
+    }
+  },
+
+  "enums": [
+    { "id": "9a91231f75a04d05adbae6da6ef81caf", "name": "Proxy",          "type": "contractType" },
+    { "id": "9a4271e9ee5f4bdd86ad6d1dac3bacb5", "name": "ERC-20 Token",   "type": "contractType" },
+    { "id": "8a80344aa7e44db3ad111783d5499c07", "name": "ERC-721 NFT",    "type": "contractType" },
+    { "id": "5104663cb9ba4aa2aaaf12f4f2c05807", "name": "ERC-1155 Multi", "type": "contractType" },
+    { "id": "0d8302666c8d4e7f8116dc464962b767", "name": "Governance",     "type": "contractType" },
+    { "id": "5a748cef563042eea448cb5af1b63b05", "name": "Multisig",       "type": "contractType" }
+  ],
+
+  "sources": {
+    "protocols": {
+      "file": "protocols.json",
+      "type": "project",
+      "order": 0,
+      "valueFields": {
+        "website": "web_url"
+      },
+      "blocksField": "blocks"
+    },
+    "smartContracts": {
+      "file": "smart_contracts.json",
+      "type": "smartContract",
+      "order": 1,
+      "valueFields": {
+        "contractAddress": "contractAddress",
+        "chain": "chain",
+        "isVerified": "isVerified",
+        "upgradeability": "upgradeability",
+        "isProxy": "isProxy",
+        "explorerUrl": "explorerUrl",
+        "githubUrl": "githubUrl",
+        "topic": "scTopic"
+      },
+      "relationFields": {
+        "protocol": { "property": "protocol", "source": "protocols" },
+        "contractType": { "property": "contractType", "source": "smartContracts" },
+        "license": { "property": "license", "source": "protocols" }
+      }
+    }
+  },
+
+  "existingEntities": {
+    "protocols": {
+      "Uniswap": "b14d29fbac714088bc0c09d1e7b2d584",
+      "Aave": "927a8354280c49b9a3ffa6e511ce65bb",
+      "Curve Finance": "1600fcb23fa945b893e21374dadee459",
+      "Ethereum": "69d67eaa80d3419a911424d63aed6d67"
+    }
+  }
+}
