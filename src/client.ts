@@ -53,10 +53,11 @@ export async function gql(query: string, variables?: Record<string, any>) {
 
 // ─── Duplicate-Check Helper ──────────────────────────────────────────────────
 
-export async function queryEntityByName(name: string): Promise<string | null> {
+export async function queryEntityByName(name: string, spaceId?: string): Promise<string | null> {
   try {
+    const spaceFilter = spaceId ? `, spaceIds: ["${spaceId}"]` : "";
     const data = await gql(`{
-      search(query: ${JSON.stringify(name)}, first: 5) {
+      search(query: ${JSON.stringify(name)}, first: 5${spaceFilter}) {
         id
         name
       }
@@ -66,7 +67,8 @@ export async function queryEntityByName(name: string): Promise<string | null> {
       (e: any) => e.name?.toLowerCase() === name.toLowerCase()
     );
     return exact ? exact.id : null;
-  } catch {
+  } catch (error) {
+    console.error(`queryEntityByName("${name}") failed:`, error instanceof Error ? error.message : error);
     return null;
   }
 }

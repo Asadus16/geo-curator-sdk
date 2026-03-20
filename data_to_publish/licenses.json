@@ -1,0 +1,14 @@
+[
+  {
+    "name": "BSL",
+    "description": "Business Source License a source-available license that restricts commercial use until a specified Change Date, after which the code converts to an open-source license (typically MIT)."
+  },
+  {
+    "name": "ISC",
+    "description": "Permissive open source license functionally equivalent to MIT. Grants free use, modification, and distribution with simple attribution."
+  },
+  {
+    "name": "BlueOak-1.0.0",
+    "description": "Permissive open source license designed for maximum clarity. Grants broad rights to use, copy, modify, and distribute with minimal conditions."
+  }
+]

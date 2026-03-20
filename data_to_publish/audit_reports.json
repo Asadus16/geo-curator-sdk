@@ -1,0 +1,1958 @@
+[
+  {
+    "name": "Uniswap - Trail of Bits - V3 core audit",
+    "description": "Security audit of Uniswap V3 core contracts (UniswapV3Factory, UniswapV3Pool, UniswapV3PositionManager)",
+    "project": "Uniswap",
+    "auditors": [
+      "Trail of Bits"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-06-01",
+    "reportUrl": "https://github.com/Uniswap/v3-core/blob/main/audits/tob/audit.pdf",
+    "chain": "Ethereum",
+    "scope": "UniswapV3Factory, UniswapV3Pool",
+    "criticalFindings": "0",
+    "highFindings": "1",
+    "mediumFindings": "2"
+  },
+  {
+    "name": "Aave - Trail of Bits - V3 core audit",
+    "description": "Comprehensive security audit of Aave V3 lending protocol",
+    "project": "Aave",
+    "auditors": [
+      "Trail of Bits"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-01-28",
+    "reportUrl": "https://github.com/aave/aave-v3-core/blob/master/audits/07-01-2022_TrailOfBits_AaveV3.pdf",
+    "chain": "Ethereum",
+    "scope": "Pool, PoolConfigurator, AToken, VariableDebtToken",
+    "criticalFindings": "0",
+    "highFindings": "2",
+    "mediumFindings": "5"
+  },
+  {
+    "name": "Aave - Sigma Prime - V3 core audit",
+    "description": "Formal verification and audit of Aave V3 core contracts",
+    "project": "Aave",
+    "auditors": [
+      "Sigma Prime"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-01-27",
+    "reportUrl": "https://github.com/aave/aave-v3-core/blob/master/audits/27-01-2022_SigmaPrime_AaveV3.pdf",
+    "chain": "Ethereum",
+    "scope": "Pool, PoolConfigurator, AToken, FlashLoan",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Lido Finance - Statemind - V2 core audit",
+    "description": "Audit of Lido V2 staking router, withdrawal queue, and accounting oracle",
+    "project": "Lido Finance",
+    "auditors": [
+      "Statemind"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-05-15",
+    "reportUrl": "https://github.com/lidofinance/audits/blob/main/Statemind%20Lido%20V2%20Audit%20Report%2004-23.pdf",
+    "chain": "Ethereum",
+    "scope": "Lido, StakingRouter, WithdrawalQueue, AccountingOracle",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "Lido Finance - Oxorio - V2 core audit",
+    "description": "Security assessment of Lido V2 core contracts",
+    "project": "Lido Finance",
+    "auditors": [
+      "Oxorio"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-04-12",
+    "reportUrl": "https://github.com/lidofinance/audits/",
+    "chain": "Ethereum",
+    "scope": "Lido, StakingRouter, WithdrawalQueue",
+    "criticalFindings": "0",
+    "highFindings": "1",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Uniswap - OpenZeppelin - V4 core audit",
+    "description": "Security audit of Uniswap V4 singleton pool and hooks architecture",
+    "project": "Uniswap",
+    "auditors": [
+      "OpenZeppelin"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2024-01-15",
+    "reportUrl": "https://github.com/Uniswap/v4-core/tree/main/docs/security/audits",
+    "chain": "Ethereum",
+    "scope": "PoolManager, Hooks, PoolKey",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "EigenLayer - Sigma Prime - M1 core audit",
+    "description": "Comprehensive audit of EigenLayer restaking protocol",
+    "project": "EigenLayer",
+    "auditors": [
+      "Sigma Prime"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-05-01",
+    "reportUrl": "https://github.com/Layr-Labs/eigenlayer-contracts/tree/dev/audits",
+    "chain": "Ethereum",
+    "scope": "StrategyManager, DelegationManager, EigenPodManager",
+    "criticalFindings": "0",
+    "highFindings": "2",
+    "mediumFindings": "6"
+  },
+  {
+    "name": "EigenLayer - ConsenSys Diligence - core audit",
+    "description": "Audit of EigenLayer core restaking and delegation contracts",
+    "project": "EigenLayer",
+    "auditors": [
+      "ConsenSys Diligence"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-04-01",
+    "reportUrl": "https://github.com/Layr-Labs/eigenlayer-contracts/tree/dev/audits",
+    "chain": "Ethereum",
+    "scope": "StrategyManager, DelegationManager, Slasher",
+    "criticalFindings": "0",
+    "highFindings": "1",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "Sky - Trail of Bits - MCD core audit",
+    "description": "Audit of MakerDAO Multi-Collateral DAI system",
+    "project": "Sky",
+    "auditors": [
+      "Trail of Bits"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2019-08-01",
+    "reportUrl": "https://github.com/makerdao/audits",
+    "chain": "Ethereum",
+    "scope": "Vat, Jug, Cat, Dai, DSR",
+    "criticalFindings": "0",
+    "highFindings": "1",
+    "mediumFindings": "5"
+  },
+  {
+    "name": "Compound Finance - OpenZeppelin - V3 Comet audit",
+    "description": "Security audit of Compound III Comet protocol",
+    "project": "Compound Finance",
+    "auditors": [
+      "OpenZeppelin"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-08-01",
+    "reportUrl": "https://blog.openzeppelin.com/compound-iii-audit",
+    "chain": "Ethereum",
+    "scope": "Comet, CometRewards, Configurator",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "Compound Finance - ChainSecurity - V3 Comet audit",
+    "description": "Independent audit of Compound III",
+    "project": "Compound Finance",
+    "auditors": [
+      "ChainSecurity"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-09-01",
+    "reportUrl": "https://chainsecurity.com/wp-content/uploads/2022/05/ChainSecurity_Compound_Comet_audit.pdf",
+    "chain": "Ethereum",
+    "scope": "Comet, CometExt, CometRewards",
+    "criticalFindings": "0",
+    "highFindings": "1",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Curve Finance - Trail of Bits - StableSwap audit",
+    "description": "Audit of Curve Finance StableSwap AMM contracts",
+    "project": "Curve Finance",
+    "auditors": [
+      "Trail of Bits"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2020-03-01",
+    "reportUrl": "https://docs.curve.finance/references/audits/",
+    "chain": "Ethereum",
+    "scope": "StableSwap, CRV Token, Gauge",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "2"
+  },
+  {
+    "name": "Pendle - Ackee Blockchain - V2 core audit",
+    "description": "Comprehensive audit of Pendle V2 yield tokenization protocol",
+    "project": "Pendle",
+    "auditors": [
+      "Ackee Blockchain"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-06-01",
+    "reportUrl": "https://github.com/pendle-finance/pendle-core-v2-public/tree/main/audits",
+    "chain": "Ethereum",
+    "scope": "PendleRouter, PendleMarket, SY, PT, YT",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Morpho - Spearbit - Blue core audit",
+    "description": "Audit of Morpho Blue minimalist lending protocol",
+    "project": "Morpho",
+    "auditors": [
+      "Spearbit"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2024-01-01",
+    "reportUrl": "https://github.com/morpho-org/morpho-blue/tree/main/audits",
+    "chain": "Ethereum",
+    "scope": "Morpho, MorphoBlue core",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "2"
+  },
+  {
+    "name": "GMX - ABDK Consulting - V2 core audit",
+    "description": "Audit of GMX V2 synthetics and perpetual trading contracts",
+    "project": "GMX",
+    "auditors": [
+      "ABDK Consulting"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-08-01",
+    "reportUrl": "https://github.com/gmx-io/gmx-synthetics/tree/main/audits",
+    "chain": "Arbitrum",
+    "scope": "ExchangeRouter, OrderHandler, DepositHandler, WithdrawalHandler",
+    "criticalFindings": "0",
+    "highFindings": "1",
+    "mediumFindings": "5"
+  },
+  {
+    "name": "Balancer - Trail of Bits - V2 vault audit",
+    "description": "Audit of Balancer V2 vault and weighted pool contracts",
+    "project": "Balancer",
+    "auditors": [
+      "Trail of Bits"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2021-04-01",
+    "reportUrl": "https://github.com/balancer/balancer-v2-monorepo/tree/master/audits",
+    "chain": "Ethereum",
+    "scope": "Vault, WeightedPool, StablePool",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "Balancer - OpenZeppelin - V2 pool audit",
+    "description": "Independent audit of Balancer V2 protocol",
+    "project": "Balancer",
+    "auditors": [
+      "OpenZeppelin"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2021-05-01",
+    "reportUrl": "https://github.com/balancer/balancer-v2-monorepo/tree/master/audits",
+    "chain": "Ethereum",
+    "scope": "Vault, BasePool, PoolRegistry",
+    "criticalFindings": "0",
+    "highFindings": "1",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Synthetix - OpenZeppelin - V3 core audit",
+    "description": "Audit of Synthetix V3 core contracts and liquidity layer",
+    "project": "Synthetix",
+    "auditors": [
+      "OpenZeppelin"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-07-01",
+    "reportUrl": "https://docs.synthetix.io/building/audits",
+    "chain": "Ethereum",
+    "scope": "CoreProxy, AccountProxy, USDProxy",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "5"
+  },
+  {
+    "name": "1inch - Decurity - V5 aggregation router audit",
+    "description": "Audit of 1inch aggregation router swap execution",
+    "project": "1inch",
+    "auditors": [
+      "Decurity"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-11-01",
+    "reportUrl": "https://github.com/1inch/1inch-audits",
+    "chain": "Ethereum",
+    "scope": "AggregationRouterV5, ClipperRouter",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "2"
+  },
+  {
+    "name": "SushiSwap - Trail of Bits - RouteProcessor audit",
+    "description": "Audit of SushiSwap route processor for optimized swaps",
+    "project": "SushiSwap",
+    "auditors": [
+      "Trail of Bits"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-03-01",
+    "reportUrl": "https://github.com/sushiswap/sushiswap/tree/master/protocols/route-processor/audits",
+    "chain": "Ethereum",
+    "scope": "RouteProcessor3, BentoBox",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Yearn Finance - Trail of Bits - V3 vaults audit",
+    "description": "Audit of Yearn V3 tokenized strategy framework",
+    "project": "Yearn Finance",
+    "auditors": [
+      "Trail of Bits"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-09-01",
+    "reportUrl": "https://github.com/yearn/yearn-vaults-v3/tree/master/audits",
+    "chain": "Ethereum",
+    "scope": "VaultV3, TokenizedStrategy",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "Convex Finance - MixBytes - core audit",
+    "description": "Audit of Convex CRV boosting and reward distribution",
+    "project": "Convex Finance",
+    "auditors": [
+      "MixBytes"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2021-05-01",
+    "reportUrl": "https://www.openzeppelin.com/security-audits/convex-finance",
+    "chain": "Ethereum",
+    "scope": "Booster, CvxRewardPool, CvxLocker",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Rocket Pool - Sigma Prime - Atlas upgrade audit",
+    "description": "Audit of Rocket Pool Atlas upgrade (8 ETH minipools)",
+    "project": "Rocket Pool",
+    "auditors": [
+      "Sigma Prime"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-04-01",
+    "reportUrl": "https://rocketpool.net/files/audits/sigma-prime-audit-atlas.pdf",
+    "chain": "Ethereum",
+    "scope": "RocketMinipoolManager, RocketNodeStaking, RocketDAOProtocol",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "5"
+  },
+  {
+    "name": "Rocket Pool - ConsenSys Diligence - core audit",
+    "description": "Audit of Rocket Pool core protocol",
+    "project": "Rocket Pool",
+    "auditors": [
+      "ConsenSys Diligence"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2021-11-01",
+    "reportUrl": "https://diligence.consensys.io/audits/2023/01/rocket-pool-atlas-v1.2/",
+    "chain": "Ethereum",
+    "scope": "RocketStorage, RocketMinipoolManager, RocketTokenRETH",
+    "criticalFindings": "0",
+    "highFindings": "1",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "Chainlink - Trail of Bits - VRF V2 audit",
+    "description": "Audit of Chainlink VRF V2 randomness contracts",
+    "project": "Chainlink",
+    "auditors": [
+      "Trail of Bits"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-06-01",
+    "reportUrl": "https://github.com/smartcontractkit/chainlink/blob/develop/contracts/src/v0.8/vrf/SECURITY.md",
+    "chain": "Ethereum",
+    "scope": "VRFCoordinatorV2, VRFConsumerBase",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "2"
+  },
+  {
+    "name": "Ethereum Name Service - OpenZeppelin - V2 registry audit",
+    "description": "Audit of ENS name resolver and registry contracts",
+    "project": "ENS (Ethereum Name Service)",
+    "auditors": [
+      "OpenZeppelin"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2020-02-01",
+    "reportUrl": "https://blog.openzeppelin.com/ens-smart-contracts-audit",
+    "chain": "Ethereum",
+    "scope": "ENSRegistry, BaseRegistrar, PublicResolver",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Gnosis Safe - Ackee Blockchain - V1.4.1 audit",
+    "description": "Audit of Safe (Gnosis Safe) multisig wallet contracts",
+    "project": "Gnosis Safe",
+    "auditors": [
+      "Ackee Blockchain"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-08-01",
+    "reportUrl": "https://github.com/safe-global/safe-contracts/blob/main/docs/audit_1_4_0.md",
+    "chain": "Ethereum",
+    "scope": "Safe, SafeProxyFactory, FallbackManager",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "2"
+  },
+  {
+    "name": "Ethena - Quantstamp - USDe core audit",
+    "description": "Audit of Ethena USDe stablecoin minting and staking",
+    "project": "Ethena",
+    "auditors": [
+      "Quantstamp"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2024-02-01",
+    "reportUrl": "https://docs.ethena.fi/resources/audits",
+    "chain": "Ethereum",
+    "scope": "USDe, StakedUSDe, EthenaMinting",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "SSV Network - Quantstamp - V4 core audit",
+    "description": "Audit of SSV Network distributed validator technology contracts",
+    "project": "SSV Network",
+    "auditors": [
+      "Quantstamp"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-12-01",
+    "reportUrl": "https://docs.ssv.network/developers/security/",
+    "chain": "Ethereum",
+    "scope": "SSVNetwork, SSVNetworkViews",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "Ether.fi - Certora - V1 staking audit",
+    "description": "Audit of Ether.fi liquid restaking protocol",
+    "project": "Ether.fi",
+    "auditors": [
+      "Certora"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2024-01-01",
+    "reportUrl": "https://github.com/etherfi-protocol/smart-contracts/tree/master/audits",
+    "chain": "Ethereum",
+    "scope": "LiquidityPool, EETH, WeETH, EtherFiNode",
+    "criticalFindings": "0",
+    "highFindings": "1",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Liquity - Trail of Bits - V1 core audit",
+    "description": "Audit of Liquity zero-interest borrowing protocol",
+    "project": "Liquity",
+    "auditors": [
+      "Trail of Bits"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2021-03-01",
+    "reportUrl": "https://github.com/trailofbits/publications/blob/master/reviews/Liquity.pdf",
+    "chain": "Ethereum",
+    "scope": "BorrowerOperations, TroveManager, StabilityPool, LUSD",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "dYdX - Informal Systems - V4 perpetuals audit",
+    "description": "Audit of dYdX V4 Cosmos appchain contracts",
+    "project": "dYdX",
+    "auditors": [
+      "Informal Systems"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-10-01",
+    "reportUrl": "https://github.com/dydxprotocol/v4-chain/tree/main/audits",
+    "chain": "dYdX Chain",
+    "scope": "Perpetuals, Orders, Subaccounts, Clob",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "5"
+  },
+  {
+    "name": "Frax Finance - Trail of Bits - V2 core audit",
+    "description": "Audit of Frax Finance algorithmic stablecoin V2",
+    "project": "Frax Finance",
+    "auditors": [
+      "Trail of Bits"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-05-01",
+    "reportUrl": "https://docs.frax.finance/other/audits",
+    "chain": "Ethereum",
+    "scope": "FraxlendPair, FraxEtherMinter, sfrxETH",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Aerodrome - Spearbit - V2 core audit",
+    "description": "Audit of Aerodrome DEX on Base (Velodrome fork)",
+    "project": "Aerodrome",
+    "auditors": [
+      "Spearbit"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-08-01",
+    "reportUrl": "https://github.com/velodrome-finance/contracts/tree/main/audits",
+    "chain": "Base",
+    "scope": "Router, Pool, Gauge, Voter",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "LayerZero - Trail of Bits - V2 endpoint audit",
+    "description": "Audit of LayerZero V2 cross-chain messaging protocol",
+    "project": "LayerZero",
+    "auditors": [
+      "Trail of Bits"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2024-01-01",
+    "reportUrl": "https://github.com/LayerZero-Labs/Audits",
+    "chain": "Ethereum",
+    "scope": "EndpointV2, MessageLib, DVN",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Wormhole - Neodyme - core bridge audit",
+    "description": "Audit of Wormhole cross-chain bridge and messaging",
+    "project": "Wormhole",
+    "auditors": [
+      "Neodyme"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-06-01",
+    "reportUrl": "https://github.com/wormhole-foundation/wormhole/tree/main/audits",
+    "chain": "Ethereum",
+    "scope": "CoreBridge, TokenBridge, Relayer",
+    "criticalFindings": "0",
+    "highFindings": "1",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "Across Protocol - OpenZeppelin - V3 bridge audit",
+    "description": "Audit of Across V3 cross-chain bridge using UMA optimistic oracle",
+    "project": "Across Protocol",
+    "auditors": [
+      "OpenZeppelin"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-11-01",
+    "reportUrl": "https://docs.across.to/introduction/security-information",
+    "chain": "Ethereum",
+    "scope": "SpokePool, HubPool, BondToken",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Venus - Quantstamp - V4 core audit",
+    "description": "Audit of Venus Protocol V4 (Compound fork on BNB Chain)",
+    "project": "Venus",
+    "auditors": [
+      "Quantstamp"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-10-01",
+    "reportUrl": "https://github.com/VenusProtocol/venus-protocol/tree/main/audits",
+    "chain": "BNB Chain",
+    "scope": "Comptroller, VToken, RiskFund",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "PancakeSwap - PeckShield - V3 core audit",
+    "description": "Audit of PancakeSwap V3 concentrated liquidity AMM",
+    "project": "PancakeSwap",
+    "auditors": [
+      "PeckShield"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-04-01",
+    "reportUrl": "https://github.com/pancakeswap/pancake-v3-contracts/blob/main/projects/v3-core/audits",
+    "chain": "BNB Chain",
+    "scope": "PancakeV3Factory, PancakeV3Pool, SwapRouter",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "JustLend - SlowMist - DAO core audit",
+    "description": "Audit of JustLend lending protocol on TRON",
+    "project": "JustLend",
+    "auditors": [
+      "SlowMist"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-06-01",
+    "reportUrl": "https://slowmist.com/en/security-audit-certificate.html",
+    "chain": "TRON",
+    "scope": "JToken, Comptroller, JumpRateModel",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Jupiter - OtterSec - V6 swap router audit",
+    "description": "Audit of Jupiter aggregator routing on Solana",
+    "project": "Jupiter",
+    "auditors": [
+      "OtterSec"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2024-01-01",
+    "reportUrl": "https://station.jup.ag/docs/security/audits",
+    "chain": "Solana",
+    "scope": "Jupiter swap router, limit order",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "2"
+  },
+  {
+    "name": "Jito - Neodyme - stake pool audit",
+    "description": "Audit of Jito liquid staking and MEV distribution on Solana",
+    "project": "Jito",
+    "auditors": [
+      "Neodyme"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-03-01",
+    "reportUrl": "https://jito-foundation.gitbook.io/mev/jito-programs/audit-reports",
+    "chain": "Solana",
+    "scope": "StakePool, JitoSOL",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Kamino - OtterSec - V2 vault audit",
+    "description": "Audit of Kamino automated liquidity management on Solana",
+    "project": "Kamino",
+    "auditors": [
+      "OtterSec"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-09-01",
+    "reportUrl": "https://github.com/Kamino-Finance/audits",
+    "chain": "Solana",
+    "scope": "Kamino Vault, Strategy, Lending",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "Raydium - MadShield - CPMM pool audit",
+    "description": "Audit of Raydium concentrated AMM on Solana",
+    "project": "Raydium",
+    "auditors": [
+      "MadShield"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-11-01",
+    "reportUrl": "https://docs.raydium.io/raydium/overview/security-and-risks",
+    "chain": "Solana",
+    "scope": "CPMM Pool, Router",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Drift Protocol - OtterSec - V2 perpetuals audit",
+    "description": "Audit of Drift perpetual DEX on Solana",
+    "project": "Drift Protocol",
+    "auditors": [
+      "OtterSec"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-07-01",
+    "reportUrl": "https://docs.drift.trade/technical/security",
+    "chain": "Solana",
+    "scope": "DriftState, PerpMarket, SpotMarket",
+    "criticalFindings": "0",
+    "highFindings": "1",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "Kelp DAO - Code4rena - rsETH deposit audit",
+    "description": "Audit of Kelp DAO liquid restaking token",
+    "project": "Kelp DAO",
+    "auditors": [
+      "Code4rena"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2024-02-01",
+    "reportUrl": "https://kelpdao.xyz/security",
+    "chain": "Ethereum",
+    "scope": "LRTDepositPool, rsETH, LRTConfig",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Symbiotic - Spearbit - V1 vault audit",
+    "description": "Audit of Symbiotic restaking protocol core contracts",
+    "project": "Symbiotic",
+    "auditors": [
+      "Spearbit"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2024-06-01",
+    "reportUrl": "https://github.com/symbioticfi/core/tree/main/audits",
+    "chain": "Ethereum",
+    "scope": "Vault, Delegator, Slasher",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "Renzo - Halborn - ezETH restaking audit",
+    "description": "Audit of Renzo liquid restaking protocol",
+    "project": "Renzo",
+    "auditors": [
+      "Halborn"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2024-01-01",
+    "reportUrl": "https://docs.renzoprotocol.com/docs/security",
+    "chain": "Ethereum",
+    "scope": "RestakeManager, ezETH, OperatorDelegator",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Puffer Finance - BlockSec - V1 vault audit",
+    "description": "Audit of Puffer Finance anti-slashing liquid restaking",
+    "project": "Puffer Finance",
+    "auditors": [
+      "BlockSec"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2024-02-01",
+    "reportUrl": "https://github.com/PufferFinance/puffer-contracts/tree/main/audits",
+    "chain": "Ethereum",
+    "scope": "PufferVault, PufferModule, ValidatorTicket",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Swell Network - Sigma Prime - V2 staking audit",
+    "description": "Audit of Swell liquid staking and restaking protocol",
+    "project": "Swell Network",
+    "auditors": [
+      "Sigma Prime"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-08-01",
+    "reportUrl": "https://docs.swellnetwork.io/swell-network/smart-contracts/audits",
+    "chain": "Ethereum",
+    "scope": "swETH, rswETH, DepositManager",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Stader - Sigma Prime - ETHx staking audit",
+    "description": "Audit of Stader ETHx liquid staking on Ethereum",
+    "project": "Stader",
+    "auditors": [
+      "Sigma Prime"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-06-01",
+    "reportUrl": "https://github.com/stader-labs/ethx/tree/main/audits",
+    "chain": "Ethereum",
+    "scope": "StaderStakePoolsManager, ETHx, PermissionlessPool",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "Spark Protocol - ChainSecurity - lending core audit",
+    "description": "Audit of SparkLend (Aave V3 fork for MakerDAO ecosystem)",
+    "project": "Spark Protocol",
+    "auditors": [
+      "ChainSecurity"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-05-01",
+    "reportUrl": "https://docs.spark.fi/faq/audits",
+    "chain": "Ethereum",
+    "scope": "Pool, PoolConfigurator, SparkLendOracle",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Stargate Finance - Quantstamp - V2 bridge audit",
+    "description": "Audit of Stargate V2 cross-chain liquidity protocol",
+    "project": "Stargate Finance",
+    "auditors": [
+      "Quantstamp"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2024-03-01",
+    "reportUrl": "https://docs.stargate.finance/stargate/security/audits",
+    "chain": "Ethereum",
+    "scope": "Router, Pool, OFT Bridge",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "CoW Protocol - G0 Group - settlement audit",
+    "description": "Audit of CoW Protocol batch auction settlement contracts",
+    "project": "CoW Protocol",
+    "auditors": [
+      "G0 Group"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-03-01",
+    "reportUrl": "https://github.com/cowprotocol/contracts/tree/main/audits",
+    "chain": "Ethereum",
+    "scope": "GPv2Settlement, GPv2VaultRelayer",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "2"
+  },
+  {
+    "name": "Alchemix - Runtime Verification - V2 core audit",
+    "description": "Audit of Alchemix V2 self-repaying loan protocol",
+    "project": "Alchemix",
+    "auditors": [
+      "Runtime Verification"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-04-01",
+    "reportUrl": "https://github.com/alchemix-finance/v2-foundry/tree/master/audits",
+    "chain": "Ethereum",
+    "scope": "AlchemistV2, TransmuterV2, alUSD, alETH",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Abracadabra Money - Guardian Audits - CauldronV4 audit",
+    "description": "Audit of Abracadabra CauldronV4 isolated lending markets",
+    "project": "Abracadabra Money",
+    "auditors": [
+      "Guardian Audits"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-03-01",
+    "reportUrl": "https://github.com/Abracadabra-money/abracadabra-money-contracts/tree/main/audits",
+    "chain": "Ethereum",
+    "scope": "CauldronV4, DegenBox, MIM",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Ribbon Finance - OpenZeppelin - V2 vaults audit",
+    "description": "Audit of Ribbon Finance V2 options vaults",
+    "project": "Ribbon Finance",
+    "auditors": [
+      "OpenZeppelin"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-01-01",
+    "reportUrl": "https://github.com/ribbon-finance/ribbon-v2/tree/master/audits",
+    "chain": "Ethereum",
+    "scope": "RibbonThetaVault, RibbonThetaVaultWithSwap",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Notional Finance - Sherlock - V3 core audit",
+    "description": "Audit of Notional V3 fixed-rate lending protocol",
+    "project": "Notional Finance",
+    "auditors": [
+      "Sherlock"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-11-01",
+    "reportUrl": "https://github.com/notional-finance/contracts-v3/tree/main/audits",
+    "chain": "Ethereum",
+    "scope": "NotionalRouter, fCash, nToken, VaultController",
+    "criticalFindings": "0",
+    "highFindings": "1",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "Goldfinch - Trail of Bits - V2 lending audit",
+    "description": "Audit of Goldfinch real-world credit protocol",
+    "project": "Goldfinch",
+    "auditors": [
+      "Trail of Bits"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-04-01",
+    "reportUrl": "https://docs.goldfinch.finance/goldfinch/security-and-audits",
+    "chain": "Ethereum",
+    "scope": "SeniorPool, GoldfinchFactory, GFI, TranchedPool",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Paraswap - Pessimistic - Augustus V5 audit",
+    "description": "Audit of Paraswap Augustus V5 DEX aggregator",
+    "project": "Paraswap",
+    "auditors": [
+      "Pessimistic"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-10-01",
+    "reportUrl": "https://github.com/paraswap/augustus-v5/tree/master/audits",
+    "chain": "Ethereum",
+    "scope": "AugustusSwapper, TokenTransferProxy",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "2"
+  },
+  {
+    "name": "Angle Protocol - Code4rena - Transmuter audit",
+    "description": "Audit of Angle Protocol Transmuter module",
+    "project": "Angle Protocol",
+    "auditors": [
+      "Code4rena"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-09-01",
+    "reportUrl": "https://docs.angle.money/overview/audits",
+    "chain": "Ethereum",
+    "scope": "Transmuter, AgToken, CollateralManager",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "Reserve Protocol - Trail of Bits - V3 core audit",
+    "description": "Audit of Reserve Protocol RToken deployment system",
+    "project": "Reserve Protocol",
+    "auditors": [
+      "Trail of Bits"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-01-01",
+    "reportUrl": "https://github.com/reserve-protocol/protocol/tree/main/audits",
+    "chain": "Ethereum",
+    "scope": "Main, BackingManager, BasketHandler, RToken",
+    "criticalFindings": "0",
+    "highFindings": "1",
+    "mediumFindings": "5"
+  },
+  {
+    "name": "Usual Protocol - Halborn - USD0 core audit",
+    "description": "Audit of Usual USD0 stablecoin and staking contracts",
+    "project": "Usual Protocol",
+    "auditors": [
+      "Halborn"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2024-06-01",
+    "reportUrl": "https://docs.usual.money/resources/audits",
+    "chain": "Ethereum",
+    "scope": "USD0, USD0++, UsualToken",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Mantle mETH - Halborn - staking core audit",
+    "description": "Audit of Mantle liquid staking ETH contracts",
+    "project": "Mantle mETH",
+    "auditors": [
+      "Halborn"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-12-01",
+    "reportUrl": "https://docs.mantle.xyz/meth/security/audits",
+    "chain": "Ethereum",
+    "scope": "METH, Staking, UnstakeRequestsManager",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "2"
+  },
+  {
+    "name": "Euler Finance - Spearbit - V2 vault connector audit",
+    "description": "Audit of Euler V2 modular lending protocol",
+    "project": "Euler Finance",
+    "auditors": [
+      "Spearbit"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2024-03-01",
+    "reportUrl": "https://github.com/euler-xyz/euler-vault-kit/tree/master/audits",
+    "chain": "Ethereum",
+    "scope": "EVault, EVC (Ethereum Vault Connector)",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "Ondo Finance - Code4rena - OUSG core audit",
+    "description": "Audit of Ondo tokenized US treasuries",
+    "project": "Ondo Finance",
+    "auditors": [
+      "Code4rena"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2024-01-01",
+    "reportUrl": "https://docs.ondo.finance/overview/security-and-audits",
+    "chain": "Ethereum",
+    "scope": "OUSG, CashManager, KYCRegistry",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Centrifuge - Least Authority - Tinlake audit",
+    "description": "Audit of Centrifuge Tinlake RWA lending protocol",
+    "project": "Centrifuge",
+    "auditors": [
+      "Least Authority"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-06-01",
+    "reportUrl": "https://docs.centrifuge.io/build/security/",
+    "chain": "Ethereum",
+    "scope": "Shelf, Pile, Tranche, Root",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Maple Finance - Trail of Bits - V2 lending audit",
+    "description": "Audit of Maple Finance V2 institutional lending",
+    "project": "Maple Finance",
+    "auditors": [
+      "Trail of Bits"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-12-01",
+    "reportUrl": "https://github.com/maple-labs/maple-core-v2/tree/main/audits",
+    "chain": "Ethereum",
+    "scope": "Pool, MapleLoan, PoolManager",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "Fluid - Statemind - liquidity vault audit",
+    "description": "Audit of Fluid/Instadapp Lite lending protocol",
+    "project": "Fluid",
+    "auditors": [
+      "Statemind"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2024-01-01",
+    "reportUrl": "https://docs.fluid.instadapp.io/security",
+    "chain": "Ethereum",
+    "scope": "Liquidity, VaultT1, LendingResolver",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Polymarket - OpenZeppelin - CTF exchange audit",
+    "description": "Audit of Polymarket conditional token framework",
+    "project": "Polymarket",
+    "auditors": [
+      "OpenZeppelin"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-06-01",
+    "reportUrl": "https://docs.polymarket.com/security",
+    "chain": "Polygon",
+    "scope": "CTFExchange, ConditionalTokens, NegRiskAdapter",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "The Graph - OpenZeppelin - staking core audit",
+    "description": "Audit of The Graph protocol staking and curation contracts",
+    "project": "The Graph",
+    "auditors": [
+      "OpenZeppelin"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2020-12-01",
+    "reportUrl": "https://github.com/graphprotocol/contracts/blob/dev/docs/security.md",
+    "chain": "Ethereum",
+    "scope": "Staking, Curation, GNS, SubgraphNFT",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "4"
+  },
+  {
+    "name": "Pyth Network - OtterSec - EVM oracle audit",
+    "description": "Audit of Pyth oracle contracts on EVM chains",
+    "project": "Pyth Network",
+    "auditors": [
+      "OtterSec"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-10-01",
+    "reportUrl": "https://docs.pyth.network/documentation/pythnet-price-feeds/security",
+    "chain": "Ethereum",
+    "scope": "Pyth, PythUpgradable, WormholeReceiver",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "2"
+  },
+  {
+    "name": "Gearbox Protocol - ChainSecurity - V3 credit audit",
+    "description": "Audit of Gearbox V3 leveraged DeFi protocol",
+    "project": "Gearbox Protocol",
+    "auditors": [
+      "ChainSecurity"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-12-01",
+    "reportUrl": "https://github.com/Gearbox-protocol/security",
+    "chain": "Ethereum",
+    "scope": "CreditManager, CreditFacade, PoolV3",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "5"
+  },
+  {
+    "name": "Ajna - Quantstamp - V1 lending audit",
+    "description": "Security audit of Ajna by Quantstamp covering V1 lending.",
+    "project": "Ajna",
+    "auditors": [
+      "Quantstamp"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-05-03",
+    "reportUrl": "https://certificate.quantstamp.com/full/ajna-finance-governance",
+    "chain": "Ethereum",
+    "scope": "GrantFund, governance contracts",
+    "criticalFindings": "0",
+    "highFindings": "1",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Ajna - Sherlock - V1 lending audit contest",
+    "description": "Security audit of Ajna by Sherlock covering V1 lending.",
+    "project": "Ajna",
+    "auditors": [
+      "Sherlock"
+    ],
+    "auditType": "Competitive audit contest",
+    "completed": "2023-01-30",
+    "reportUrl": "https://github.com/sherlock-audit/2023-01-ajna-judging",
+    "chain": "Ethereum",
+    "scope": "ERC20Pool, ERC721Pool, PoolCommons, Auctions, Loans, Rewards",
+    "criticalFindings": "0",
+    "highFindings": "5",
+    "mediumFindings": "11"
+  },
+  {
+    "name": "Ajna - Trail of Bits - V1 core audit",
+    "description": "Security audit of Ajna by Trail of Bits covering V1 core.",
+    "project": "Ajna",
+    "auditors": [
+      "Trail of Bits"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-04-01",
+    "reportUrl": "https://github.com/ajna-finance/audits",
+    "chain": "Ethereum",
+    "scope": "Core pool contracts, periphery, grant contracts",
+    "criticalFindings": "1",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Ambient Finance - Zellic - on-chain funding audit",
+    "description": "Security audit of Ambient Finance by Zellic covering on-chain funding.",
+    "project": "Ambient Finance",
+    "auditors": [
+      "Zellic"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-08-12",
+    "reportUrl": "https://github.com/Zellic/publications",
+    "chain": "Ethereum",
+    "scope": "CrocSwapDex contracts",
+    "criticalFindings": "1",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Aura Finance - Halborn - core protocol audit",
+    "description": "Security audit of Aura Finance by Halborn covering core protocol.",
+    "project": "Aura Finance",
+    "auditors": [
+      "Halborn"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-06-28",
+    "reportUrl": "https://www.halborn.com/audits/aura-finance/aura-finance-smart-contract-security-assessment",
+    "chain": "Ethereum",
+    "scope": "AuraLocker, AuraToken, AuraBalRewardPool, AuraMerkleDrop",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Aura Finance - PeckShield - core protocol audit",
+    "description": "Security audit of Aura Finance by PeckShield covering core protocol.",
+    "project": "Aura Finance",
+    "auditors": [
+      "PeckShield"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-06-01",
+    "reportUrl": "https://github.com/peckshield/publications",
+    "chain": "Ethereum",
+    "scope": "AuraLocker, AuraToken, reward contracts",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Badger DAO - Haechi Labs - V1 vaults audit",
+    "description": "Security audit of Badger DAO by Haechi Labs covering V1 vaults.",
+    "project": "Badger DAO",
+    "auditors": [
+      "Haechi Labs"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2021-01-01",
+    "reportUrl": "https://badger.com/images/uploads/haechi-audit-badgerdao-smart-contract-audit-report-1.pdf",
+    "chain": "Ethereum",
+    "scope": "Vaults, rewards tree, geysers",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Badger DAO - Zokyo - V1 core audit",
+    "description": "Security audit of Badger DAO by Zokyo covering V1 core.",
+    "project": "Badger DAO",
+    "auditors": [
+      "Zokyo"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2020-12-01",
+    "reportUrl": "https://badger.com/images/uploads/zokyo-badger-sc-audit.pdf",
+    "chain": "Ethereum",
+    "scope": "Badger token, Sett vaults, strategies",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Beefy Finance - CertiK - vault strategy audit",
+    "description": "Security audit of Beefy Finance by CertiK covering vault strategy.",
+    "project": "Beefy Finance",
+    "auditors": [
+      "CertiK"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2021-03-05",
+    "reportUrl": "https://github.com/beefyfinance/beefy-audits",
+    "chain": "BNB Chain",
+    "scope": "BeefyVaultV6, StrategyCommonChefLP",
+    "criticalFindings": "0",
+    "highFindings": "2",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Benqi - Halborn - lending protocol audit",
+    "description": "Security audit of Benqi by Halborn covering lending protocol.",
+    "project": "Benqi",
+    "auditors": [
+      "Halborn"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2021-05-23",
+    "reportUrl": "https://www.halborn.com/audits/benqi",
+    "chain": "Avalanche",
+    "scope": "QiToken, Comptroller, interest rate models",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Benqi - Quantstamp - lending protocol audit",
+    "description": "Security audit of Benqi by Quantstamp covering lending protocol.",
+    "project": "Benqi",
+    "auditors": [
+      "Quantstamp"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2021-08-01",
+    "reportUrl": "https://docs.benqi.fi/resources/risks",
+    "chain": "Avalanche",
+    "scope": "QiToken, Comptroller",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "HOPR - ChainSecurity - token contract audit",
+    "description": "Security audit of HOPR by ChainSecurity covering token contract.",
+    "project": "HOPR",
+    "auditors": [
+      "ChainSecurity"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2021-06-29",
+    "reportUrl": "https://www.chainsecurity.com/security-audit/hopr-hoprnet-token",
+    "chain": "Ethereum",
+    "scope": "HoprToken (ERC777), HoprDistributor (vesting)",
+    "criticalFindings": "0",
+    "highFindings": "2",
+    "mediumFindings": "1"
+  },
+  {
+    "name": "Harvest Finance - Haechi Labs - core strategy audit",
+    "description": "Security audit of Harvest Finance by Haechi Labs covering core strategy.",
+    "project": "Harvest Finance",
+    "auditors": [
+      "Haechi Labs"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2020-09-14",
+    "reportUrl": "https://github.com/harvest-finance/harvest/tree/master/audits",
+    "chain": "Ethereum",
+    "scope": "Vault contracts, CRVStrategy, governance controller",
+    "criticalFindings": "0",
+    "highFindings": "1",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Harvest Finance - PeckShield - core strategy audit",
+    "description": "Security audit of Harvest Finance by PeckShield covering core strategy.",
+    "project": "Harvest Finance",
+    "auditors": [
+      "PeckShield"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2020-10-01",
+    "reportUrl": "https://github.com/harvest-finance/harvest/blob/master/audits/PeckShield-Harvest.pdf",
+    "chain": "Ethereum",
+    "scope": "Vault contracts, CRVStrategyStable, governance controller",
+    "criticalFindings": "0",
+    "highFindings": "1",
+    "mediumFindings": "2"
+  },
+  {
+    "name": "Instadapp - OpenZeppelin - core wallet audit",
+    "description": "Security audit of Instadapp by OpenZeppelin covering core wallet.",
+    "project": "Instadapp",
+    "auditors": [
+      "OpenZeppelin"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2019-09-01",
+    "reportUrl": "https://www.openzeppelin.com/news/instadapp-audit",
+    "chain": "Ethereum",
+    "scope": "UserWallet, InstaRegistry",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Instadapp - PeckShield - DSA V2 audit",
+    "description": "Security audit of Instadapp by PeckShield covering DSA V2.",
+    "project": "Instadapp",
+    "auditors": [
+      "PeckShield"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2021-03-01",
+    "reportUrl": "https://github.com/Instadapp/dsa-contracts/blob/master/audits/v2_PeckShield_Mar_2021.pdf",
+    "chain": "Ethereum",
+    "scope": "InstaAccountV2, InstaImplementationM1, InstaIndex, InstaConnectorsV2",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "1"
+  },
+  {
+    "name": "Level Finance - Obelisk Auditing - core contracts audit",
+    "description": "Security audit of Level Finance by Obelisk Auditing covering core contracts.",
+    "project": "Level Finance",
+    "auditors": [
+      "Obelisk Auditing"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-01-24",
+    "reportUrl": "https://obeliskauditing.com/audits/level-finance",
+    "chain": "BNB Chain",
+    "scope": "LevelMaster, LiquidityPool, OrderBook, ReferralController",
+    "criticalFindings": "0",
+    "highFindings": "2",
+    "mediumFindings": "1"
+  },
+  {
+    "name": "MUX Protocol - Quantstamp - core protocol audit",
+    "description": "Security audit of MUX Protocol by Quantstamp covering core protocol.",
+    "project": "MUX Protocol",
+    "auditors": [
+      "Quantstamp"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2021-07-01",
+    "reportUrl": "https://docs.mux.network/protocol/audit",
+    "chain": "Arbitrum",
+    "scope": "Perpetual, LiquidityPool, AMM contracts",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Moonwell - Halborn - core lending audit",
+    "description": "Security audit of Moonwell by Halborn covering core lending.",
+    "project": "Moonwell",
+    "auditors": [
+      "Halborn"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-02-01",
+    "reportUrl": "https://www.halborn.com/audits/moonwell/moonwell-finance-smart-contract-security-assessment",
+    "chain": "Moonbeam",
+    "scope": "Comptroller, MToken, GovernorAlpha, Chainlink price feeds",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "Panoptic - ABDK Consulting - V1 options audit",
+    "description": "Security audit of Panoptic by ABDK Consulting covering V1 options.",
+    "project": "Panoptic",
+    "auditors": [
+      "ABDK Consulting"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-01-01",
+    "reportUrl": "https://panoptic.xyz/blog/abdk-audits-panoptic-defi-protocol",
+    "chain": "Ethereum",
+    "scope": "SemiFungiblePositionManager, options engine",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Panoptic - Code4rena - V1 options audit contest",
+    "description": "Security audit of Panoptic by Code4rena covering V1 options.",
+    "project": "Panoptic",
+    "auditors": [
+      "Code4rena"
+    ],
+    "auditType": "Competitive audit contest",
+    "completed": "2023-12-11",
+    "reportUrl": "https://code4rena.com/reports/2023-11-panoptic",
+    "chain": "Ethereum",
+    "scope": "SemiFungiblePositionManager, 13 contracts, 1676 SLoC",
+    "criticalFindings": "0",
+    "highFindings": "2",
+    "mediumFindings": "5"
+  },
+  {
+    "name": "Panoptic - OpenZeppelin - V1 options audit",
+    "description": "Security audit of Panoptic by OpenZeppelin covering V1 options.",
+    "project": "Panoptic",
+    "auditors": [
+      "OpenZeppelin"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2024-01-01",
+    "reportUrl": "https://www.openzeppelin.com/news/panoptic-audit",
+    "chain": "Ethereum",
+    "scope": "CollateralTracker, SemiFungiblePositionManager, PanopticFactory, PanopticPool",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Radiant Capital - PeckShield - V1 lending audit",
+    "description": "Security audit of Radiant Capital by PeckShield covering V1 lending.",
+    "project": "Radiant Capital",
+    "auditors": [
+      "PeckShield"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-07-01",
+    "reportUrl": "https://docs.radiant.capital/radiant/contracts-and-security/audits/v1-audits",
+    "chain": "Arbitrum",
+    "scope": "LendingPool, RadiantOFT, Stargate integration",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Radiant Capital - Zokyo - V2 lending audit",
+    "description": "Security audit of Radiant Capital by Zokyo covering V2 lending.",
+    "project": "Radiant Capital",
+    "auditors": [
+      "Zokyo"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-01-01",
+    "reportUrl": "https://docs.radiant.capital/radiant/contracts-and-security/audits/v2-audits",
+    "chain": "Arbitrum",
+    "scope": "LendingPool, MultiFeeDistribution, RadiantOFT V2, LayerZero OFT",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Seamless Protocol - Inherited Aave V3 audits",
+    "description": "Seamless Protocol - Inherited Aave V3 audits - inherited security audits from base protocol.",
+    "project": "Seamless Protocol",
+    "auditors": [
+      "Trail of Bits",
+      "ABDK",
+      "OpenZeppelin",
+      "PeckShield",
+      "Sigma Prime"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-01-01",
+    "reportUrl": "https://github.com/aave/aave-v3-core/tree/master/audits",
+    "chain": "Base",
+    "scope": "Pool, PoolConfigurator, AToken, VariableDebtToken (inherited Aave V3 fork)",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Silo Finance - ABDK Consulting - V1 lending audit",
+    "description": "Security audit of Silo Finance by ABDK Consulting covering V1 lending.",
+    "project": "Silo Finance",
+    "auditors": [
+      "ABDK Consulting"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-01-01",
+    "reportUrl": "https://devdocs.silo.finance/security/audits-and-formal-verification",
+    "chain": "Ethereum",
+    "scope": "SiloCore, SiloRouter, isolated lending markets",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Silo Finance - Quantstamp - V1 lending audit",
+    "description": "Security audit of Silo Finance by Quantstamp covering V1 lending.",
+    "project": "Silo Finance",
+    "auditors": [
+      "Quantstamp"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-01-01",
+    "reportUrl": "https://drive.google.com/file/d/10GyfA-nBJ5jqLWW9LEYJQeFem8qSgNH6/view",
+    "chain": "Ethereum",
+    "scope": "SiloCore V1 contracts",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "5"
+  },
+  {
+    "name": "Sky - Cantina - Endgame toolkit audit",
+    "description": "Security audit of Sky by Cantina covering Endgame toolkit.",
+    "project": "Sky",
+    "auditors": [
+      "Cantina"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2024-09-09",
+    "reportUrl": "https://github.com/sky-ecosystem/endgame-toolkit/blob/master/audits/report-review-makerdao-endgametoolkit_updates_2024-09-09.pdf",
+    "chain": "Ethereum",
+    "scope": "SubDaoToken, SubProxy, FarmingInit",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Sommelier - Macro Security - cellar vaults audit",
+    "description": "Security audit of Sommelier by Macro Security covering cellar vaults.",
+    "project": "Sommelier",
+    "auditors": [
+      "Macro Security"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-07-01",
+    "reportUrl": "https://0xmacro.com/library/audits/sommelier-3",
+    "chain": "Ethereum",
+    "scope": "CellarStakingRewards, AaveV2StablecoinCellar, CellarRouter",
+    "criticalFindings": "0",
+    "highFindings": "1",
+    "mediumFindings": "3"
+  },
+  {
+    "name": "SynFutures - PeckShield - V2 core audit",
+    "description": "Security audit of SynFutures by PeckShield covering V2 core.",
+    "project": "SynFutures",
+    "auditors": [
+      "PeckShield"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-07-01",
+    "reportUrl": "https://www.synfutures.com/PeckShield-Audit-Report-SynFuturesV2-v1.0.pdf",
+    "chain": "Ethereum",
+    "scope": "SynFutures V2 Perpetual Futures core contracts",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "1"
+  },
+  {
+    "name": "SynFutures - Quantstamp - V3 Oyster AMM audit",
+    "description": "Security audit of SynFutures by Quantstamp covering V3 Oyster AMM.",
+    "project": "SynFutures",
+    "auditors": [
+      "Quantstamp"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-10-01",
+    "reportUrl": "https://www.synfutures.com/Quantstamp-Audit-Report-SynFuturesV3.pdf",
+    "chain": "Blast",
+    "scope": "Oyster AMM perpetual/dated futures, order filling, liquidity range",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Tornado Cash - ABDK Consulting - core protocol audit",
+    "description": "Security audit of Tornado Cash by ABDK Consulting covering core protocol.",
+    "project": "Tornado Cash",
+    "auditors": [
+      "ABDK Consulting"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2019-12-01",
+    "reportUrl": "https://tornado.cash/audits/TornadoCash_contract_audit_ABDK.pdf",
+    "chain": "Ethereum",
+    "scope": "Tornado.sol, MerkleTreeWithHistory.sol, Verifier.sol (zk-SNARK)",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Trader Joe - Code4rena - V2 Liquidity Book audit",
+    "description": "Security audit of Trader Joe by Code4rena covering V2 Liquidity Book.",
+    "project": "Trader Joe",
+    "auditors": [
+      "Code4rena"
+    ],
+    "auditType": "Competitive audit contest",
+    "completed": "2022-10-23",
+    "reportUrl": "https://code4rena.com/reports/2022-10-traderjoe",
+    "chain": "Avalanche",
+    "scope": "LBFactory, LBPair, LBRouter, LBToken, LBQuoter",
+    "criticalFindings": "0",
+    "highFindings": "5",
+    "mediumFindings": "7"
+  },
+  {
+    "name": "WBTC - ChainSecurity - ERC-20 token audit",
+    "description": "Security audit of WBTC by ChainSecurity covering ERC-20 token.",
+    "project": "WBTC",
+    "auditors": [
+      "ChainSecurity"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2018-11-19",
+    "reportUrl": "https://www.chainsecurity.com/security-audit/wrapped-bitcoin-wbtc",
+    "chain": "Ethereum",
+    "scope": "WBTC ERC-20 token (minting, burning, merchant/custodian management)",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "2"
+  },
+  {
+    "name": "QuickSwap - Omniscia - converter contract audit",
+    "description": "Security audit of QuickSwap converter contract by Omniscia.",
+    "project": "QuickSwap",
+    "auditors": [
+      "Omniscia"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-01-01",
+    "reportUrl": "https://omniscia.io/reports/quickswap-converter-contract/",
+    "chain": "Polygon",
+    "scope": "TokenSwap (converter contract)",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Trader Joe - Paladin - Liquidity Book V2 audit",
+    "description": "Security audit of Trader Joe Liquidity Book V2.1 and Autopools by Paladin Blockchain Security.",
+    "project": "Trader Joe",
+    "auditors": [
+      "Paladin"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-01-01",
+    "reportUrl": "https://paladinsec.co/projects/trader-joe/",
+    "chain": "Avalanche",
+    "scope": "Liquidity Book V2.1, Autopools",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Dopex - Solidified - V1 core audit",
+    "description": "Security audit of Dopex core smart contracts by Solidified, June 2021.",
+    "project": "Dopex",
+    "auditors": [
+      "Solidified"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2021-06-21",
+    "reportUrl": "https://github.com/solidified-platform/audits/blob/master/Audit%20Report%20-%20Dopex%20%5B21.06.2021%5D.pdf",
+    "chain": "Arbitrum",
+    "scope": "Dopex V1 core options protocol contracts",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Farcaster - Cyfrin - V1 core audit",
+    "description": "Security audit of Farcaster V3.1 smart contracts by Cyfrin, November 2023.",
+    "project": "Farcaster",
+    "auditors": [
+      "Cyfrin"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-11-05",
+    "reportUrl": "https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2023-11-05-cyfrin-farcaster-v1.0.pdf",
+    "chain": "Optimism",
+    "scope": "IdRegistry, KeyRegistry, Farcaster V1 protocol contracts",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Gitcoin - ConsenSys Diligence - GTC token distribution audit",
+    "description": "Security audit of Gitcoin GTC Token Distribution and Governance contracts by ConsenSys Diligence, April 2021.",
+    "project": "Gitcoin",
+    "auditors": [
+      "ConsenSys Diligence"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2021-04-30",
+    "reportUrl": "https://consensys.io/diligence/audits/2021/04/gitcoin-token-distribution/",
+    "chain": "Ethereum",
+    "scope": "TokenDistributor, GTC governance token, ESMS",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "HMX - Cantina - V2 perpetual DEX audit",
+    "description": "Security audit of HMXv2 Perpetual DEX by Cantina, August-September 2023.",
+    "project": "HMX",
+    "auditors": [
+      "Cantina"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-09-08",
+    "reportUrl": "https://cantina.xyz/portfolio/5977ae92-9528-4871-9968-4ef0508ce9b9",
+    "chain": "Arbitrum",
+    "scope": "HMXv2 multi-asset collateral, liquidation, equity logic, reserve accounting",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Kwenta - iosiro - token smart contract audit",
+    "description": "Security audit of Kwenta Token System (staking, escrow, distribution) by iosiro, September 2022.",
+    "project": "Kwenta",
+    "auditors": [
+      "iosiro"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-10-25",
+    "reportUrl": "https://www.iosiro.com/audits/kwenta-token-smart-contract-audit",
+    "chain": "Optimism",
+    "scope": "Kwenta Token System (staking, escrow, distribution)",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Lens Protocol - Code4rena - V2 audit contest",
+    "description": "Competitive security audit of Lens Protocol V2 by Code4rena with 26 wardens, July 2023. 11 medium findings.",
+    "project": "Lens Protocol",
+    "auditors": [
+      "Code4rena"
+    ],
+    "auditType": "Competitive audit contest",
+    "completed": "2023-07-31",
+    "reportUrl": "https://code4rena.com/reports/2023-07-lens",
+    "chain": "Polygon",
+    "scope": "LensHub V2, profiles, publications, follows, modules (63 contracts)",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "11"
+  },
+  {
+    "name": "Lens Protocol - PeckShield - V1 core audit",
+    "description": "Security audit of Lens Protocol V1 smart contracts by PeckShield, January 2022.",
+    "project": "Lens Protocol",
+    "auditors": [
+      "PeckShield"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-01-01",
+    "reportUrl": "https://github.com/peckshield/publications",
+    "chain": "Polygon",
+    "scope": "LensHub, core social graph contracts",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Lyra - Halborn - V1 smart contract audit",
+    "description": "Security audit of Lyra Finance V1 options protocol smart contracts by Halborn, May-June 2022.",
+    "project": "Lyra",
+    "auditors": [
+      "Halborn"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2022-06-15",
+    "reportUrl": "https://www.halborn.com/audits/lyra-finance/lyra-finance-smart-contract-security-assessment",
+    "chain": "Optimism",
+    "scope": "LiquidityPool, OptionGreekCache, OptionMarket, OptionMarketPricer, OptionToken, PoolHedger",
+    "criticalFindings": "0",
+    "highFindings": "4",
+    "mediumFindings": "1"
+  },
+  {
+    "name": "MUX Protocol - OpenZeppelin - Mai Protocol audit",
+    "description": "Security audit of MCDEX Mai Protocol V2 perpetual futures contracts by OpenZeppelin.",
+    "project": "MUX Protocol",
+    "auditors": [
+      "OpenZeppelin"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2020-06-05",
+    "reportUrl": "https://blog.openzeppelin.com/mcdex-mai-protocol-audit",
+    "chain": "Ethereum",
+    "scope": "Perpetual contract, Collateral, AMM, liquidation (Mai Protocol V2)",
+    "criticalFindings": "2",
+    "highFindings": "1",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Premia - Hacken - V2 core audit",
+    "description": "Security audit of Premia V2 smart contracts by Hacken, September 2021.",
+    "project": "Premia",
+    "auditors": [
+      "Hacken"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2021-09-15",
+    "reportUrl": "https://hacken.io/wp-content/uploads/2021/10/15092021_Premia_SC_Audit_Report.pdf",
+    "chain": "Arbitrum",
+    "scope": "Premia V2 core options protocol contracts",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "Premia - Sherlock - Knox Vaults audit contest",
+    "description": "Competitive security audit contest of Premia Knox Vaults (DeFi Options Vaults) on Sherlock platform, September 2022.",
+    "project": "Premia",
+    "auditors": [
+      "Sherlock"
+    ],
+    "auditType": "Competitive audit contest",
+    "completed": "2022-09-29",
+    "reportUrl": "https://github.com/sherlock-audit/2022-09-knox-judging",
+    "chain": "Arbitrum",
+    "scope": "Knox Vaults (EIP-4626 vault system for options strategies)",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "TrueFi - ChainSecurity - Portfolio Debt Token audit",
+    "description": "Security audit of Archblock TrueFi Portfolio Debt Token smart contract by ChainSecurity.",
+    "project": "TrueFi",
+    "auditors": [
+      "ChainSecurity"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2023-01-01",
+    "reportUrl": "https://www.chainsecurity.com/security-audit/truefi-archblock-portfolio-debt-token",
+    "chain": "Ethereum",
+    "scope": "Portfolio Debt Token (asset distribution from defaulted loans)",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  },
+  {
+    "name": "TrueFi - EthWorks - V2 core audit",
+    "description": "Security audit of TrueFi V2 smart contracts by EthWorks, February 2021. No critical issues found.",
+    "project": "TrueFi",
+    "auditors": [
+      "EthWorks"
+    ],
+    "auditType": "Smart Contract Audit",
+    "completed": "2021-02-01",
+    "reportUrl": "https://github.com/trusttoken/audits",
+    "chain": "Ethereum",
+    "scope": "TrueFi V2 core lending (staking, liquid exit, governance)",
+    "criticalFindings": "0",
+    "highFindings": "0",
+    "mediumFindings": "0"
+  }
+]

@@ -1,0 +1,4609 @@
+[
+  {
+    "name": "AaveV3PoolConfigurator",
+    "description": "Protocol configuration management",
+    "contractType": "Proxy",
+    "contractAddress": "0x64b761D848206f447Fe2dd461b0c635Ec39EbB27",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Aave",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x64b761D848206f447Fe2dd461b0c635Ec39EbB27",
+    "auditReports": [
+      "Aave - Trail of Bits - V3 core audit",
+      "Aave - Sigma Prime - V3 core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Protocol configuration",
+    "githubUrl": "https://github.com/aave/aave-v3-core",
+    "blockNumber": "16291130.0",
+    "blockIssueDate": "2022-12-29"
+  },
+  {
+    "name": "AaveV3PoolAddressesProvider",
+    "description": "Registry for core protocol addresses",
+    "contractType": "Proxy",
+    "contractAddress": "0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Aave",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e",
+    "auditReports": [
+      "Aave - Trail of Bits - V3 core audit",
+      "Aave - Sigma Prime - V3 core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Protocol registry",
+    "githubUrl": "https://github.com/aave/aave-v3-core",
+    "blockNumber": "16291071.0",
+    "blockIssueDate": "2022-12-29"
+  },
+  {
+    "name": "AaveV3Oracle",
+    "description": "Price oracle for Aave protocol",
+    "contractType": "Proxy",
+    "contractAddress": "0x54586bE62E3c3580375aE3723C145253060Ca0C2",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Aave",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x54586bE62E3c3580375aE3723C145253060Ca0C2",
+    "auditReports": [
+      "Aave - Trail of Bits - V3 core audit",
+      "Aave - Sigma Prime - V3 core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Price oracle",
+    "githubUrl": "https://github.com/aave/aave-v3-core",
+    "blockNumber": "16291123.0",
+    "blockIssueDate": "2022-12-29"
+  },
+  {
+    "name": "AaveV3ACLManager",
+    "description": "Access control for protocol roles",
+    "contractType": "Proxy",
+    "contractAddress": "0xc2aaCf6553D20d1e9571216fA22D988C04f3EdB6",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Aave",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xc2aaCf6553D20d1e9571216fA22D988C04f3EdB6",
+    "auditReports": [
+      "Aave - Trail of Bits - V3 core audit",
+      "Aave - Sigma Prime - V3 core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Access control",
+    "githubUrl": "https://github.com/aave/aave-v3-core",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "LidoStETH",
+    "description": "Liquid staking token for staked ETH",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Lido Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+    "auditReports": [
+      "Lido Finance - Statemind - V2 core audit",
+      "Lido Finance - Oxorio - V2 core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Liquid staking",
+    "githubUrl": "https://github.com/lidofinance/lido-dao",
+    "blockNumber": "11473216.0",
+    "blockIssueDate": "2020-12-17"
+  },
+  {
+    "name": "LidoWithdrawalQueue",
+    "description": "ERC-721 withdrawal queue for unstaking",
+    "contractType": "ERC-721 NFT",
+    "contractAddress": "0x889edC2eDab5f40e902b864aD4d7AdE8E412F9B1",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Lido Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x889edC2eDab5f40e902b864aD4d7AdE8E412F9B1",
+    "auditReports": [
+      "Lido Finance - Statemind - V2 core audit",
+      "Lido Finance - Oxorio - V2 core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Liquid staking",
+    "githubUrl": "https://github.com/lidofinance/lido-dao",
+    "blockNumber": "17172547.0",
+    "blockIssueDate": "2023-05-02"
+  },
+  {
+    "name": "wstETH",
+    "description": "Wrapped stETH with static balance",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Lido Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+    "auditReports": [
+      "Lido Finance - Statemind - V2 core audit",
+      "Lido Finance - Oxorio - V2 core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Liquid staking",
+    "githubUrl": "https://github.com/lidofinance/lido-dao",
+    "blockNumber": "11888477.0",
+    "blockIssueDate": "2021-02-19"
+  },
+  {
+    "name": "LidoStakingRouter",
+    "description": "Routes staked ETH to node operators",
+    "contractType": "Proxy",
+    "contractAddress": "0xFdDf38947aFB03C621C71b06C9C70bce73f12999",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Lido Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xFdDf38947aFB03C621C71b06C9C70bce73f12999",
+    "auditReports": [
+      "Lido Finance - Statemind - V2 core audit",
+      "Lido Finance - Oxorio - V2 core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Liquid staking",
+    "githubUrl": "https://github.com/lidofinance/lido-dao",
+    "blockNumber": "17172550.0",
+    "blockIssueDate": "2023-05-02"
+  },
+  {
+    "name": "LDO",
+    "description": "Lido DAO governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Lido Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+    "auditReports": [
+      "Lido Finance - Statemind - V2 core audit",
+      "Lido Finance - Oxorio - V2 core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/lidofinance/lido-dao",
+    "blockNumber": "11473216.0",
+    "blockIssueDate": "2020-12-17"
+  },
+  {
+    "name": "UniswapV2Factory",
+    "description": "Factory for V2 LP pair creation",
+    "contractType": "Proxy",
+    "contractAddress": "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Uniswap",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
+    "auditReports": [
+      "Uniswap - Trail of Bits - V3 core audit",
+      "Uniswap - OpenZeppelin - V4 core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Decentralized exchange",
+    "githubUrl": "https://github.com/Uniswap/v2-core",
+    "blockNumber": "10000835.0",
+    "blockIssueDate": "2020-05-04"
+  },
+  {
+    "name": "UniswapV2Router02",
+    "description": "Router for V2 swaps and liquidity",
+    "contractType": "Proxy",
+    "contractAddress": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Uniswap",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+    "auditReports": [
+      "Uniswap - Trail of Bits - V3 core audit",
+      "Uniswap - OpenZeppelin - V4 core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Decentralized exchange",
+    "githubUrl": "https://github.com/Uniswap/v2-periphery",
+    "blockNumber": "10207858.0",
+    "blockIssueDate": "2020-06-05"
+  },
+  {
+    "name": "UniswapV3Factory",
+    "description": "Factory for V3 concentrated liquidity pools",
+    "contractType": "Proxy",
+    "contractAddress": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Uniswap",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x1F98431c8aD98523631AE4a59f267346ea31F984",
+    "auditReports": [
+      "Uniswap - Trail of Bits - V3 core audit",
+      "Uniswap - OpenZeppelin - V4 core audit"
+    ],
+    "licenses": [
+      "GPL 2.0"
+    ],
+    "relatedTopics": "Decentralized exchange",
+    "githubUrl": "https://github.com/Uniswap/v3-core",
+    "blockNumber": "12369621.0",
+    "blockIssueDate": "2021-05-04"
+  },
+  {
+    "name": "UniswapV3SwapRouter02",
+    "description": "Unified router for V3 swaps",
+    "contractType": "Proxy",
+    "contractAddress": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Uniswap",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+    "auditReports": [
+      "Uniswap - Trail of Bits - V3 core audit",
+      "Uniswap - OpenZeppelin - V4 core audit"
+    ],
+    "licenses": [
+      "GPL 2.0"
+    ],
+    "relatedTopics": "Decentralized exchange",
+    "githubUrl": "https://github.com/Uniswap/swap-router-contracts",
+    "blockNumber": "13804681.0",
+    "blockIssueDate": "2021-12-14"
+  },
+  {
+    "name": "UniswapV3NonfungiblePositionManager",
+    "description": "Manages V3 LP NFT positions",
+    "contractType": "ERC-721 NFT",
+    "contractAddress": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Uniswap",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+    "auditReports": [
+      "Uniswap - Trail of Bits - V3 core audit",
+      "Uniswap - OpenZeppelin - V4 core audit"
+    ],
+    "licenses": [
+      "GPL 2.0"
+    ],
+    "relatedTopics": "Liquidity management",
+    "githubUrl": "https://github.com/Uniswap/v3-periphery",
+    "blockNumber": "12369651.0",
+    "blockIssueDate": "2021-05-04"
+  },
+  {
+    "name": "UniswapV4PoolManager",
+    "description": "Singleton pool manager for V4",
+    "contractType": "Proxy",
+    "contractAddress": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Uniswap",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x000000000004444c5dc75cB358380D2e3dE08A90",
+    "auditReports": [
+      "Uniswap - Trail of Bits - V3 core audit",
+      "Uniswap - OpenZeppelin - V4 core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Decentralized exchange",
+    "githubUrl": "https://github.com/Uniswap/v4-core",
+    "blockNumber": "21688329.0",
+    "blockIssueDate": "2025-01-23"
+  },
+  {
+    "name": "EigenLayerStrategyManager",
+    "description": "Manages staking strategies for restaking",
+    "contractType": "Proxy",
+    "contractAddress": "0x858646372CC42E1A627fcE94aa7A7033e7CF075A",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "EigenLayer",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x858646372CC42E1A627fcE94aa7A7033e7CF075A",
+    "auditReports": [
+      "EigenLayer - Sigma Prime - M1 core audit",
+      "EigenLayer - ConsenSys Diligence - core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Restaking",
+    "githubUrl": "https://github.com/Layr-Labs/eigenlayer-contracts",
+    "blockNumber": "17445564.0",
+    "blockIssueDate": "2023-06-09"
+  },
+  {
+    "name": "EigenLayerDelegationManager",
+    "description": "Manages operator delegation",
+    "contractType": "Proxy",
+    "contractAddress": "0x39053D51B77DC0d36036Fc1fCc8Cb819df8Ef37A",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "EigenLayer",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x39053D51B77DC0d36036Fc1fCc8Cb819df8Ef37A",
+    "auditReports": [
+      "EigenLayer - Sigma Prime - M1 core audit",
+      "EigenLayer - ConsenSys Diligence - core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Restaking",
+    "githubUrl": "https://github.com/Layr-Labs/eigenlayer-contracts",
+    "blockNumber": "17445563.0",
+    "blockIssueDate": "2023-06-09"
+  },
+  {
+    "name": "EigenLayerEigenPodManager",
+    "description": "Manages EigenPods for native ETH restaking",
+    "contractType": "Proxy",
+    "contractAddress": "0x91E677b07F7AF907ec9a428aafA9fc14a0d3A338",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "EigenLayer",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x91E677b07F7AF907ec9a428aafA9fc14a0d3A338",
+    "auditReports": [
+      "EigenLayer - Sigma Prime - M1 core audit",
+      "EigenLayer - ConsenSys Diligence - core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Restaking",
+    "githubUrl": "https://github.com/Layr-Labs/eigenlayer-contracts",
+    "blockNumber": "17445564.0",
+    "blockIssueDate": "2023-06-09"
+  },
+  {
+    "name": "EIGEN",
+    "description": "EigenLayer governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xec53bF9167f50cDEB3Ae105f56099aaaB9061F83",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "EigenLayer",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xec53bF9167f50cDEB3Ae105f56099aaaB9061F83",
+    "auditReports": [
+      "EigenLayer - Sigma Prime - M1 core audit",
+      "EigenLayer - ConsenSys Diligence - core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/Layr-Labs/eigenlayer-contracts",
+    "blockNumber": "18366276.0",
+    "blockIssueDate": "2023-10-16"
+  },
+  {
+    "name": "MCD_VAT",
+    "description": "Core vault engine reponsible of accounting for MakerDAO",
+    "contractType": "Proxy",
+    "contractAddress": "0x35D1b3F3D7966A1DFe207aa4514C12a259A0492B",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Sky",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x35D1b3F3D7966A1DFe207aa4514C12a259A0492B",
+    "auditReports": [
+      "Sky - Trail of Bits - MCD core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Decentralized lending",
+    "githubUrl": "https://github.com/makerdao/dss",
+    "blockNumber": "8928152.0",
+    "blockIssueDate": "2019-11-13"
+  },
+  {
+    "name": "DAI",
+    "description": "DAI stablecoin token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Sky",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "auditReports": [
+      "Sky - Trail of Bits - MCD core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Stablecoin",
+    "githubUrl": "https://github.com/makerdao/dss",
+    "blockNumber": "8928158.0",
+    "blockIssueDate": "2019-11-13"
+  },
+  {
+    "name": "MCD_POT",
+    "description": "DAI Savings Rate module",
+    "contractType": "Proxy",
+    "contractAddress": "0x197E90f9FAD81970bA7976f33CbD77088E5D7cf7",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Sky",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x197E90f9FAD81970bA7976f33CbD77088E5D7cf7",
+    "auditReports": [
+      "Sky - Trail of Bits - MCD core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Savings rate",
+    "githubUrl": "https://github.com/makerdao/dss",
+    "blockNumber": "8928160.0",
+    "blockIssueDate": "2019-11-13"
+  },
+  {
+    "name": "MCD_DOG",
+    "description": "Liquidation engine (Liq 2.0)",
+    "contractType": "Proxy",
+    "contractAddress": "0x135954d155898D42C90D2a57824C690e0c7BEf1B",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Sky",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x135954d155898D42C90D2a57824C690e0c7BEf1B",
+    "auditReports": [
+      "Sky - Trail of Bits - MCD core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Liquidation",
+    "githubUrl": "https://github.com/makerdao/dss",
+    "blockNumber": "12246358.0",
+    "blockIssueDate": "2021-04-15"
+  },
+  {
+    "name": "USDS",
+    "description": "USDS stablecoin (Sky rebrand)",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Sky",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+    "auditReports": [
+      "Sky - Cantina - Endgame toolkit audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Stablecoin",
+    "githubUrl": "https://github.com/makerdao/usds",
+    "blockNumber": "20663730.0",
+    "blockIssueDate": "2024-09-02"
+  },
+  {
+    "name": "SKY",
+    "description": "SKY governance token (successor to MKR)",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x56072C95FAA701256059aa122697B133aDEd9279",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Sky",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x56072C95FAA701256059aa122697B133aDEd9279",
+    "auditReports": [
+      "Sky - Cantina - Endgame toolkit audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/makerdao/sky",
+    "blockNumber": "20663735.0",
+    "blockIssueDate": "2024-09-02"
+  },
+  {
+    "name": "MKR",
+    "description": "MakerDAO governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Sky",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+    "auditReports": [
+      "Sky - Trail of Bits - MCD core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/makerdao/dss",
+    "blockNumber": "4620855.0",
+    "blockIssueDate": "2017-11-25"
+  },
+  {
+    "name": "CompoundUnitroller",
+    "description": "Comptroller proxy for Compound V2",
+    "contractType": "Proxy",
+    "contractAddress": "0x3d9819210A31b4961b30EF54bE2aeD79B9c9Cd3B",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Compound Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x3d9819210A31b4961b30EF54bE2aeD79B9c9Cd3B",
+    "auditReports": [
+      "Compound Finance - OpenZeppelin - V3 Comet audit",
+      "Compound Finance - ChainSecurity - V3 Comet audit"
+    ],
+    "licenses": [
+      "BSD 3-Clause"
+    ],
+    "relatedTopics": "Decentralized lending",
+    "githubUrl": "https://github.com/compound-finance/compound-protocol",
+    "blockNumber": "7710671.0",
+    "blockIssueDate": "2019-05-07"
+  },
+  {
+    "name": "COMP",
+    "description": "Compound governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Compound Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xc00e94Cb662C3520282E6f5717214004A7f26888",
+    "auditReports": [
+      "Compound Finance - OpenZeppelin - V3 Comet audit",
+      "Compound Finance - ChainSecurity - V3 Comet audit"
+    ],
+    "licenses": [
+      "BSD 3-Clause"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/compound-finance/compound-protocol",
+    "blockNumber": "9601359.0",
+    "blockIssueDate": "2020-03-04"
+  },
+  {
+    "name": "CometUSDC",
+    "description": "Compound V3 USDC market (Comet)",
+    "contractType": "Proxy",
+    "contractAddress": "0xc3d688B66703497DAA19211EEdff47f25384cdc3",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Compound Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xc3d688B66703497DAA19211EEdff47f25384cdc3",
+    "auditReports": [
+      "Compound Finance - OpenZeppelin - V3 Comet audit",
+      "Compound Finance - ChainSecurity - V3 Comet audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Decentralized lending",
+    "githubUrl": "https://github.com/compound-finance/comet",
+    "blockNumber": "15331586.0",
+    "blockIssueDate": "2022-08-13"
+  },
+  {
+    "name": "CometWETH",
+    "description": "Compound V3 WETH market (Comet)",
+    "contractType": "Proxy",
+    "contractAddress": "0xA17581A9E3356d9A858b789D68B4d866e593aE94",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Compound Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xA17581A9E3356d9A858b789D68B4d866e593aE94",
+    "auditReports": [
+      "Compound Finance - OpenZeppelin - V3 Comet audit",
+      "Compound Finance - ChainSecurity - V3 Comet audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Decentralized lending",
+    "githubUrl": "https://github.com/compound-finance/comet",
+    "blockNumber": "16400710.0",
+    "blockIssueDate": "2023-01-13"
+  },
+  {
+    "name": "CRV",
+    "description": "Curve DAO governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Curve Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xD533a949740bb3306d119CC777fa900bA034cd52",
+    "auditReports": [
+      "Curve Finance - Trail of Bits - StableSwap audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/curvefi/curve-dao-contracts",
+    "blockNumber": "10647806.0",
+    "blockIssueDate": "2020-08-12"
+  },
+  {
+    "name": "veCRV",
+    "description": "Vote-escrowed CRV for governance",
+    "contractType": "Governance",
+    "contractAddress": "0x5f3b5DfEb7B28CDbD7FAba78963EE202a494e2A2",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Curve Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x5f3b5DfEb7B28CDbD7FAba78963EE202a494e2A2",
+    "auditReports": [
+      "Curve Finance - Trail of Bits - StableSwap audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Vote escrow",
+    "githubUrl": "https://github.com/curvefi/curve-dao-contracts",
+    "blockNumber": "10647812.0",
+    "blockIssueDate": "2020-08-12"
+  },
+  {
+    "name": "CurveAddressProvider",
+    "description": "Central registry for Curve contracts",
+    "contractType": "Proxy",
+    "contractAddress": "0x0000000022D53366457F9d5E68Ec105046FC4383",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Curve Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x0000000022D53366457F9d5E68Ec105046FC4383",
+    "auditReports": [
+      "Curve Finance - Trail of Bits - StableSwap audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Protocol registry",
+    "githubUrl": "https://github.com/curvefi/curve-dao-contracts",
+    "blockNumber": "11153725.0",
+    "blockIssueDate": "2020-10-29"
+  },
+  {
+    "name": "CurveStableSwapFactory",
+    "description": "Factory for StableSwap-NG pools",
+    "contractType": "Proxy",
+    "contractAddress": "0x6A8cbed756804B16E05E741eDaBd5cB544AE21bf",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Curve Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x6A8cbed756804B16E05E741eDaBd5cB544AE21bf",
+    "auditReports": [
+      "Curve Finance - Trail of Bits - StableSwap audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Decentralized exchange",
+    "githubUrl": "https://github.com/curvefi/stableswap-ng",
+    "blockNumber": "18427841.0",
+    "blockIssueDate": "2023-10-25"
+  },
+  {
+    "name": "crvUSD",
+    "description": "Curve native stablecoin",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Curve Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+    "auditReports": [
+      "Curve Finance - Trail of Bits - StableSwap audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Stablecoin",
+    "githubUrl": "https://github.com/curvefi/curve-stablecoin",
+    "blockNumber": "17257952.0",
+    "blockIssueDate": "2023-05-14"
+  },
+  {
+    "name": "PENDLEToken",
+    "description": "Pendle governance/utility token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x808507121B80c02388fAd14726482e061B8da827",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Pendle",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x808507121B80c02388fAd14726482e061B8da827",
+    "auditReports": [
+      "Pendle - Ackee Blockchain - V2 core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/pendle-finance/pendle-core-v2-public",
+    "blockNumber": "12320098.0",
+    "blockIssueDate": "2021-04-27"
+  },
+  {
+    "name": "vePENDLE",
+    "description": "Vote-escrowed PENDLE",
+    "contractType": "Governance",
+    "contractAddress": "0x4f30A9D41B80ecC5B94306AB4364951AE3170210",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Pendle",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x4f30A9D41B80ecC5B94306AB4364951AE3170210",
+    "auditReports": [
+      "Pendle - Ackee Blockchain - V2 core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Vote escrow",
+    "githubUrl": "https://github.com/pendle-finance/pendle-core-v2-public",
+    "blockNumber": "16032087.0",
+    "blockIssueDate": "2022-11-23"
+  },
+  {
+    "name": "PendleRouterV4",
+    "description": "Main user-facing swap router",
+    "contractType": "Proxy",
+    "contractAddress": "0x888888888889758F76e7103c6CbF23ABbF58F946",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Pendle",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x888888888889758F76e7103c6CbF23ABbF58F946",
+    "auditReports": [
+      "Pendle - Ackee Blockchain - V2 core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Yield trading",
+    "githubUrl": "https://github.com/pendle-finance/pendle-core-v2-public",
+    "blockNumber": "19759272.0",
+    "blockIssueDate": "2024-04-29"
+  },
+  {
+    "name": "PendleMarketFactoryV3",
+    "description": "Factory for PT/YT markets",
+    "contractType": "Proxy",
+    "contractAddress": "0x1A6fCc85557BC4fB7B534ed835a03EF056552D52",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Pendle",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x1A6fCc85557BC4fB7B534ed835a03EF056552D52",
+    "auditReports": [
+      "Pendle - Ackee Blockchain - V2 core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Yield trading",
+    "githubUrl": "https://github.com/pendle-finance/pendle-core-v2-public",
+    "blockNumber": "18669498.0",
+    "blockIssueDate": "2023-11-28"
+  },
+  {
+    "name": "MorphoBlue",
+    "description": "Core lending protocol singleton (immutable)",
+    "contractType": "Proxy",
+    "contractAddress": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Morpho",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+    "auditReports": [
+      "Morpho - Spearbit - Blue core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Decentralized lending",
+    "githubUrl": "https://github.com/morpho-org/morpho-blue",
+    "blockNumber": "18883124.0",
+    "blockIssueDate": "2023-12-28"
+  },
+  {
+    "name": "MorphoAdaptiveCurveIrm",
+    "description": "Interest rate model for Morpho Blue",
+    "contractType": "Proxy",
+    "contractAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Morpho",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+    "auditReports": [
+      "Morpho - Spearbit - Blue core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Interest rate model",
+    "githubUrl": "https://github.com/morpho-org/morpho-blue",
+    "blockNumber": "18883124.0",
+    "blockIssueDate": "2023-12-28"
+  },
+  {
+    "name": "MetaMorphoFactory",
+    "description": "Factory for MetaMorpho ERC-4626 vaults",
+    "contractType": "Proxy",
+    "contractAddress": "0xA9c3D3a366466Fa809d1Ae982Fb2c46E5fC41101",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Morpho",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xA9c3D3a366466Fa809d1Ae982Fb2c46E5fC41101",
+    "auditReports": [
+      "Morpho - Spearbit - Blue core audit"
+    ],
+    "licenses": [
+      "GPL 2.0"
+    ],
+    "relatedTopics": "Yield vault",
+    "githubUrl": "https://github.com/morpho-org/metamorpho",
+    "blockNumber": "18925584.0",
+    "blockIssueDate": "2024-01-03"
+  },
+  {
+    "name": "GMXVault",
+    "description": "V1 vault holding all assets",
+    "contractType": "Proxy",
+    "contractAddress": "0x489ee077994B6658eAfA855C308275EAd8097C4A",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "GMX",
+    "chain": "Arbitrum",
+    "explorerUrl": "https://arbiscan.io/address/0x489ee077994B6658eAfA855C308275EAd8097C4A",
+    "auditReports": [
+      "GMX - ABDK Consulting - V2 core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Derivatives",
+    "githubUrl": "https://github.com/gmx-io/gmx-contracts",
+    "blockNumber": "227091.0",
+    "blockIssueDate": "2021-08-31"
+  },
+  {
+    "name": "GMXRouter",
+    "description": "V1 swap/trading router",
+    "contractType": "Proxy",
+    "contractAddress": "0xaBBc5F99639c9B6bCb58544ddf04EFA6802F4064",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "GMX",
+    "chain": "Arbitrum",
+    "explorerUrl": "https://arbiscan.io/address/0xaBBc5F99639c9B6bCb58544ddf04EFA6802F4064",
+    "auditReports": [
+      "GMX - ABDK Consulting - V2 core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Derivatives",
+    "githubUrl": "https://github.com/gmx-io/gmx-contracts",
+    "blockNumber": "227092.0",
+    "blockIssueDate": "2021-08-31"
+  },
+  {
+    "name": "GMXToken",
+    "description": "GMX governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "GMX",
+    "chain": "Arbitrum",
+    "explorerUrl": "https://arbiscan.io/address/0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a",
+    "auditReports": [
+      "GMX - ABDK Consulting - V2 core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/gmx-io/gmx-contracts",
+    "blockNumber": "147903.0",
+    "blockIssueDate": "2021-07-22"
+  },
+  {
+    "name": "GMXV2ExchangeRouter",
+    "description": "V2 synthetics exchange router",
+    "contractType": "Proxy",
+    "contractAddress": "0x7C68C7866A64FA2160F78EEaE12217FFbf871fa8",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "GMX",
+    "chain": "Arbitrum",
+    "explorerUrl": "https://arbiscan.io/address/0x7C68C7866A64FA2160F78EEaE12217FFbf871fa8",
+    "auditReports": [
+      "GMX - ABDK Consulting - V2 core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Derivatives",
+    "githubUrl": "https://github.com/gmx-io/gmx-synthetics",
+    "blockNumber": "132478802.0",
+    "blockIssueDate": "2023-09-19"
+  },
+  {
+    "name": "GMXV2DataStore",
+    "description": "V2 central key-value store",
+    "contractType": "Proxy",
+    "contractAddress": "0xFD70de6b91282D8017aA4E741e9Ae325CAb992d8",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "GMX",
+    "chain": "Arbitrum",
+    "explorerUrl": "https://arbiscan.io/address/0xFD70de6b91282D8017aA4E741e9Ae325CAb992d8",
+    "auditReports": [
+      "GMX - ABDK Consulting - V2 core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Derivatives",
+    "githubUrl": "https://github.com/gmx-io/gmx-synthetics",
+    "blockNumber": "107737251.0",
+    "blockIssueDate": "2023-07-04"
+  },
+  {
+    "name": "BalancerVault",
+    "description": "Single vault holding all pool tokens",
+    "contractType": "Proxy",
+    "contractAddress": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Balancer",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "auditReports": [
+      "Balancer - Trail of Bits - V2 vault audit",
+      "Balancer - OpenZeppelin - V2 pool audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Decentralized exchange",
+    "githubUrl": "https://github.com/balancer/balancer-v2-monorepo",
+    "blockNumber": "12272146.0",
+    "blockIssueDate": "2021-04-19"
+  },
+  {
+    "name": "BAL",
+    "description": "Balancer governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xba100000625a3754423978a60c9317c58a424e3D",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Balancer",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xba100000625a3754423978a60c9317c58a424e3D",
+    "auditReports": [
+      "Balancer - Trail of Bits - V2 vault audit",
+      "Balancer - OpenZeppelin - V2 pool audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/balancer/balancer-v2-monorepo",
+    "blockNumber": "10299683.0",
+    "blockIssueDate": "2020-06-20"
+  },
+  {
+    "name": "veBAL",
+    "description": "Vote-escrowed BAL",
+    "contractType": "Governance",
+    "contractAddress": "0xC128a9954e6c874eA3d62ce62B468bA073093F25",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Balancer",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xC128a9954e6c874eA3d62ce62B468bA073093F25",
+    "auditReports": [
+      "Balancer - Trail of Bits - V2 vault audit",
+      "Balancer - OpenZeppelin - V2 pool audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Vote escrow",
+    "githubUrl": "https://github.com/balancer/balancer-v2-monorepo",
+    "blockNumber": "14457013.0",
+    "blockIssueDate": "2022-03-25"
+  },
+  {
+    "name": "1inchAggregationRouterV6",
+    "description": "Latest aggregation router",
+    "contractType": "Proxy",
+    "contractAddress": "0x111111125421cA6dc452d289314280a0f8842A65",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "1inch",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x111111125421cA6dc452d289314280a0f8842A65",
+    "auditReports": [
+      "1inch - Decurity - V5 aggregation router audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "DEX aggregator",
+    "githubUrl": "https://github.com/1inch",
+    "blockNumber": "19212918.0",
+    "blockIssueDate": "2024-02-12"
+  },
+  {
+    "name": "1INCH",
+    "description": "1inch governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x111111111117dC0aa78b770fA6A738034120C302",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "1inch",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x111111111117dC0aa78b770fA6A738034120C302",
+    "auditReports": [
+      "1inch - Decurity - V5 aggregation router audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/1inch",
+    "blockNumber": "11511393.0",
+    "blockIssueDate": "2020-12-23"
+  },
+  {
+    "name": "SushiSwapFactory",
+    "description": "Factory for SushiSwap pairs",
+    "contractType": "Proxy",
+    "contractAddress": "0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "SushiSwap",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac",
+    "auditReports": [
+      "SushiSwap - Trail of Bits - RouteProcessor audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Decentralized Exchange",
+    "githubUrl": "https://github.com/sushiswap/sushiswap",
+    "blockNumber": "10794229.0",
+    "blockIssueDate": "2020-09-04"
+  },
+  {
+    "name": "SushiSwapRouter02",
+    "description": "Main swap router",
+    "contractType": "Proxy",
+    "contractAddress": "0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "SushiSwap",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F",
+    "auditReports": [
+      "SushiSwap - Trail of Bits - RouteProcessor audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Decentralized Exchange",
+    "githubUrl": "https://github.com/sushiswap/sushiswap",
+    "blockNumber": "10794261.0",
+    "blockIssueDate": "2020-09-04"
+  },
+  {
+    "name": "SUSHI",
+    "description": "SushiSwap governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "SushiSwap",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+    "auditReports": [
+      "SushiSwap - Trail of Bits - RouteProcessor audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/sushiswap/sushiswap",
+    "blockNumber": "10736094.0",
+    "blockIssueDate": "2020-08-26"
+  },
+  {
+    "name": "SushiBentoBox",
+    "description": "Vault/lending infrastructure layer",
+    "contractType": "Proxy",
+    "contractAddress": "0xF5BCE5077908a1b7370B9ae04AdC565EBd643966",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "SushiSwap",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xF5BCE5077908a1b7370B9ae04AdC565EBd643966",
+    "auditReports": [
+      "SushiSwap - Trail of Bits - RouteProcessor audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "DeFi infrastructure",
+    "githubUrl": "https://github.com/sushiswap/bentobox",
+    "blockNumber": "12094175.0",
+    "blockIssueDate": "2021-03-23"
+  },
+  {
+    "name": "SNX",
+    "description": "Synthetix network token (proxy)",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Synthetix",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+    "auditReports": [
+      "Synthetix - OpenZeppelin - V3 core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/Synthetixio/synthetix",
+    "blockNumber": "8314597.0",
+    "blockIssueDate": "2019-08-09"
+  },
+  {
+    "name": "sUSD",
+    "description": "Synthetix USD stablecoin",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Synthetix",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
+    "auditReports": [
+      "Synthetix - OpenZeppelin - V3 core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Stablecoin",
+    "githubUrl": "https://github.com/Synthetixio/synthetix",
+    "blockNumber": "8621971.0",
+    "blockIssueDate": "2019-09-26"
+  },
+  {
+    "name": "RocketStorage",
+    "description": "Central registry/hub contract",
+    "contractType": "Proxy",
+    "contractAddress": "0x1d8f8f00cfa6758d7bE78336684788Fb0ee0Fa46",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Rocket Pool",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x1d8f8f00cfa6758d7bE78336684788Fb0ee0Fa46",
+    "auditReports": [
+      "Rocket Pool - Sigma Prime - Atlas upgrade audit",
+      "Rocket Pool - ConsenSys Diligence - core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Protocol registry",
+    "githubUrl": "https://github.com/rocket-pool/rocketpool",
+    "blockNumber": "13325233.0",
+    "blockIssueDate": "2021-09-30"
+  },
+  {
+    "name": "rETH",
+    "description": "Rocket Pool liquid staking token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Rocket Pool",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xae78736Cd615f374D3085123A210448E74Fc6393",
+    "auditReports": [
+      "Rocket Pool - Sigma Prime - Atlas upgrade audit",
+      "Rocket Pool - ConsenSys Diligence - core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Liquid staking",
+    "githubUrl": "https://github.com/rocket-pool/rocketpool",
+    "blockNumber": "13325304.0",
+    "blockIssueDate": "2021-09-30"
+  },
+  {
+    "name": "RPL",
+    "description": "Rocket Pool governance/staking token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Rocket Pool",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
+    "auditReports": [
+      "Rocket Pool - Sigma Prime - Atlas upgrade audit",
+      "Rocket Pool - ConsenSys Diligence - core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/rocket-pool/rocketpool",
+    "blockNumber": "13325306.0",
+    "blockIssueDate": "2021-09-30"
+  },
+  {
+    "name": "CVX",
+    "description": "Convex governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Convex Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B",
+    "auditReports": [
+      "Convex Finance - MixBytes - core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/convex-eth/platform",
+    "blockNumber": "12450988.0",
+    "blockIssueDate": "2021-05-17"
+  },
+  {
+    "name": "ConvexBooster",
+    "description": "Main deposit/staking manager",
+    "contractType": "Proxy",
+    "contractAddress": "0xF403C135812408BFbE8713b5A23a04b3D48AAE31",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Convex Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xF403C135812408BFbE8713b5A23a04b3D48AAE31",
+    "auditReports": [
+      "Convex Finance - MixBytes - core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Yield aggregator",
+    "githubUrl": "https://github.com/convex-eth/platform",
+    "blockNumber": "12450992.0",
+    "blockIssueDate": "2021-05-17"
+  },
+  {
+    "name": "ConvexVoterProxy",
+    "description": "Holds veCRV on behalf of Convex",
+    "contractType": "Governance",
+    "contractAddress": "0x989AEb4d175e16225E39E87d0D97A3360524AD80",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Convex Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x989AEb4d175e16225E39E87d0D97A3360524AD80",
+    "auditReports": [
+      "Convex Finance - MixBytes - core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Vote delegation",
+    "githubUrl": "https://github.com/convex-eth/platform",
+    "blockNumber": "12293652.0",
+    "blockIssueDate": "2021-04-23"
+  },
+  {
+    "name": "YFI",
+    "description": "Yearn governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Yearn Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+    "auditReports": [
+      "Yearn Finance - Trail of Bits - V3 vaults audit"
+    ],
+    "licenses": [
+      "AGPL 3.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/yearn/yearn-vaults",
+    "blockNumber": "10475744.0",
+    "blockIssueDate": "2020-07-17"
+  },
+  {
+    "name": "LINK",
+    "description": "Chainlink oracle network token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Chainlink",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x514910771AF9Ca656af840dff83E8264EcF986CA",
+    "auditReports": [
+      "Chainlink - Trail of Bits - VRF V2 audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/smartcontractkit/LinkToken",
+    "blockNumber": "4281611.0",
+    "blockIssueDate": "2017-09-16"
+  },
+  {
+    "name": "ChainlinkETHUSDFeed",
+    "description": "ETH/USD price feed aggregator",
+    "contractType": "Proxy",
+    "contractAddress": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Chainlink",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
+    "auditReports": [
+      "Chainlink - Trail of Bits - VRF V2 audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Price oracle",
+    "githubUrl": "https://github.com/smartcontractkit/chainlink",
+    "blockNumber": "10606501.0",
+    "blockIssueDate": "2020-08-06"
+  },
+  {
+    "name": "ChainlinkVRFCoordinatorV2",
+    "description": "Verifiable Random Function coordinator",
+    "contractType": "Proxy",
+    "contractAddress": "0x271682DEB8C4E0901D1a1550aD2e64D568E69909",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Chainlink",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x271682DEB8C4E0901D1a1550aD2e64D568E69909",
+    "auditReports": [
+      "Chainlink - Trail of Bits - VRF V2 audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Verifiable randomness",
+    "githubUrl": "https://github.com/smartcontractkit/chainlink",
+    "blockNumber": "13960731.0",
+    "blockIssueDate": "2022-01-07"
+  },
+  {
+    "name": "ChainlinkCCIPRouter",
+    "description": "Cross-chain interoperability router",
+    "contractType": "Proxy",
+    "contractAddress": "0x80226fc0Ee2b096224EeAc085Bb9a8cba1146f7D",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Chainlink",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x80226fc0Ee2b096224EeAc085Bb9a8cba1146f7D",
+    "auditReports": [
+      "Chainlink - Trail of Bits - VRF V2 audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Cross-chain messaging",
+    "githubUrl": "https://github.com/smartcontractkit/ccip",
+    "blockNumber": "18622113.0",
+    "blockIssueDate": "2023-11-21"
+  },
+  {
+    "name": "ENSRegistry",
+    "description": "Core ENS name registry",
+    "contractType": "Proxy",
+    "contractAddress": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Ethereum Name Service",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e",
+    "auditReports": [
+      "Ethereum Name Service - OpenZeppelin - V2 registry audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Name registry",
+    "githubUrl": "https://github.com/ensdomains/ens-contracts",
+    "blockNumber": "9380380.0",
+    "blockIssueDate": "2020-01-30"
+  },
+  {
+    "name": "ENSBaseRegistrar",
+    "description": "ERC-721 for .eth name ownership",
+    "contractType": "ERC-721 NFT",
+    "contractAddress": "0x57f1887a8BF19b14fC0dF6Fd9B2acc9Af147eA85",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Ethereum Name Service",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x57f1887a8BF19b14fC0dF6Fd9B2acc9Af147eA85",
+    "auditReports": [
+      "Ethereum Name Service - OpenZeppelin - V2 registry audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Name registry",
+    "githubUrl": "https://github.com/ensdomains/ens-contracts",
+    "blockNumber": "9380410.0",
+    "blockIssueDate": "2020-01-30"
+  },
+  {
+    "name": "ENSNameWrapper",
+    "description": "ERC-1155 wrapper with fuse permissions",
+    "contractType": "ERC-1155 Multi",
+    "contractAddress": "0xD4416b13d2b3a9aBae7AcD5D6C2BbDBE25686401",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Ethereum Name Service",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xD4416b13d2b3a9aBae7AcD5D6C2BbDBE25686401",
+    "auditReports": [
+      "Ethereum Name Service - OpenZeppelin - V2 registry audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Name registry",
+    "githubUrl": "https://github.com/ensdomains/ens-contracts",
+    "blockNumber": "16925608.0",
+    "blockIssueDate": "2023-03-28"
+  },
+  {
+    "name": "SafeSingleton",
+    "description": "Safe multisig implementation v1.3.0",
+    "contractType": "Multisig",
+    "contractAddress": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Gnosis Safe",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
+    "auditReports": [
+      "Gnosis Safe - Ackee Blockchain - V1.4.1 audit"
+    ],
+    "licenses": [
+      "LGPL"
+    ],
+    "relatedTopics": "Multisig wallet",
+    "githubUrl": "https://github.com/safe-global/safe-contracts",
+    "blockNumber": "12504268.0",
+    "blockIssueDate": "2021-05-25"
+  },
+  {
+    "name": "SafeProxyFactory",
+    "description": "Factory deploying Safe proxy clones",
+    "contractType": "Multisig",
+    "contractAddress": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Gnosis Safe",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+    "auditReports": [
+      "Gnosis Safe - Ackee Blockchain - V1.4.1 audit"
+    ],
+    "licenses": [
+      "LGPL"
+    ],
+    "relatedTopics": "Multisig wallet",
+    "githubUrl": "https://github.com/safe-global/safe-contracts",
+    "blockNumber": "12504126.0",
+    "blockIssueDate": "2021-05-25"
+  },
+  {
+    "name": "SafeMultiSend",
+    "description": "Batch transaction executor",
+    "contractType": "Multisig",
+    "contractAddress": "0xA238CBeb142c10Ef7Ad8442C6D1f9E89e07e7761",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Gnosis Safe",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xA238CBeb142c10Ef7Ad8442C6D1f9E89e07e7761",
+    "auditReports": [
+      "Gnosis Safe - Ackee Blockchain - V1.4.1 audit"
+    ],
+    "licenses": [
+      "LGPL"
+    ],
+    "relatedTopics": "Multisig wallet",
+    "githubUrl": "https://github.com/safe-global/safe-contracts",
+    "blockNumber": "12504265.0",
+    "blockIssueDate": "2021-05-25"
+  },
+  {
+    "name": "USDe",
+    "description": "Ethena synthetic dollar token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Ethena",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "auditReports": [
+      "Ethena - Quantstamp - USDe core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Stablecoin",
+    "githubUrl": "https://github.com/ethena-labs/bbp-public-assets",
+    "blockNumber": "18571358.0",
+    "blockIssueDate": "2023-11-14"
+  },
+  {
+    "name": "sUSDe",
+    "description": "Staked USDe (yield-bearing)",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Ethena",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+    "auditReports": [
+      "Ethena - Quantstamp - USDe core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Yield vault",
+    "githubUrl": "https://github.com/ethena-labs/ethena",
+    "blockNumber": "18571359.0",
+    "blockIssueDate": "2023-11-14"
+  },
+  {
+    "name": "SSVNetwork",
+    "description": "DVT registry for distributed validators",
+    "contractType": "Proxy",
+    "contractAddress": "0xDD9BC35aE942eF0cFa76930954a156B3fF30a4E1",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "SSV Network",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xDD9BC35aE942eF0cFa76930954a156B3fF30a4E1",
+    "auditReports": [
+      "SSV Network - Quantstamp - V4 core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Distributed validator technology",
+    "githubUrl": "https://github.com/ssvlabs/ssv-network",
+    "blockNumber": "17507487.0",
+    "blockIssueDate": "2023-06-18"
+  },
+  {
+    "name": "SSVToken",
+    "description": "SSV governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x9D65fF81a3c488d585bBfb0Bfe3c7707c7d3aD1d",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "SSV Network",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x9D65fF81a3c488d585bBfb0Bfe3c7707c7d3aD1d",
+    "auditReports": [
+      "SSV Network - Quantstamp - V4 core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/ssvlabs/ssv-network",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "WBTC",
+    "description": "Wrapped Bitcoin ERC-20",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "WBTC",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "auditReports": [
+      "WBTC - ChainSecurity - ERC-20 token audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Wrapped asset",
+    "githubUrl": "https://github.com/WrappedBTC/bitcoin-token-smart-contracts",
+    "blockNumber": "6766284.0",
+    "blockIssueDate": "2018-11-24"
+  },
+  {
+    "name": "eETH",
+    "description": "Ether.fi liquid restaking token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x35fA164735182de50811E8e2E824cFb9B6118ac2",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Ether.fi",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x35fA164735182de50811E8e2E824cFb9B6118ac2",
+    "auditReports": [
+      "Ether.fi - Certora - V1 staking audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Liquid restaking",
+    "githubUrl": "https://github.com/etherfi-protocol/smart-contracts",
+    "blockNumber": "17664324.0",
+    "blockIssueDate": "2023-07-10"
+  },
+  {
+    "name": "weETH",
+    "description": "Wrapped eETH",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Ether.fi",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+    "auditReports": [
+      "Ether.fi - Certora - V1 staking audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Liquid restaking",
+    "githubUrl": "https://github.com/etherfi-protocol/smart-contracts",
+    "blockNumber": "17664336.0",
+    "blockIssueDate": "2023-07-10"
+  },
+  {
+    "name": "ETHFI",
+    "description": "Ether.fi governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xFe0c30065B384F05761f15d0CC899D4F9F9Cc0eB",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Ether.fi",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xFe0c30065B384F05761f15d0CC899D4F9F9Cc0eB",
+    "auditReports": [
+      "Ether.fi - Certora - V1 staking audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/etherfi-protocol/smart-contracts",
+    "blockNumber": "19288125.0",
+    "blockIssueDate": "2024-02-23"
+  },
+  {
+    "name": "LiquityTroveManager",
+    "description": "Manages borrowing positions (Troves)",
+    "contractType": "Proxy",
+    "contractAddress": "0xA39739EF8b0231DbFA0DcdA07d7e29faAbCf4bb2",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Liquity",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xA39739EF8b0231DbFA0DcdA07d7e29faAbCf4bb2",
+    "auditReports": [
+      "Liquity - Trail of Bits - V1 core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Decentralized lending",
+    "githubUrl": "https://github.com/liquity/dev",
+    "blockNumber": "12178557.0",
+    "blockIssueDate": "2021-04-05"
+  },
+  {
+    "name": "LUSD",
+    "description": "Liquity USD stablecoin",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Liquity",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
+    "auditReports": [
+      "Liquity - Trail of Bits - V1 core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Stablecoin",
+    "githubUrl": "https://github.com/liquity/dev",
+    "blockNumber": "12178594.0",
+    "blockIssueDate": "2021-04-05"
+  },
+  {
+    "name": "LQTY",
+    "description": "Liquity governance/staking token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Liquity",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D",
+    "auditReports": [
+      "Liquity - Trail of Bits - V1 core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/liquity/dev",
+    "blockNumber": "12178618.0",
+    "blockIssueDate": "2021-04-05"
+  },
+  {
+    "name": "LiquityStabilityPool",
+    "description": "Stability pool for liquidations",
+    "contractType": "Proxy",
+    "contractAddress": "0x66017D22b0f8556afDd19FC67041899Eb65a21bb",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Liquity",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x66017D22b0f8556afDd19FC67041899Eb65a21bb",
+    "auditReports": [
+      "Liquity - Trail of Bits - V1 core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Liquidation",
+    "githubUrl": "https://github.com/liquity/dev",
+    "blockNumber": "12178565.0",
+    "blockIssueDate": "2021-04-05"
+  },
+  {
+    "name": "DYDX",
+    "description": "dYdX governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x92D6C1e31e14520e676a687F0a93788B716BEff5",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "dYdX",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x92D6C1e31e14520e676a687F0a93788B716BEff5",
+    "auditReports": [
+      "dYdX - Informal Systems - V4 perpetuals audit"
+    ],
+    "licenses": [
+      "AGPL 3.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/dydxfoundation/governance-contracts",
+    "blockNumber": "12809555.0",
+    "blockIssueDate": "2021-07-12"
+  },
+  {
+    "name": "FRAX",
+    "description": "Frax stablecoin",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Frax Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x853d955aCEf822Db058eb8505911ED77F175b99e",
+    "auditReports": [
+      "Frax Finance - Trail of Bits - V2 core audit"
+    ],
+    "licenses": [
+      "ISC"
+    ],
+    "relatedTopics": "Stablecoin",
+    "githubUrl": "https://github.com/FraxFinance/fraxlend",
+    "blockNumber": "11465581.0",
+    "blockIssueDate": "2020-12-16"
+  },
+  {
+    "name": "FXS",
+    "description": "Frax Share governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Frax Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0",
+    "auditReports": [
+      "Frax Finance - Trail of Bits - V2 core audit"
+    ],
+    "licenses": [
+      "ISC"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/FraxFinance/fraxlend",
+    "blockNumber": "11465584.0",
+    "blockIssueDate": "2020-12-16"
+  },
+  {
+    "name": "frxETH",
+    "description": "Frax liquid staking ETH",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x5E8422345238F34275888049021821E8E08CAa1f",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Frax Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x5E8422345238F34275888049021821E8E08CAa1f",
+    "auditReports": [
+      "Frax Finance - Trail of Bits - V2 core audit"
+    ],
+    "licenses": [
+      "ISC"
+    ],
+    "relatedTopics": "Liquid staking",
+    "githubUrl": "https://github.com/FraxFinance/frxETH-public",
+    "blockNumber": "15686046.0",
+    "blockIssueDate": "2022-10-06"
+  },
+  {
+    "name": "sfrxETH",
+    "description": "Staked frxETH (ERC-4626 vault)",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xac3E018457B222d93114458476f3E3416Abbe38F",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Frax Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xac3E018457B222d93114458476f3E3416Abbe38F",
+    "auditReports": [
+      "Frax Finance - Trail of Bits - V2 core audit"
+    ],
+    "licenses": [
+      "ISC"
+    ],
+    "relatedTopics": "Liquid staking",
+    "githubUrl": "https://github.com/FraxFinance/frxETH-public",
+    "blockNumber": "15686046.0",
+    "blockIssueDate": "2022-10-06"
+  },
+  {
+    "name": "AerodromeRouter",
+    "description": "DEX router on Base",
+    "contractType": "Proxy",
+    "contractAddress": "0xcF77a3Ba9A5CA399B7c97c74d54e5b1Beb874E43",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Aerodrome",
+    "chain": "Base",
+    "explorerUrl": "https://basescan.org/address/0xcF77a3Ba9A5CA399B7c97c74d54e5b1Beb874E43",
+    "auditReports": [
+      "Aerodrome - Spearbit - V2 core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Decentralized exchange",
+    "githubUrl": "https://github.com/aerodrome-finance/contracts",
+    "blockNumber": "3200613.0",
+    "blockIssueDate": "2023-08-28"
+  },
+  {
+    "name": "AERO",
+    "description": "Aerodrome governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Aerodrome",
+    "chain": "Base",
+    "explorerUrl": "https://basescan.org/address/0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+    "auditReports": [
+      "Aerodrome - Spearbit - V2 core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/aerodrome-finance/contracts",
+    "blockNumber": "3200550.0",
+    "blockIssueDate": "2023-08-28"
+  },
+  {
+    "name": "LayerZeroEndpointV2",
+    "description": "Cross-chain messaging endpoint",
+    "contractType": "Proxy",
+    "contractAddress": "0x1a44076050125825900e736c501f859c50fE728c",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "LayerZero",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x1a44076050125825900e736c501f859c50fE728c",
+    "auditReports": [
+      "LayerZero - Trail of Bits - V2 endpoint audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Cross-chain messaging",
+    "githubUrl": "https://github.com/LayerZero-Labs/LayerZero-v2",
+    "blockNumber": "19093715.0",
+    "blockIssueDate": "2024-01-26"
+  },
+  {
+    "name": "ZRO",
+    "description": "LayerZero governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "LayerZero",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x6985884C4392D348587B19cb9eAAf157F13271cd",
+    "auditReports": [
+      "LayerZero - Trail of Bits - V2 endpoint audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/LayerZero-Labs/LayerZero-v2",
+    "blockNumber": "19678360.0",
+    "blockIssueDate": "2024-04-17"
+  },
+  {
+    "name": "WormholeCoreBridge",
+    "description": "Core cross-chain message bridge",
+    "contractType": "Proxy",
+    "contractAddress": "0x98f3c9e6E3fAce36bAAd05FE09d375Ef1464288B",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Wormhole",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x98f3c9e6E3fAce36bAAd05FE09d375Ef1464288B",
+    "auditReports": [
+      "Wormhole - Neodyme - core bridge audit"
+    ],
+    "licenses": [
+      "Apache 2.0"
+    ],
+    "relatedTopics": "Cross-chain bridge",
+    "githubUrl": "https://github.com/wormhole-foundation/wormhole",
+    "blockNumber": "12959638.0",
+    "blockIssueDate": "2021-08-04"
+  },
+  {
+    "name": "WormholeTokenBridge",
+    "description": "Token bridge (Portal)",
+    "contractType": "Proxy",
+    "contractAddress": "0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Wormhole",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+    "auditReports": [
+      "Wormhole - Neodyme - core bridge audit"
+    ],
+    "licenses": [
+      "Apache 2.0"
+    ],
+    "relatedTopics": "Cross-chain bridge",
+    "githubUrl": "https://github.com/wormhole-foundation/wormhole",
+    "blockNumber": "13217349.0",
+    "blockIssueDate": "2021-09-13"
+  },
+  {
+    "name": "AcrossHubPool",
+    "description": "Central liquidity hub for Across bridge",
+    "contractType": "Proxy",
+    "contractAddress": "0xc186fA914353c44b2E33eBE05f21846F1048bEda",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Across Protocol",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xc186fA914353c44b2E33eBE05f21846F1048bEda",
+    "auditReports": [
+      "Across Protocol - OpenZeppelin - V3 bridge audit"
+    ],
+    "licenses": [
+      "AGPL 3.0"
+    ],
+    "relatedTopics": "Cross-chain bridge",
+    "githubUrl": "https://github.com/across-protocol/contracts",
+    "blockNumber": "14819537.0",
+    "blockIssueDate": "2022-05-21"
+  },
+  {
+    "name": "ACX",
+    "description": "Across governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x44108f0223A3C3028F5Fe7AEC7f9bb2E66beF82F",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Across Protocol",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x44108f0223A3C3028F5Fe7AEC7f9bb2E66beF82F",
+    "auditReports": [
+      "Across Protocol - OpenZeppelin - V3 bridge audit"
+    ],
+    "licenses": [
+      "AGPL 3.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/across-protocol/contracts",
+    "blockNumber": "15790016.0",
+    "blockIssueDate": "2022-10-20"
+  },
+  {
+    "name": "VenusUnitroller",
+    "description": "Comptroller proxy for Venus on BSC",
+    "contractType": "Proxy",
+    "contractAddress": "0xfD36E2c2a6789Db23113685031d7F16329158384",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Venus",
+    "chain": "BNB Chain",
+    "explorerUrl": "https://bscscan.com/address/0xfD36E2c2a6789Db23113685031d7F16329158384",
+    "auditReports": [
+      "Venus - Quantstamp - V4 core audit"
+    ],
+    "licenses": [
+      "BSD 3-Clause"
+    ],
+    "relatedTopics": "Decentralized lending",
+    "githubUrl": "https://github.com/VenusProtocol/venus-protocol",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "XVS",
+    "description": "Venus governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Venus",
+    "chain": "BNB Chain",
+    "explorerUrl": "https://bscscan.com/address/0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63",
+    "auditReports": [
+      "Venus - Quantstamp - V4 core audit"
+    ],
+    "licenses": [
+      "BSD 3-Clause"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/VenusProtocol/venus-protocol",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "PancakeV2Factory",
+    "description": "Factory for V2 LP pairs",
+    "contractType": "Proxy",
+    "contractAddress": "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "PancakeSwap",
+    "chain": "BNB Chain",
+    "explorerUrl": "https://bscscan.com/address/0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
+    "auditReports": [
+      "PancakeSwap - PeckShield - V3 core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Decentralized exchange",
+    "githubUrl": "https://github.com/pancakeswap/pancake-swap-core",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "PancakeV2Router",
+    "description": "Router for V2 swaps",
+    "contractType": "Proxy",
+    "contractAddress": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "PancakeSwap",
+    "chain": "BNB Chain",
+    "explorerUrl": "https://bscscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "auditReports": [
+      "PancakeSwap - PeckShield - V3 core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Decentralized exchange",
+    "githubUrl": "https://github.com/pancakeswap/pancake-swap-periphery",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "CAKE",
+    "description": "PancakeSwap governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "PancakeSwap",
+    "chain": "BNB Chain",
+    "explorerUrl": "https://bscscan.com/address/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+    "auditReports": [
+      "PancakeSwap - PeckShield - V3 core audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/pancakeswap/pancake-swap-core",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "PancakeV3Factory",
+    "description": "Factory for V3 concentrated liquidity",
+    "contractType": "Proxy",
+    "contractAddress": "0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "PancakeSwap",
+    "chain": "BNB Chain",
+    "explorerUrl": "https://bscscan.com/address/0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865",
+    "auditReports": [
+      "PancakeSwap - PeckShield - V3 core audit"
+    ],
+    "licenses": [
+      "GPL 2.0"
+    ],
+    "relatedTopics": "Decentralized exchange",
+    "githubUrl": "https://github.com/pancakeswap/pancake-v3-contracts",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "JupiterAggregatorV6",
+    "description": "Main DEX aggregator routing program",
+    "contractType": "Proxy",
+    "contractAddress": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Jupiter",
+    "chain": "Solana",
+    "explorerUrl": "https://solscan.io/account/JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4",
+    "auditReports": [
+      "Jupiter - OtterSec - V6 swap router audit"
+    ],
+    "licenses": [
+      "Proprietary"
+    ],
+    "relatedTopics": "DEX aggregator",
+    "githubUrl": "https://github.com/jup-ag",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "JUP",
+    "description": "Jupiter governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Jupiter",
+    "chain": "Solana",
+    "explorerUrl": "https://solscan.io/account/JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+    "auditReports": [
+      "Jupiter - OtterSec - V6 swap router audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/jup-ag",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "JitoSOL",
+    "description": "Jito liquid staking token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Jito",
+    "chain": "Solana",
+    "explorerUrl": "https://solscan.io/account/J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+    "auditReports": [
+      "Jito - Neodyme - stake pool audit"
+    ],
+    "licenses": [
+      "Apache 2.0"
+    ],
+    "relatedTopics": "Liquid Staking",
+    "githubUrl": "https://github.com/jito-foundation",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "JTO",
+    "description": "Jito governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Jito",
+    "chain": "Solana",
+    "explorerUrl": "https://solscan.io/account/jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL",
+    "auditReports": [
+      "Jito - Neodyme - stake pool audit"
+    ],
+    "licenses": [
+      "Apache 2.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/jito-foundation",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "KaminoLending",
+    "description": "Kamino lending/borrowing program",
+    "contractType": "Proxy",
+    "contractAddress": "KLend2g3cP87ber41GJZPt4GYTnQmwXFKQPA8jMjJiu",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Kamino",
+    "chain": "Solana",
+    "explorerUrl": "https://solscan.io/account/KLend2g3cP87ber41GJZPt4GYTnQmwXFKQPA8jMjJiu",
+    "auditReports": [
+      "Kamino - OtterSec - V2 vault audit"
+    ],
+    "licenses": [
+      "Proprietary"
+    ],
+    "relatedTopics": "Decentralized Lending",
+    "githubUrl": "https://github.com/Kamino-Finance",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "KMNO",
+    "description": "Kamino governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Kamino",
+    "chain": "Solana",
+    "explorerUrl": "https://solscan.io/account/KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS",
+    "auditReports": [
+      "Kamino - OtterSec - V2 vault audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/Kamino-Finance",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "RaydiumAMMV4",
+    "description": "Main legacy AMM program",
+    "contractType": "Proxy",
+    "contractAddress": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Raydium",
+    "chain": "Solana",
+    "explorerUrl": "https://solscan.io/account/675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8",
+    "auditReports": [
+      "Raydium - MadShield - CPMM pool audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Decentralized exchange",
+    "githubUrl": "https://github.com/raydium-io/raydium-amm",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "RaydiumCLMM",
+    "description": "Concentrated liquidity program",
+    "contractType": "Proxy",
+    "contractAddress": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Raydium",
+    "chain": "Solana",
+    "explorerUrl": "https://solscan.io/account/CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "auditReports": [
+      "Raydium - MadShield - CPMM pool audit"
+    ],
+    "licenses": [
+      "Apache 2.0"
+    ],
+    "relatedTopics": "Decentralized exchange",
+    "githubUrl": "https://github.com/raydium-io/raydium-clmm",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "RAY",
+    "description": "Raydium governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Raydium",
+    "chain": "Solana",
+    "explorerUrl": "https://solscan.io/account/4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+    "auditReports": [
+      "Raydium - MadShield - CPMM pool audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/raydium-io",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "DriftV2",
+    "description": "Perpetuals/spot trading program",
+    "contractType": "Proxy",
+    "contractAddress": "dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Drift Protocol",
+    "chain": "Solana",
+    "explorerUrl": "https://solscan.io/account/dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH",
+    "auditReports": [
+      "Drift Protocol - OtterSec - V2 perpetuals audit"
+    ],
+    "licenses": [
+      "Apache 2.0"
+    ],
+    "relatedTopics": "Derivatives",
+    "githubUrl": "https://github.com/drift-labs/protocol-v2",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "DRIFT",
+    "description": "Drift governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "DriFtupJYLTosbwoN8koMbEYSx54aFAVLddWsbksjwg7",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Drift Protocol",
+    "chain": "Solana",
+    "explorerUrl": "https://solscan.io/account/DriFtupJYLTosbwoN8koMbEYSx54aFAVLddWsbksjwg7",
+    "auditReports": [
+      "Drift Protocol - OtterSec - V2 perpetuals audit"
+    ],
+    "licenses": [
+      "Apache 2.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/drift-labs/protocol-v2",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "FluidLiquidityLayer",
+    "description": "Central singleton liquidity layer",
+    "contractType": "Proxy",
+    "contractAddress": "0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Fluid",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x52Aa899454998Be5b000Ad077a46Bbe360F4e497",
+    "auditReports": [
+      "Fluid - Statemind - liquidity vault audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Decentralized Lending",
+    "githubUrl": "https://github.com/Instadapp/fluid-contracts-public",
+    "blockNumber": "19239106.0",
+    "blockIssueDate": "2024-02-16"
+  },
+  {
+    "name": "MPL",
+    "description": "Maple Finance governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x33349B282065b0284d756F0577FB39c158F935e6",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Maple Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x33349B282065b0284d756F0577FB39c158F935e6",
+    "auditReports": [
+      "Maple Finance - Trail of Bits - V2 lending audit"
+    ],
+    "licenses": [
+      "AGPL 3.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/maple-labs",
+    "blockNumber": "12274249.0",
+    "blockIssueDate": "2021-04-20"
+  },
+  {
+    "name": "EVC",
+    "description": "Ethereum Vault Connector (Euler V2)",
+    "contractType": "Proxy",
+    "contractAddress": "0x0C9a3dd6b8F28529d72d7f9cE918D493519EE383",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Euler Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x0C9a3dd6b8F28529d72d7f9cE918D493519EE383",
+    "auditReports": [
+      "Euler Finance - Spearbit - V2 vault connector audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Decentralized Lending",
+    "githubUrl": "https://github.com/euler-xyz/ethereum-vault-connector",
+    "blockNumber": "20529207.0",
+    "blockIssueDate": "2024-08-14"
+  },
+  {
+    "name": "EUL",
+    "description": "Euler governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xd9Fcd98c322942075A5C3860693e9f4f03AAE07b",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Euler Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xd9Fcd98c322942075A5C3860693e9f4f03AAE07b",
+    "auditReports": [
+      "Euler Finance - Spearbit - V2 vault connector audit"
+    ],
+    "licenses": [
+      "GPL 2.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/euler-xyz",
+    "blockNumber": "13908728.0",
+    "blockIssueDate": "2021-12-30"
+  },
+  {
+    "name": "OUSG",
+    "description": "Ondo US Government Bond Fund token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x1B19C19393e2d034D8Ff31ff34c81252FcBbee92",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Ondo Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x1B19C19393e2d034D8Ff31ff34c81252FcBbee92",
+    "auditReports": [
+      "Ondo Finance - Code4rena - OUSG core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Real World Assets",
+    "githubUrl": "https://github.com/ondoprotocol",
+    "blockNumber": "16234210.0",
+    "blockIssueDate": "2022-12-21"
+  },
+  {
+    "name": "USDY",
+    "description": "Ondo US Dollar Yield token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x96F6eF951840721AdBF46Ac996b59E0235CB985C",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Ondo Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x96F6eF951840721AdBF46Ac996b59E0235CB985C",
+    "auditReports": [
+      "Ondo Finance - Code4rena - OUSG core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Real World Assets",
+    "githubUrl": "https://github.com/ondoprotocol/usdy",
+    "blockNumber": "17672244.0",
+    "blockIssueDate": "2023-07-11"
+  },
+  {
+    "name": "ONDO",
+    "description": "Ondo governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Ondo Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3",
+    "auditReports": [
+      "Ondo Finance - Code4rena - OUSG core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/ondoprotocol",
+    "blockNumber": "14670968.0",
+    "blockIssueDate": "2022-04-28"
+  },
+  {
+    "name": "CFG",
+    "description": "Centrifuge governance token (ERC-20)",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xc221b7E65FfC80DE234bbB6667aBDd46593D34F0",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Centrifuge",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xc221b7E65FfC80DE234bbB6667aBDd46593D34F0",
+    "auditReports": [
+      "Centrifuge - Least Authority - Tinlake audit"
+    ],
+    "licenses": [
+      "AGPL 3.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/centrifuge/liquidity-pools",
+    "blockNumber": "12499944.0",
+    "blockIssueDate": "2021-05-24"
+  },
+  {
+    "name": "rsETH",
+    "description": "Kelp DAO restaked ETH token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Kelp DAO",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
+    "auditReports": [
+      "Kelp DAO - Code4rena - rsETH deposit audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Liquid Restaking",
+    "githubUrl": "https://github.com/Kelp-DAO/LRT-rsETH",
+    "blockNumber": "18758282.0",
+    "blockIssueDate": "2023-12-10"
+  },
+  {
+    "name": "ezETH",
+    "description": "Renzo restaked ETH token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xbf5495Efe5DB9ce00f80364C8B423567e58d2110",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Renzo",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xbf5495Efe5DB9ce00f80364C8B423567e58d2110",
+    "auditReports": [
+      "Renzo - Halborn - ezETH restaking audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Liquid Restaking",
+    "githubUrl": "https://github.com/Renzo-Protocol/contracts-public",
+    "blockNumber": "18722779.0",
+    "blockIssueDate": "2023-12-05"
+  },
+  {
+    "name": "REZ",
+    "description": "Renzo governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x3B50805453023a91a8bf641e279401a0b23FA6F9",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Renzo",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x3B50805453023a91a8bf641e279401a0b23FA6F9",
+    "auditReports": [
+      "Renzo - Halborn - ezETH restaking audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/Renzo-Protocol/contracts-public",
+    "blockNumber": "19718690.0",
+    "blockIssueDate": "2024-04-23"
+  },
+  {
+    "name": "pufETH",
+    "description": "Puffer liquid restaking vault token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xD9A442856C234a39a81a089C06451EBAa4306a72",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Puffer Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xD9A442856C234a39a81a089C06451EBAa4306a72",
+    "auditReports": [
+      "Puffer Finance - BlockSec - V1 vault audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Liquid Restaking",
+    "githubUrl": "https://github.com/PufferFinance/puffer-contracts",
+    "blockNumber": "19128047.0",
+    "blockIssueDate": "2024-01-31"
+  },
+  {
+    "name": "swETH",
+    "description": "Swell liquid staking token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xf951E335afb289353dc249e82926178EaC7DEd78",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Swell Network",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xf951E335afb289353dc249e82926178EaC7DEd78",
+    "auditReports": [
+      "Swell Network - Sigma Prime - V2 staking audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Liquid Staking",
+    "githubUrl": "https://github.com/SwellNetwork/v3-core-public",
+    "blockNumber": "17030767.0",
+    "blockIssueDate": "2023-04-12"
+  },
+  {
+    "name": "SWELL",
+    "description": "Swell governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x0a6E7Ba5042B38349e437ec6Db6214AEC7B35676",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Swell Network",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x0a6E7Ba5042B38349e437ec6Db6214AEC7B35676",
+    "auditReports": [
+      "Swell Network - Sigma Prime - V2 staking audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/SwellNetwork/v3-core-public",
+    "blockNumber": "20341507.0",
+    "blockIssueDate": "2024-07-19"
+  },
+  {
+    "name": "ETHx",
+    "description": "Stader liquid staking token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xA35b1B31Ce002FBF2058D22F30f95D405200A15b",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Stader",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xA35b1B31Ce002FBF2058D22F30f95D405200A15b",
+    "auditReports": [
+      "Stader - Sigma Prime - ETHx staking audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Liquid Staking",
+    "githubUrl": "https://github.com/stader-labs/ethx",
+    "blockNumber": "17416140.0",
+    "blockIssueDate": "2023-06-05"
+  },
+  {
+    "name": "SD",
+    "description": "Stader governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x30D20208d987713f46DFD34EF128Bb16C404D10f",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Stader",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x30D20208d987713f46DFD34EF128Bb16C404D10f",
+    "auditReports": [
+      "Stader - Sigma Prime - ETHx staking audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/stader-labs/ethx",
+    "blockNumber": "14020088.0",
+    "blockIssueDate": "2022-01-17"
+  },
+  {
+    "name": "SymbioticDefaultCollateral",
+    "description": "Symbiotic wstETH collateral vault",
+    "contractType": "Proxy",
+    "contractAddress": "0xC329400492c6ff2438472D4651Ad17389fCb843a",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Symbiotic",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xC329400492c6ff2438472D4651Ad17389fCb843a",
+    "auditReports": [
+      "Symbiotic - Spearbit - V1 vault audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Restaking",
+    "githubUrl": "https://github.com/symbioticfi/core",
+    "blockNumber": "20011341.0",
+    "blockIssueDate": "2024-06-03"
+  },
+  {
+    "name": "TORN",
+    "description": "Tornado Cash governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x77777FeDdddFfC19Ff86DB637967013e6C6A116C",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Tornado Cash",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x77777FeDdddFfC19Ff86DB637967013e6C6A116C",
+    "auditReports": [
+      "Tornado Cash - ABDK Consulting - core protocol audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/tornadocash",
+    "blockNumber": "11474599.0",
+    "blockIssueDate": "2020-12-18"
+  },
+  {
+    "name": "TornadoCashETH100",
+    "description": "Tornado Cash 100 ETH pool",
+    "contractType": "Proxy",
+    "contractAddress": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Tornado Cash",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "auditReports": [
+      "Tornado Cash - ABDK Consulting - core protocol audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Privacy Protocol",
+    "githubUrl": "https://github.com/tornadocash",
+    "blockNumber": "9161895.0",
+    "blockIssueDate": "2019-12-25"
+  },
+  {
+    "name": "GnosisConditionalTokens",
+    "description": "Conditional tokens framework (used by Polymarket)",
+    "contractType": "ERC-1155 Multi",
+    "contractAddress": "0x4D97DCd97eC945f40cF65F87097ACe5EA0476045",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Polymarket",
+    "chain": "Polygon",
+    "explorerUrl": "https://polygonscan.com/address/0x4D97DCd97eC945f40cF65F87097ACe5EA0476045",
+    "auditReports": [
+      "Polymarket - OpenZeppelin - CTF exchange audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Prediction Markets",
+    "githubUrl": "https://github.com/gnosis/conditional-tokens-contracts",
+    "blockNumber": "4023686.0",
+    "blockIssueDate": "2020-09-03"
+  },
+  {
+    "name": "GRT",
+    "description": "The Graph protocol token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "The Graph",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
+    "auditReports": [
+      "The Graph - OpenZeppelin - staking core audit"
+    ],
+    "licenses": [
+      "GPL 2.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/graphprotocol/contracts",
+    "blockNumber": "11446769.0",
+    "blockIssueDate": "2020-12-13"
+  },
+  {
+    "name": "PythOracle",
+    "description": "Pyth cross-chain oracle contract",
+    "contractType": "Proxy",
+    "contractAddress": "0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Pyth Network",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x4305FB66699C3B2702D4d05CF36551390A4c69C6",
+    "auditReports": [
+      "Pyth Network - OtterSec - EVM oracle audit"
+    ],
+    "licenses": [
+      "Apache 2.0"
+    ],
+    "relatedTopics": "Price Oracle",
+    "githubUrl": "https://github.com/pyth-network/pyth-crosschain",
+    "blockNumber": "15502058.0",
+    "blockIssueDate": "2022-09-09"
+  },
+  {
+    "name": "GEAR",
+    "description": "Gearbox governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xBa3335588D9403515223F109EdC4eB7269a9Ab5D",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Gearbox Protocol",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xBa3335588D9403515223F109EdC4eB7269a9Ab5D",
+    "auditReports": [
+      "Gearbox Protocol - ChainSecurity - V3 credit audit"
+    ],
+    "licenses": [
+      "GPL 2.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/Gearbox-protocol",
+    "blockNumber": "13810899.0",
+    "blockIssueDate": "2021-12-15"
+  },
+  {
+    "name": "GTC",
+    "description": "Gitcoin governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xDe30da39c46104798bB5aA3fe8B9e0e1F348163F",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Gitcoin",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xDe30da39c46104798bB5aA3fe8B9e0e1F348163F",
+    "auditReports": [
+      "Gitcoin - ConsenSys Diligence - GTC token distribution audit"
+    ],
+    "licenses": [
+      "AGPL 3.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/gitcoinco",
+    "blockNumber": "12422079.0",
+    "blockIssueDate": "2021-05-12"
+  },
+  {
+    "name": "RDNT",
+    "description": "Radiant Capital governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x3082CC23568eA640225c2467653dB90e9250AaA0",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Radiant Capital",
+    "chain": "Arbitrum",
+    "explorerUrl": "https://arbiscan.io/address/0x3082CC23568eA640225c2467653dB90e9250AaA0",
+    "auditReports": [
+      "Radiant Capital - PeckShield - V1 lending audit",
+      "Radiant Capital - Zokyo - V2 lending audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/radiant-capital",
+    "blockNumber": "69313622.0",
+    "blockIssueDate": "2023-03-13"
+  },
+  {
+    "name": "TraderJoeLBFactory",
+    "description": "Liquidity Book V2.1 factory",
+    "contractType": "Proxy",
+    "contractAddress": "0x8e42f2F4101563bF679975178e880FD87d3eFd4e",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Trader Joe",
+    "chain": "Avalanche",
+    "explorerUrl": "https://snowtrace.io/address/0x8e42f2F4101563bF679975178e880FD87d3eFd4e",
+    "auditReports": [
+      "Trader Joe - Code4rena - V2 Liquidity Book audit",
+      "Trader Joe - Paladin - Liquidity Book V2 audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Decentralized Exchange",
+    "githubUrl": "https://github.com/traderjoe-xyz/joe-v2",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "JOE",
+    "description": "Trader Joe governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Trader Joe",
+    "chain": "Avalanche",
+    "explorerUrl": "https://snowtrace.io/address/0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd",
+    "auditReports": [
+      "Trader Joe - Code4rena - V2 Liquidity Book audit",
+      "Trader Joe - Paladin - Liquidity Book V2 audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/traderjoe-xyz/joe-v2",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "WELL",
+    "description": "Moonwell governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xA88594D404727625A9437C3f886C7643872296AE",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Moonwell",
+    "chain": "Base",
+    "explorerUrl": "https://basescan.org/address/0xA88594D404727625A9437C3f886C7643872296AE",
+    "auditReports": [
+      "Moonwell - Halborn - core lending audit"
+    ],
+    "licenses": [
+      "BSD 3-Clause"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/moonwell-fi",
+    "blockNumber": "8981602.0",
+    "blockIssueDate": "2024-01-08"
+  },
+  {
+    "name": "QuickSwapAlgebraFactory",
+    "description": "QuickSwap V3 (Algebra) factory",
+    "contractType": "Proxy",
+    "contractAddress": "0x411b0fAcC3489691f28ad58c47006AF5E3Ab3A28",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "QuickSwap",
+    "chain": "Polygon",
+    "explorerUrl": "https://polygonscan.com/address/0x411b0fAcC3489691f28ad58c47006AF5E3Ab3A28",
+    "auditReports": [
+      "QuickSwap - Omniscia - converter contract audit"
+    ],
+    "licenses": [
+      "GPL 2.0"
+    ],
+    "relatedTopics": "Decentralized Exchange",
+    "githubUrl": "https://github.com/QuickSwap",
+    "blockNumber": "32610688.0",
+    "blockIssueDate": "2022-09-02"
+  },
+  {
+    "name": "QUICK",
+    "description": "QuickSwap governance token (new)",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xB5C064F955D8e7F38fE0460C556a72987494eE17",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "QuickSwap",
+    "chain": "Polygon",
+    "explorerUrl": "https://polygonscan.com/address/0xB5C064F955D8e7F38fE0460C556a72987494eE17",
+    "auditReports": [
+      "QuickSwap - Omniscia - converter contract audit"
+    ],
+    "licenses": [
+      "GPL 2.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/QuickSwap",
+    "blockNumber": "27396690.0",
+    "blockIssueDate": "2022-04-21"
+  },
+  {
+    "name": "PanopticFactory",
+    "description": "Factory for Panoptic options pools",
+    "contractType": "Proxy",
+    "contractAddress": "0x000000007529F28b15bAfd60C2dAE8533C8De095",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Panoptic",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x000000007529F28b15bAfd60C2dAE8533C8De095",
+    "auditReports": [
+      "Panoptic - ABDK Consulting - V1 options audit",
+      "Panoptic - Code4rena - V1 options audit contest",
+      "Panoptic - OpenZeppelin - V1 options audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Options Trading",
+    "githubUrl": "https://github.com/panoptic-labs/panoptic-v1-core",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "PREMIA",
+    "description": "Premia governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x51fC0f6660482Ea73330E414eFd7808811a57Fa2",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Premia",
+    "chain": "Arbitrum",
+    "explorerUrl": "https://arbiscan.io/address/0x51fC0f6660482Ea73330E414eFd7808811a57Fa2",
+    "auditReports": [
+      "Premia - Hacken - V2 core audit",
+      "Premia - Sherlock - Knox Vaults audit contest"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/Premian-Labs/premia-contracts",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "FarcasterIdRegistry",
+    "description": "Farcaster identity registry",
+    "contractType": "Proxy",
+    "contractAddress": "0x00000000Fc6c5F01Fc30151999387Bb99A9f489b",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Farcaster",
+    "chain": "Optimism",
+    "explorerUrl": "https://optimistic.etherscan.io/address/0x00000000Fc6c5F01Fc30151999387Bb99A9f489b",
+    "auditReports": [
+      "Farcaster - Cyfrin - V1 core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Decentralized Social",
+    "githubUrl": "https://github.com/farcasterxyz/contracts",
+    "blockNumber": "111816351.0",
+    "blockIssueDate": "2023-11-06"
+  },
+  {
+    "name": "FarcasterKeyRegistry",
+    "description": "Farcaster signing key registry",
+    "contractType": "Proxy",
+    "contractAddress": "0x00000000Fc1237824fb747aBDE0FF18990E59b7e",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Farcaster",
+    "chain": "Optimism",
+    "explorerUrl": "https://optimistic.etherscan.io/address/0x00000000Fc1237824fb747aBDE0FF18990E59b7e",
+    "auditReports": [
+      "Farcaster - Cyfrin - V1 core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Decentralized Social",
+    "githubUrl": "https://github.com/farcasterxyz/contracts",
+    "blockNumber": "111816359.0",
+    "blockIssueDate": "2023-11-06"
+  },
+  {
+    "name": "LensHub",
+    "description": "Lens Protocol core hub (proxy)",
+    "contractType": "Proxy",
+    "contractAddress": "0xDb46d1Dc155634FbC732f92E853b10B288AD5a1d",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Lens Protocol",
+    "chain": "Polygon",
+    "explorerUrl": "https://polygonscan.com/address/0xDb46d1Dc155634FbC732f92E853b10B288AD5a1d",
+    "auditReports": [
+      "Lens Protocol - PeckShield - V1 core audit",
+      "Lens Protocol - Code4rena - V2 audit contest"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Decentralized Social",
+    "githubUrl": "https://github.com/lens-protocol/core",
+    "blockNumber": "28384641.0",
+    "blockIssueDate": "2022-05-16"
+  },
+  {
+    "name": "CrocSwapDex",
+    "description": "Ambient Finance singleton DEX",
+    "contractType": "Proxy",
+    "contractAddress": "0xAaAaAAAaA24eEeb8d57D431224f73832bC34f688",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Ambient Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xAaAaAAAaA24eEeb8d57D431224f73832bC34f688",
+    "auditReports": [
+      "Ambient Finance - Zellic - on-chain funding audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Decentralized Exchange",
+    "githubUrl": "https://github.com/CrocSwap/CrocSwap-protocol",
+    "blockNumber": "17361664.0",
+    "blockIssueDate": "2023-05-29"
+  },
+  {
+    "name": "AJNA",
+    "description": "Ajna governance/grant token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x9a96ec9B57Fb64FbC60B423d1f4da7691Bd35079",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Ajna",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x9a96ec9B57Fb64FbC60B423d1f4da7691Bd35079",
+    "auditReports": [
+      "Ajna - Quantstamp - V1 lending audit",
+      "Ajna - Sherlock - V1 lending audit contest",
+      "Ajna - Trail of Bits - V1 core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/ajna-finance/ajna-core",
+    "blockNumber": "15478977.0",
+    "blockIssueDate": "2022-09-05"
+  },
+  {
+    "name": "SILO",
+    "description": "Silo Finance governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x6f80310CA7F2C654691D1383149Fa1A57d8AB1f8",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Silo Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x6f80310CA7F2C654691D1383149Fa1A57d8AB1f8",
+    "auditReports": [
+      "Silo Finance - ABDK Consulting - V1 lending audit",
+      "Silo Finance - Quantstamp - V1 lending audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/silo-finance/silo-core-v1",
+    "blockNumber": "13716347.0",
+    "blockIssueDate": "2021-11-30"
+  },
+  {
+    "name": "SEAM",
+    "description": "Seamless Protocol governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Seamless Protocol",
+    "chain": "Base",
+    "explorerUrl": "https://basescan.org/address/0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85",
+    "auditReports": [
+      "Seamless Protocol - Inherited Aave V3 audits"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/seamless-protocol",
+    "blockNumber": "5842016.0",
+    "blockIssueDate": "2023-10-28"
+  },
+  {
+    "name": "DPX",
+    "description": "Dopex governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Dopex",
+    "chain": "Arbitrum",
+    "explorerUrl": "https://arbiscan.io/address/0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55",
+    "auditReports": [
+      "Dopex - Solidified - V1 core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/dopex-io/dopex-v2-clamm",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "LYRA",
+    "description": "Lyra governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x01BA67AAC7f75f647D94220Cc98FB30FCc5105bf",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Lyra",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x01BA67AAC7f75f647D94220Cc98FB30FCc5105bf",
+    "auditReports": [
+      "Lyra - Halborn - V1 smart contract audit"
+    ],
+    "licenses": [
+      "ISC"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/lyra-finance/lyra-protocol",
+    "blockNumber": "12745435.0",
+    "blockIssueDate": "2021-07-02"
+  },
+  {
+    "name": "KWENTA",
+    "description": "Kwenta governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x920Cf626a271321C151D027030D5d08aF699456b",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Kwenta",
+    "chain": "Optimism",
+    "explorerUrl": "https://optimistic.etherscan.io/address/0x920Cf626a271321C151D027030D5d08aF699456b",
+    "auditReports": [
+      "Kwenta - iosiro - token smart contract audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/Kwenta/token",
+    "blockNumber": "36487225.0",
+    "blockIssueDate": "2022-11-09"
+  },
+  {
+    "name": "MCB",
+    "description": "MUX Protocol governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x4e352cF164E64ADCBad318C3a1e222E9EBa4Ce42",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "MUX Protocol",
+    "chain": "Arbitrum",
+    "explorerUrl": "https://arbiscan.io/address/0x4e352cF164E64ADCBad318C3a1e222E9EBa4Ce42",
+    "auditReports": [
+      "MUX Protocol - OpenZeppelin - Mai Protocol audit",
+      "MUX Protocol - Quantstamp - core protocol audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/mux-world/mux-protocol",
+    "blockNumber": "3840.0",
+    "blockIssueDate": "2021-06-17"
+  },
+  {
+    "name": "LVL",
+    "description": "Level Finance governance token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xB64E280e9D1B5DbEc4AcceDb2257A87b400DB149",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Level Finance",
+    "chain": "BNB Chain",
+    "explorerUrl": "https://bscscan.com/address/0xB64E280e9D1B5DbEc4AcceDb2257A87b400DB149",
+    "auditReports": [
+      "Level Finance - Obelisk Auditing - core contracts audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/level-fi",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "HoprToken",
+    "description": "HOPR network privacy token",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xF5581dFeFD8Fb0e4aeC526bE659CFaB1f8c781dA",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "HOPR",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xF5581dFeFD8Fb0e4aeC526bE659CFaB1f8c781dA",
+    "auditReports": [
+      "HOPR - ChainSecurity - token contract audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Privacy Protocol",
+    "githubUrl": "https://github.com/hoprnet/hoprnet",
+    "blockNumber": "11887223.0",
+    "blockIssueDate": "2021-02-19"
+  },
+  {
+    "name": "JustLendUnitroller",
+    "description": "JustLend Comptroller proxy on TRON",
+    "contractType": "Proxy",
+    "contractAddress": "TGjYzgCyPobsNS9n6WcbdLVR9dH7mWqFx7",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "JustLend",
+    "chain": "TRON",
+    "explorerUrl": "https://tronscan.org/#/contract/TGjYzgCyPobsNS9n6WcbdLVR9dH7mWqFx7",
+    "auditReports": [
+      "JustLend - SlowMist - DAO core audit"
+    ],
+    "licenses": [
+      "BSD 3-Clause"
+    ],
+    "relatedTopics": "Decentralized Lending",
+    "githubUrl": "https://github.com/justlend/justlend-protocol",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "PoolAddressesProvider",
+    "description": "Registry of Spark Lend market addresses and configuration",
+    "contractType": "Proxy",
+    "contractAddress": "0x02C3eA4e34C0cBd694D2adFa2c690EECbC1793eE",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Spark Protocol",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x02C3eA4e34C0cBd694D2adFa2c690EECbC1793eE",
+    "auditReports": [
+      "Spark Protocol - ChainSecurity - lending core audit"
+    ],
+    "licenses": [
+      "AGPL 3.0"
+    ],
+    "relatedTopics": "Protocol Registry",
+    "githubUrl": "https://github.com/marsfoundation/sparklend",
+    "blockNumber": "16776389.0",
+    "blockIssueDate": "2023-03-07"
+  },
+  {
+    "name": "Pool (SparkLend)",
+    "description": "Core lending pool handling deposits, borrows, liquidations, and flash loans",
+    "contractType": "Proxy",
+    "contractAddress": "0xC13e21B648A5Ee794902342038FF3aDAB66BE987",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Spark Protocol",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xC13e21B648A5Ee794902342038FF3aDAB66BE987",
+    "auditReports": [
+      "Spark Protocol - ChainSecurity - lending core audit"
+    ],
+    "licenses": [
+      "AGPL 3.0"
+    ],
+    "relatedTopics": "Decentralized Lending",
+    "githubUrl": "https://github.com/marsfoundation/sparklend",
+    "blockNumber": "16776401.0",
+    "blockIssueDate": "2023-03-07"
+  },
+  {
+    "name": "InstaIndex",
+    "description": "Master registry and factory for creating Instadapp DeFi Smart Accounts (DSA)",
+    "contractType": "Proxy",
+    "contractAddress": "0x2971AdFa57b20E5a416aE5a708A8655A9c74f723",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Instadapp",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x2971AdFa57b20E5a416aE5a708A8655A9c74f723",
+    "auditReports": [
+      "Instadapp - OpenZeppelin - core wallet audit",
+      "Instadapp - PeckShield - DSA V2 audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "DeFi Smart Account",
+    "githubUrl": "https://github.com/Instadapp/dsa-contracts",
+    "blockNumber": "9747241.0",
+    "blockIssueDate": "2020-03-26"
+  },
+  {
+    "name": "InstaAccountV2",
+    "description": "Implementation contract for DSA v2; delegatecall-based multi-protocol access",
+    "contractType": "Proxy",
+    "contractAddress": "0xFE02a32Cbe0CB9ad9A945576A5bb53A3C123A3a3",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Instadapp",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xFE02a32Cbe0CB9ad9A945576A5bb53A3C123A3a3",
+    "auditReports": [
+      "Instadapp - OpenZeppelin - core wallet audit",
+      "Instadapp - PeckShield - DSA V2 audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "DeFi Smart Account",
+    "githubUrl": "https://github.com/Instadapp/dsa-contracts",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "Comptroller (Benqi)",
+    "description": "Core risk management and market controller for Benqi Lending (Compound fork)",
+    "contractType": "Proxy",
+    "contractAddress": "0x486Af39519B4Dc9a7fCcd318217352830E8AD9b4",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Benqi",
+    "chain": "Avalanche",
+    "explorerUrl": "https://snowtrace.io/address/0x486Af39519B4Dc9a7fCcd318217352830E8AD9b4",
+    "auditReports": [
+      "Benqi - Halborn - lending protocol audit",
+      "Benqi - Quantstamp - lending protocol audit"
+    ],
+    "licenses": [
+      "BSD 3-Clause"
+    ],
+    "relatedTopics": "Decentralized Lending",
+    "githubUrl": "https://github.com/Benqi-fi/BENQI-Smart-Contracts",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "sAVAX",
+    "description": "Liquid staking token for AVAX with exchange rate appreciation",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Benqi",
+    "chain": "Avalanche",
+    "explorerUrl": "https://snowtrace.io/address/0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE",
+    "auditReports": [
+      "Benqi - Halborn - lending protocol audit",
+      "Benqi - Quantstamp - lending protocol audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Liquid Staking",
+    "githubUrl": "https://github.com/Benqi-fi/BENQI-Smart-Contracts",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "Router (Stargate)",
+    "description": "Core router for cross-chain token swaps via LayerZero messaging",
+    "contractType": "Proxy",
+    "contractAddress": "0x8731d54E9D02c286767d56ac03e8037C07e01e98",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Stargate Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x8731d54E9D02c286767d56ac03e8037C07e01e98",
+    "auditReports": [
+      "Stargate Finance - Quantstamp - V2 bridge audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Cross-Chain Bridge",
+    "githubUrl": "https://github.com/stargate-protocol/stargate",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "StargateToken (STG)",
+    "description": "STG ERC-20 governance token with LayerZero OFT capabilities",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Stargate Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6",
+    "auditReports": [
+      "Stargate Finance - Quantstamp - V2 bridge audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/stargate-protocol/stargate",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "AuraBooster",
+    "description": "Main deposit contract handling deposits into Balancer gauges and reward distribution",
+    "contractType": "Proxy",
+    "contractAddress": "0xA57b8d98dAE62B26Ec3bcC4a365338157060B234",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Aura Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xA57b8d98dAE62B26Ec3bcC4a365338157060B234",
+    "auditReports": [
+      "Aura Finance - Halborn - core protocol audit",
+      "Aura Finance - PeckShield - core protocol audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Yield Aggregator",
+    "githubUrl": "https://github.com/aurafinance/aura-contracts",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "AuraLocker (vlAURA)",
+    "description": "Vote-locking contract for AURA tokens (16-week lock for voting power)",
+    "contractType": "Governance",
+    "contractAddress": "0x3Fa73f1E5d8A792C80F426fc8F84FBF7Ce9bBCAC",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Aura Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x3Fa73f1E5d8A792C80F426fc8F84FBF7Ce9bBCAC",
+    "auditReports": [
+      "Aura Finance - Halborn - core protocol audit",
+      "Aura Finance - PeckShield - core protocol audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Vote Escrow",
+    "githubUrl": "https://github.com/aurafinance/aura-contracts",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "CellarV2",
+    "description": "Core ERC-4626 vault executing DeFi strategies validated via Sommelier Cosmos chain governance",
+    "contractType": "Proxy",
+    "contractAddress": "0x7bAD5DF5E11151Dc5Ee1a569DAD2E1a7e9Ca3eE1",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Sommelier",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x7bAD5DF5E11151Dc5Ee1a569DAD2E1a7e9Ca3eE1",
+    "auditReports": [
+      "Sommelier - Macro Security - cellar vaults audit"
+    ],
+    "licenses": [
+      "Apache 2.0"
+    ],
+    "relatedTopics": "Yield Vault",
+    "githubUrl": "https://github.com/PeggyJV/cellar-contracts",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "CellarRouter",
+    "description": "Peripheral router for deposits/withdrawals into Cellar vaults with swap support",
+    "contractType": "Proxy",
+    "contractAddress": "0x4dF3D0b7d160345c1a3BEa57A4B1a04bFcae2970",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Sommelier",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x4dF3D0b7d160345c1a3BEa57A4B1a04bFcae2970",
+    "auditReports": [
+      "Sommelier - Macro Security - cellar vaults audit"
+    ],
+    "licenses": [
+      "Apache 2.0"
+    ],
+    "relatedTopics": "Yield Vault",
+    "githubUrl": "https://github.com/PeggyJV/cellar-contracts",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "GPv2Settlement",
+    "description": "Core settlement contract executing batch auctions for MEV-protected swaps",
+    "contractType": "Proxy",
+    "contractAddress": "0x9008D19f58AAbD9eD0D60971565AA8510560ab41",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "CoW Protocol",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x9008D19f58AAbD9eD0D60971565AA8510560ab41",
+    "auditReports": [
+      "CoW Protocol - G0 Group - settlement audit"
+    ],
+    "licenses": [
+      "LGPL"
+    ],
+    "relatedTopics": "Batch Auction DEX",
+    "githubUrl": "https://github.com/cowprotocol/contracts",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "GPv2VaultRelayer",
+    "description": "Relayer transferring tokens on behalf of users; users approve this contract",
+    "contractType": "Proxy",
+    "contractAddress": "0xC92E8bdf79f0507f65a392b0ab4667716BFE0110",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "CoW Protocol",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xC92E8bdf79f0507f65a392b0ab4667716BFE0110",
+    "auditReports": [
+      "CoW Protocol - G0 Group - settlement audit"
+    ],
+    "licenses": [
+      "LGPL"
+    ],
+    "relatedTopics": "Batch Auction DEX",
+    "githubUrl": "https://github.com/cowprotocol/contracts",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "BeefyVaultV7",
+    "description": "Standard auto-compounding vault; users deposit LP tokens and receive mooTokens",
+    "contractType": "Proxy",
+    "contractAddress": "0x18618f543b3c4ba5d98a151253005e5365b0929c",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Beefy Finance",
+    "chain": "BNB Chain",
+    "explorerUrl": "https://bscscan.com/address/0x18618f543b3c4ba5d98a151253005e5365b0929c",
+    "auditReports": [
+      "Beefy Finance - CertiK - vault strategy audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Yield Aggregator",
+    "githubUrl": "https://github.com/beefyfinance/beefy-contracts",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "BIFI Token",
+    "description": "BIFI governance token for Beefy Finance; used for staking and revenue sharing",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xCa3F508B8e4Dd382eE878A314789373D80A5190A",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Beefy Finance",
+    "chain": "BNB Chain",
+    "explorerUrl": "https://bscscan.com/address/0xCa3F508B8e4Dd382eE878A314789373D80A5190A",
+    "auditReports": [
+      "Beefy Finance - CertiK - vault strategy audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/beefyfinance/beefy-contracts",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "AlchemistV2",
+    "description": "Core lending engine for self-repaying loans; users mint alUSD/alETH against yield-bearing collateral",
+    "contractType": "Proxy",
+    "contractAddress": "0x5C6374a2ac4EBC38DeA0Fc1F8716e5Ea1AdD94dd",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Alchemix",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x5C6374a2ac4EBC38DeA0Fc1F8716e5Ea1AdD94dd",
+    "auditReports": [
+      "Alchemix - Runtime Verification - V2 core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Self-Repaying Loans",
+    "githubUrl": "https://github.com/alchemix-finance/v2-foundry",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "TransmuterV2",
+    "description": "Converts alTokens back to underlying assets over time using protocol yield",
+    "contractType": "Proxy",
+    "contractAddress": "0xAD2A6C1C6025bE8C703930dCd921a2Fa25220298",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Alchemix",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xAD2A6C1C6025bE8C703930dCd921a2Fa25220298",
+    "auditReports": [
+      "Alchemix - Runtime Verification - V2 core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Self-Repaying Loans",
+    "githubUrl": "https://github.com/alchemix-finance/v2-foundry",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "CauldronV4",
+    "description": "Isolated lending market (Kashi-fork) for borrowing MIM against interest-bearing collateral",
+    "contractType": "Proxy",
+    "contractAddress": "0x207763511da879a900973a5e092382117c3c1588",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Abracadabra Money",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x207763511da879a900973a5e092382117c3c1588",
+    "auditReports": [
+      "Abracadabra Money - Guardian Audits - CauldronV4 audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Decentralized Lending",
+    "githubUrl": "https://github.com/Abracadabra-money/abracadabra-money-contracts",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "MagicInternetMoney (MIM)",
+    "description": "USD-pegged stablecoin minted via Cauldron borrowing",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x99D8a9C45b2ecA8864373A26D1459e3Dff1e17F3",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Abracadabra Money",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x99D8a9C45b2ecA8864373A26D1459e3Dff1e17F3",
+    "auditReports": [
+      "Abracadabra Money - Guardian Audits - CauldronV4 audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Stablecoin",
+    "githubUrl": "https://github.com/Abracadabra-money/abracadabra-money-contracts",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "RibbonThetaVault",
+    "description": "Automated options vault selling weekly covered calls/puts for yield generation",
+    "contractType": "Proxy",
+    "contractAddress": "0x25751853Eab4D0eB3652B5eB6ecB102A2789644B",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Ribbon Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x25751853Eab4D0eB3652B5eB6ecB102A2789644B",
+    "auditReports": [
+      "Ribbon Finance - OpenZeppelin - V2 vaults audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Options Trading",
+    "githubUrl": "https://github.com/ribbon-finance/ribbon-v2",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "RBN Token",
+    "description": "Governance token for Ribbon Finance; stakeable as veRBN for gauge voting",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x6123B0049F904d730dB3C36a31167D9d4121fA6B",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Ribbon Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x6123B0049F904d730dB3C36a31167D9d4121fA6B",
+    "auditReports": [
+      "Ribbon Finance - OpenZeppelin - V2 vaults audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/ribbon-finance/governance",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "NotionalV2Router",
+    "description": "Main proxy for Notional V2 fixed-rate lending/borrowing, fCash markets, and nToken minting",
+    "contractType": "Proxy",
+    "contractAddress": "0x1344A36A1B56144C3Bc62E7757377D288fDE0369",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Notional Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x1344A36A1B56144C3Bc62E7757377D288fDE0369",
+    "auditReports": [
+      "Notional Finance - Sherlock - V3 core audit"
+    ],
+    "licenses": [
+      "AGPL 3.0"
+    ],
+    "relatedTopics": "Fixed-Rate Lending",
+    "githubUrl": "https://github.com/notional-finance/contracts-v2",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "NoteERC20",
+    "description": "NOTE governance token for Notional Finance DAO",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xCFEAead4947f0705A14ec42aC3D44129E1Ef3eD5",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Notional Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xCFEAead4947f0705A14ec42aC3D44129E1Ef3eD5",
+    "auditReports": [
+      "Notional Finance - Sherlock - V3 core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance Token",
+    "githubUrl": "https://github.com/notional-finance/contracts-v2",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "SeniorPool",
+    "description": "Senior tranche pool providing diversified lending across Goldfinch borrower pools",
+    "contractType": "Proxy",
+    "contractAddress": "0x8481a6EbAf5c7DABc3F7e09e44A89531fd31F822",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Goldfinch",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x8481a6EbAf5c7DABc3F7e09e44A89531fd31F822",
+    "auditReports": [
+      "Goldfinch - Trail of Bits - V2 lending audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Real World Assets",
+    "githubUrl": "https://github.com/goldfinch-eng/mono",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "GoldfinchFactory",
+    "description": "Factory for deploying new borrower pools with junior/senior tranches",
+    "contractType": "Proxy",
+    "contractAddress": "0xd20508E1E971b80EE172c73517905bfFfcBD87f9",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Goldfinch",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xd20508E1E971b80EE172c73517905bfFfcBD87f9",
+    "auditReports": [
+      "Goldfinch - Trail of Bits - V2 lending audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Real World Assets",
+    "githubUrl": "https://github.com/goldfinch-eng/mono",
+    "blockNumber": "16920051.0",
+    "blockIssueDate": "2023-03-27"
+  },
+  {
+    "name": "TrueFiPool2",
+    "description": "Stablecoin lending pool where lenders receive tfTokens for uncollateralized lending",
+    "contractType": "Proxy",
+    "contractAddress": "0xA991356d261fbaF194463aF6DF8f0464F8f1c742",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "TrueFi",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xA991356d261fbaF194463aF6DF8f0464F8f1c742",
+    "auditReports": [
+      "TrueFi - ChainSecurity - Portfolio Debt Token audit",
+      "TrueFi - EthWorks - V2 core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Decentralized Lending",
+    "githubUrl": "https://github.com/trusttoken/contracts-pre22",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "TRU Token",
+    "description": "TRU governance token for staking and loan approval voting",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "TrueFi",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784",
+    "auditReports": [
+      "TrueFi - ChainSecurity - Portfolio Debt Token audit",
+      "TrueFi - EthWorks - V2 core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/trusttoken/contracts-pre22",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "AugustusSwapper",
+    "description": "Main DEX aggregator proxy routing swaps through optimal paths across DEXs",
+    "contractType": "Proxy",
+    "contractAddress": "0xDEF171Fe48CF0115B1d80b88dc8eAB59176FEe57",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Paraswap",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xDEF171Fe48CF0115B1d80b88dc8eAB59176FEe57",
+    "auditReports": [
+      "Paraswap - Pessimistic - Augustus V5 audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "DEX Aggregator",
+    "githubUrl": "https://github.com/paraswap/augustus-v5",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "TokenTransferProxy (Paraswap)",
+    "description": "Handles token approvals/transfers on behalf of AugustusSwapper",
+    "contractType": "Proxy",
+    "contractAddress": "0x216B4B4Ba9F3e719726886d34a177484278Bfcae",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Paraswap",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x216B4B4Ba9F3e719726886d34a177484278Bfcae",
+    "auditReports": [
+      "Paraswap - Pessimistic - Augustus V5 audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "DEX Aggregator",
+    "githubUrl": "https://github.com/paraswap/augustus-v5",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "Controller (Harvest)",
+    "description": "Central controller managing vault-to-strategy mappings for yield farming",
+    "contractType": "Proxy",
+    "contractAddress": "0x222412af183BCeAdEFd72e4Cb1b71f1889953b1C",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Harvest Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x222412af183BCeAdEFd72e4Cb1b71f1889953b1C",
+    "auditReports": [
+      "Harvest Finance - Haechi Labs - core strategy audit",
+      "Harvest Finance - PeckShield - core strategy audit"
+    ],
+    "licenses": [
+      "Proprietary"
+    ],
+    "relatedTopics": "Yield Aggregator",
+    "githubUrl": "https://github.com/harvest-finance/harvest",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "FARM Token",
+    "description": "FARM governance and reward token for Harvest Finance",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xa0246c9032bC3A600820415aE600c6388619A14D",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Harvest Finance",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xa0246c9032bC3A600820415aE600c6388619A14D",
+    "auditReports": [
+      "Harvest Finance - Haechi Labs - core strategy audit",
+      "Harvest Finance - PeckShield - core strategy audit"
+    ],
+    "licenses": [
+      "Proprietary"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/harvest-finance/harvest",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "BadgerToken",
+    "description": "Governance token for Badger DAO (Bitcoin-focused DeFi)",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x3472A5A71965499acd81997a54BBA8D852C6E53d",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Badger DAO",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x3472A5A71965499acd81997a54BBA8D852C6E53d",
+    "auditReports": [
+      "Badger DAO - Haechi Labs - V1 vaults audit",
+      "Badger DAO - Zokyo - V1 core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/Badger-Finance/badger-system",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "Sett (renBTC Vault)",
+    "description": "Bitcoin-focused yield vault auto-compounding rewards for BTC-pegged assets",
+    "contractType": "Proxy",
+    "contractAddress": "0x6dEf55d2e18486B9dDfaA075bc4e4EE0B28c1545",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Badger DAO",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x6dEf55d2e18486B9dDfaA075bc4e4EE0B28c1545",
+    "auditReports": [
+      "Badger DAO - Haechi Labs - V1 vaults audit",
+      "Badger DAO - Zokyo - V1 core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Yield Aggregator",
+    "githubUrl": "https://github.com/Badger-Finance/badger-system",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "AgToken (agEUR)",
+    "description": "Euro-pegged stablecoin token minted by Angle Protocol",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Angle Protocol",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
+    "auditReports": [
+      "Angle Protocol - Code4rena - Transmuter audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Stablecoin",
+    "githubUrl": "https://github.com/AngleProtocol/angle-core",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "StableMaster",
+    "description": "Core contract managing agEUR minting, collateral, and hedging agents",
+    "contractType": "Proxy",
+    "contractAddress": "0x5adDc89785D75C86aB939E9e15bfBBb7Fc086A87",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Angle Protocol",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x5adDc89785D75C86aB939E9e15bfBBb7Fc086A87",
+    "auditReports": [
+      "Angle Protocol - Code4rena - Transmuter audit"
+    ],
+    "licenses": [
+      "GPL 3.0"
+    ],
+    "relatedTopics": "Stablecoin",
+    "githubUrl": "https://github.com/AngleProtocol/angle-core",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "RSR Token",
+    "description": "RSR governance/insurance token for Reserve Protocol RToken staking",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Reserve Protocol",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
+    "auditReports": [
+      "Reserve Protocol - Trail of Bits - V3 core audit"
+    ],
+    "licenses": [
+      "BlueOak-1.0.0"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/reserve-protocol/protocol",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "Deployer (RToken Factory)",
+    "description": "Factory contract for deploying new RToken instances with custom collateral baskets",
+    "contractType": "Proxy",
+    "contractAddress": "0xa4e581a0954952bec17201cf082380c95d8d644f",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Reserve Protocol",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xa4e581a0954952bec17201cf082380c95d8d644f",
+    "auditReports": [
+      "Reserve Protocol - Trail of Bits - V3 core audit"
+    ],
+    "licenses": [
+      "BlueOak-1.0.0"
+    ],
+    "relatedTopics": "Stablecoin",
+    "githubUrl": "https://github.com/reserve-protocol/protocol",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "USUAL Token",
+    "description": "Governance token for Usual Protocol distributing protocol ownership",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xC4441c2BE5d8fA8126822B9929CA0b81Ea0DE38E",
+    "isUpgradeable": false,
+    "isVerified": true,
+    "isProxy": false,
+    "protocol": "Usual Protocol",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xC4441c2BE5d8fA8126822B9929CA0b81Ea0DE38E",
+    "auditReports": [
+      "Usual Protocol - Halborn - USD0 core audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Governance token",
+    "githubUrl": "https://github.com/usual-dao/usual-protocol",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "METH Token",
+    "description": "Liquid staking token for ETH on Mantle; exchange rate appreciation model",
+    "contractType": "ERC-20 Token",
+    "contractAddress": "0xd5F7838F5C461fefF7FE49ea5ebaF7728bB0ADfa",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Mantle mETH",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xd5F7838F5C461fefF7FE49ea5ebaF7728bB0ADfa",
+    "auditReports": [
+      "Mantle mETH - Halborn - staking core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Liquid staking",
+    "githubUrl": "https://github.com/mantle-lsp/contracts",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "Staking (mETH)",
+    "description": "Core staking manager handling ETH deposits and mETH minting",
+    "contractType": "Proxy",
+    "contractAddress": "0xe3cBd06D7dadB3F4e6557bAb7EdD924CD1489E8f",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "Mantle mETH",
+    "chain": "Ethereum",
+    "explorerUrl": "https://etherscan.io/address/0xe3cBd06D7dadB3F4e6557bAb7EdD924CD1489E8f",
+    "auditReports": [
+      "Mantle mETH - Halborn - staking core audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Liquid staking",
+    "githubUrl": "https://github.com/mantle-lsp/contracts",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "SynFuturesV3",
+    "description": "Decentralized perpetual futures exchange with concentrated liquidity AMM (oyster AMM)",
+    "contractType": "Proxy",
+    "contractAddress": "0x6A372dBc1968f4a07cf2ce352f410962A972c257",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "SynFutures",
+    "chain": "Blast",
+    "explorerUrl": "https://blastscan.io/address/0x6A372dBc1968f4a07cf2ce352f410962A972c257",
+    "auditReports": [
+      "SynFutures - PeckShield - V2 core audit",
+      "SynFutures - Quantstamp - V3 Oyster AMM audit"
+    ],
+    "licenses": [
+      "BSL"
+    ],
+    "relatedTopics": "Derivatives",
+    "githubUrl": "https://github.com/SynFutures/oyster-sdk",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "HMXVaultStorage",
+    "description": "Core vault managing liquidity pool and trader margin for perpetual trading",
+    "contractType": "Proxy",
+    "contractAddress": "0x4307fbDCD9Ec7AEA5a1c2958deCaa6f316952bAb",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "HMX",
+    "chain": "Arbitrum",
+    "explorerUrl": "https://arbiscan.io/address/0x4307fbDCD9Ec7AEA5a1c2958deCaa6f316952bAb",
+    "auditReports": [
+      "HMX - Cantina - V2 perpetual DEX audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Derivatives",
+    "githubUrl": "https://github.com/HMXOrg/v2-evm",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  },
+  {
+    "name": "CrossMarginHandler",
+    "description": "Handles cross-margin position management and order execution for HMX",
+    "contractType": "Proxy",
+    "contractAddress": "0xB189532c581afB4Fbe69aF6dC3CD36769525d446",
+    "isUpgradeable": true,
+    "isVerified": true,
+    "isProxy": true,
+    "protocol": "HMX",
+    "chain": "Arbitrum",
+    "explorerUrl": "https://arbiscan.io/address/0xB189532c581afB4Fbe69aF6dC3CD36769525d446",
+    "auditReports": [
+      "HMX - Cantina - V2 perpetual DEX audit"
+    ],
+    "licenses": [
+      "MIT"
+    ],
+    "relatedTopics": "Derivatives",
+    "githubUrl": "https://github.com/HMXOrg/v2-evm",
+    "blockNumber": "",
+    "blockIssueDate": ""
+  }
+]

@@ -73,8 +73,8 @@ export const VIEWS = {
 
 // ─── API Configuration ───────────────────────────────────────────────────────
 
-export const API_URL = "https://testnet-api.geobrowser.io/graphql";
-export const RPC_URL = "https://rpc-geo-test-zc16z3tcvf.t.conduit.xyz";
+export const API_URL = process.env.API_URL ?? "https://testnet-api.geobrowser.io/graphql";
+export const RPC_URL = process.env.RPC_URL ?? "https://rpc-geo-test-zc16z3tcvf.t.conduit.xyz";
 
 // ─── Valid Data Types for Properties ─────────────────────────────────────────
 

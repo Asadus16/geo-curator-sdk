@@ -13,6 +13,7 @@ import * as fs from "fs";
 import type { BountyConfig } from "./src/config";
 import { buildOps } from "./src/engine";
 import { publishOps, saveOps, printOpsSummary } from "./src/client";
+import { validateDataFiles } from "./src/validate";
 
 const PRIVATE_KEY = process.env["PRIVATE_KEY"] as `0x${string}`;
 const SPACE_ID = process.env["SPACE_ID"] as string;
@@ -35,6 +36,27 @@ async function main() {
   console.log("═══════════════════════════════════════════════════════════════");
   console.log(`  Geo Curator SDK — ${config.name}`);
   console.log("═══════════════════════════════════════════════════════════════");
+
+  // Validate input data before building
+  console.log("\n  Validating input data...");
+  const validation = validateDataFiles(dataDir);
+
+  if (validation.warnings.length > 0) {
+    console.log(`\n  Warnings (${validation.warnings.length}):`);
+    for (const w of validation.warnings) {
+      console.log(`    ⚠ [${w.source}] ${w.name} → ${w.field}: ${w.message}`);
+    }
+  }
+
+  if (!validation.valid) {
+    console.error(`\n  Validation failed with ${validation.errors.length} error(s):`);
+    for (const e of validation.errors) {
+      console.error(`    ✗ [${e.source}] ${e.name} → ${e.field}: ${e.message}`);
+    }
+    process.exit(1);
+  }
+
+  console.log("  Validation passed.");
 
   // Build all ops from config + data
   const { ops, stats } = await buildOps(config, dataDir);

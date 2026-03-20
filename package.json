@@ -4,10 +4,11 @@
   "description": "Config-driven SDK for publishing any bounty data to the Geo knowledge graph.",
   "type": "module",
   "scripts": {
-    "publish":   "npx tsx --env-file=.env publish.ts",
-    "query":     "npx tsx --env-file=.env query.ts",
-    "delete":    "npx tsx --env-file=.env delete.ts",
-    "typecheck": "tsc --noEmit"
+    "publish": "npx tsx --env-file=.env publish.ts",
+    "query": "npx tsx --env-file=.env query.ts",
+    "delete": "npx tsx --env-file=.env delete.ts",
+    "typecheck": "tsc --noEmit",
+    "test":      "vitest run"
   },
   "dependencies": {
     "@geoprotocol/geo-sdk": "^0.13.0",
@@ -16,6 +17,7 @@
   "devDependencies": {
     "@types/node": "^25.2.3",
     "tsx": "^4.19.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
   }
 }
