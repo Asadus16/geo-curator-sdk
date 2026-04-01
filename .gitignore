@@ -4,3 +4,4 @@ dist/
 bun.lock
 data_to_delete/
 .DS_Store
+*.pdf
