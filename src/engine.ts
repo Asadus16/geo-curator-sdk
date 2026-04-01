@@ -478,7 +478,13 @@ function buildValues(
       continue;
     }
 
-    values.push({ property: propId, type: valueType, value: val });
+    if (valueType === "int64" || valueType === "float64") {
+      const num = Number(val);
+      if (isNaN(num) || val === "") continue; // skip invalid numbers
+      values.push({ property: propId, type: valueType, value: Math.floor(num) });
+    } else {
+      values.push({ property: propId, type: valueType, value: val });
+    }
   }
   return values;
 }

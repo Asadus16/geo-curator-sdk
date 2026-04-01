@@ -22,7 +22,9 @@ if (!PRIVATE_KEY) { console.error("Error: PRIVATE_KEY not set in .env"); process
 if (!SPACE_ID) { console.error("Error: SPACE_ID not set in .env"); process.exit(1); }
 
 // Load config (default: bounty.config.json, or pass custom path as arg)
-const configPath = process.argv[2] || "bounty.config.json";
+const dryRun = process.argv.includes("--dry-run");
+const configArg = process.argv.slice(2).find(arg => !arg.startsWith("--"));
+const configPath = configArg || "bounty.config.json";
 if (!fs.existsSync(configPath)) {
   console.error(`Error: Config file not found: ${configPath}`);
   console.error("Create a bounty.config.json or pass the path as an argument.");
@@ -82,6 +84,11 @@ async function main() {
 
   // Save ops for potential rollback
   saveOps(ops, "data_to_delete", "publish_ops.json");
+
+  if (dryRun) {
+    console.log("\n  Dry run complete. Ops saved to data_to_delete/publish_ops.json. No transaction sent.");
+    process.exit(0);
+  }
 
   // Publish
   console.log("\n  Publishing to the Geo knowledge graph...");

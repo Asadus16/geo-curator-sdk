@@ -32,7 +32,7 @@ export const ROOT_PROPERTIES = {
   types:            "8f151ba4de204e3c9cb499ddf96f48f1",
 
   // Common value properties
-  web_url:          "eed38e74e67946bf8a42ea3e4f8fb5fb",
+  web_url:          "412ff593e9154012a43d4c27ec5c68b6",
   birth_date:       "60f8b943d9a742109356fc108ee7212c",
   date_founded:     "41aa3d9847b64a97b7ec427e575b910e",
 

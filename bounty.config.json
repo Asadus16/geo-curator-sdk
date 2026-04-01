@@ -59,7 +59,9 @@
     }
   },
 
-  "enums": [],
+  "enums": [
+    { "id": "b4f9c2e1a3d847569e0f28c75b1a3e09", "name": "Competitive audit contest", "type": "auditType" }
+  ],
 
   "sources": {
     "protocols": {
