@@ -19,7 +19,7 @@
     ],
     "relatedTopics": "Protocol configuration",
     "githubUrl": "https://github.com/aave/aave-v3-core",
-    "blockNumber": "16291130.0",
+    "blockNumber": 16291130,
     "blockIssueDate": "2022-12-29"
   },
   {
@@ -42,7 +42,7 @@
     ],
     "relatedTopics": "Protocol registry",
     "githubUrl": "https://github.com/aave/aave-v3-core",
-    "blockNumber": "16291071.0",
+    "blockNumber": 16291071,
     "blockIssueDate": "2022-12-29"
   },
   {
@@ -65,7 +65,7 @@
     ],
     "relatedTopics": "Price oracle",
     "githubUrl": "https://github.com/aave/aave-v3-core",
-    "blockNumber": "16291123.0",
+    "blockNumber": 16291123,
     "blockIssueDate": "2022-12-29"
   },
   {
@@ -88,8 +88,8 @@
     ],
     "relatedTopics": "Access control",
     "githubUrl": "https://github.com/aave/aave-v3-core",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "LidoStETH",
@@ -111,7 +111,7 @@
     ],
     "relatedTopics": "Liquid staking",
     "githubUrl": "https://github.com/lidofinance/lido-dao",
-    "blockNumber": "11473216.0",
+    "blockNumber": 11473216,
     "blockIssueDate": "2020-12-17"
   },
   {
@@ -134,7 +134,7 @@
     ],
     "relatedTopics": "Liquid staking",
     "githubUrl": "https://github.com/lidofinance/lido-dao",
-    "blockNumber": "17172547.0",
+    "blockNumber": 17172547,
     "blockIssueDate": "2023-05-02"
   },
   {
@@ -157,7 +157,7 @@
     ],
     "relatedTopics": "Liquid staking",
     "githubUrl": "https://github.com/lidofinance/lido-dao",
-    "blockNumber": "11888477.0",
+    "blockNumber": 11888477,
     "blockIssueDate": "2021-02-19"
   },
   {
@@ -180,7 +180,7 @@
     ],
     "relatedTopics": "Liquid staking",
     "githubUrl": "https://github.com/lidofinance/lido-dao",
-    "blockNumber": "17172550.0",
+    "blockNumber": 17172550,
     "blockIssueDate": "2023-05-02"
   },
   {
@@ -203,7 +203,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/lidofinance/lido-dao",
-    "blockNumber": "11473216.0",
+    "blockNumber": 11473216,
     "blockIssueDate": "2020-12-17"
   },
   {
@@ -226,7 +226,7 @@
     ],
     "relatedTopics": "Decentralized exchange",
     "githubUrl": "https://github.com/Uniswap/v2-core",
-    "blockNumber": "10000835.0",
+    "blockNumber": 10000835,
     "blockIssueDate": "2020-05-04"
   },
   {
@@ -249,7 +249,7 @@
     ],
     "relatedTopics": "Decentralized exchange",
     "githubUrl": "https://github.com/Uniswap/v2-periphery",
-    "blockNumber": "10207858.0",
+    "blockNumber": 10207858,
     "blockIssueDate": "2020-06-05"
   },
   {
@@ -272,7 +272,7 @@
     ],
     "relatedTopics": "Decentralized exchange",
     "githubUrl": "https://github.com/Uniswap/v3-core",
-    "blockNumber": "12369621.0",
+    "blockNumber": 12369621,
     "blockIssueDate": "2021-05-04"
   },
   {
@@ -295,7 +295,7 @@
     ],
     "relatedTopics": "Decentralized exchange",
     "githubUrl": "https://github.com/Uniswap/swap-router-contracts",
-    "blockNumber": "13804681.0",
+    "blockNumber": 13804681,
     "blockIssueDate": "2021-12-14"
   },
   {
@@ -318,7 +318,7 @@
     ],
     "relatedTopics": "Liquidity management",
     "githubUrl": "https://github.com/Uniswap/v3-periphery",
-    "blockNumber": "12369651.0",
+    "blockNumber": 12369651,
     "blockIssueDate": "2021-05-04"
   },
   {
@@ -341,7 +341,7 @@
     ],
     "relatedTopics": "Decentralized exchange",
     "githubUrl": "https://github.com/Uniswap/v4-core",
-    "blockNumber": "21688329.0",
+    "blockNumber": 21688329,
     "blockIssueDate": "2025-01-23"
   },
   {
@@ -364,7 +364,7 @@
     ],
     "relatedTopics": "Restaking",
     "githubUrl": "https://github.com/Layr-Labs/eigenlayer-contracts",
-    "blockNumber": "17445564.0",
+    "blockNumber": 17445564,
     "blockIssueDate": "2023-06-09"
   },
   {
@@ -387,7 +387,7 @@
     ],
     "relatedTopics": "Restaking",
     "githubUrl": "https://github.com/Layr-Labs/eigenlayer-contracts",
-    "blockNumber": "17445563.0",
+    "blockNumber": 17445563,
     "blockIssueDate": "2023-06-09"
   },
   {
@@ -410,7 +410,7 @@
     ],
     "relatedTopics": "Restaking",
     "githubUrl": "https://github.com/Layr-Labs/eigenlayer-contracts",
-    "blockNumber": "17445564.0",
+    "blockNumber": 17445564,
     "blockIssueDate": "2023-06-09"
   },
   {
@@ -433,7 +433,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/Layr-Labs/eigenlayer-contracts",
-    "blockNumber": "18366276.0",
+    "blockNumber": 18366276,
     "blockIssueDate": "2023-10-16"
   },
   {
@@ -455,7 +455,7 @@
     ],
     "relatedTopics": "Decentralized lending",
     "githubUrl": "https://github.com/makerdao/dss",
-    "blockNumber": "8928152.0",
+    "blockNumber": 8928152,
     "blockIssueDate": "2019-11-13"
   },
   {
@@ -477,7 +477,7 @@
     ],
     "relatedTopics": "Stablecoin",
     "githubUrl": "https://github.com/makerdao/dss",
-    "blockNumber": "8928158.0",
+    "blockNumber": 8928158,
     "blockIssueDate": "2019-11-13"
   },
   {
@@ -499,7 +499,7 @@
     ],
     "relatedTopics": "Savings rate",
     "githubUrl": "https://github.com/makerdao/dss",
-    "blockNumber": "8928160.0",
+    "blockNumber": 8928160,
     "blockIssueDate": "2019-11-13"
   },
   {
@@ -521,7 +521,7 @@
     ],
     "relatedTopics": "Liquidation",
     "githubUrl": "https://github.com/makerdao/dss",
-    "blockNumber": "12246358.0",
+    "blockNumber": 12246358,
     "blockIssueDate": "2021-04-15"
   },
   {
@@ -543,7 +543,7 @@
     ],
     "relatedTopics": "Stablecoin",
     "githubUrl": "https://github.com/makerdao/usds",
-    "blockNumber": "20663730.0",
+    "blockNumber": 20663730,
     "blockIssueDate": "2024-09-02"
   },
   {
@@ -565,7 +565,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/makerdao/sky",
-    "blockNumber": "20663735.0",
+    "blockNumber": 20663735,
     "blockIssueDate": "2024-09-02"
   },
   {
@@ -587,7 +587,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/makerdao/dss",
-    "blockNumber": "4620855.0",
+    "blockNumber": 4620855,
     "blockIssueDate": "2017-11-25"
   },
   {
@@ -610,7 +610,7 @@
     ],
     "relatedTopics": "Decentralized lending",
     "githubUrl": "https://github.com/compound-finance/compound-protocol",
-    "blockNumber": "7710671.0",
+    "blockNumber": 7710671,
     "blockIssueDate": "2019-05-07"
   },
   {
@@ -633,7 +633,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/compound-finance/compound-protocol",
-    "blockNumber": "9601359.0",
+    "blockNumber": 9601359,
     "blockIssueDate": "2020-03-04"
   },
   {
@@ -656,7 +656,7 @@
     ],
     "relatedTopics": "Decentralized lending",
     "githubUrl": "https://github.com/compound-finance/comet",
-    "blockNumber": "15331586.0",
+    "blockNumber": 15331586,
     "blockIssueDate": "2022-08-13"
   },
   {
@@ -679,7 +679,7 @@
     ],
     "relatedTopics": "Decentralized lending",
     "githubUrl": "https://github.com/compound-finance/comet",
-    "blockNumber": "16400710.0",
+    "blockNumber": 16400710,
     "blockIssueDate": "2023-01-13"
   },
   {
@@ -701,7 +701,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/curvefi/curve-dao-contracts",
-    "blockNumber": "10647806.0",
+    "blockNumber": 10647806,
     "blockIssueDate": "2020-08-12"
   },
   {
@@ -723,7 +723,7 @@
     ],
     "relatedTopics": "Vote escrow",
     "githubUrl": "https://github.com/curvefi/curve-dao-contracts",
-    "blockNumber": "10647812.0",
+    "blockNumber": 10647812,
     "blockIssueDate": "2020-08-12"
   },
   {
@@ -745,7 +745,7 @@
     ],
     "relatedTopics": "Protocol registry",
     "githubUrl": "https://github.com/curvefi/curve-dao-contracts",
-    "blockNumber": "11153725.0",
+    "blockNumber": 11153725,
     "blockIssueDate": "2020-10-29"
   },
   {
@@ -767,7 +767,7 @@
     ],
     "relatedTopics": "Decentralized exchange",
     "githubUrl": "https://github.com/curvefi/stableswap-ng",
-    "blockNumber": "18427841.0",
+    "blockNumber": 18427841,
     "blockIssueDate": "2023-10-25"
   },
   {
@@ -789,7 +789,7 @@
     ],
     "relatedTopics": "Stablecoin",
     "githubUrl": "https://github.com/curvefi/curve-stablecoin",
-    "blockNumber": "17257952.0",
+    "blockNumber": 17257952,
     "blockIssueDate": "2023-05-14"
   },
   {
@@ -811,7 +811,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/pendle-finance/pendle-core-v2-public",
-    "blockNumber": "12320098.0",
+    "blockNumber": 12320098,
     "blockIssueDate": "2021-04-27"
   },
   {
@@ -833,7 +833,7 @@
     ],
     "relatedTopics": "Vote escrow",
     "githubUrl": "https://github.com/pendle-finance/pendle-core-v2-public",
-    "blockNumber": "16032087.0",
+    "blockNumber": 16032087,
     "blockIssueDate": "2022-11-23"
   },
   {
@@ -855,7 +855,7 @@
     ],
     "relatedTopics": "Yield trading",
     "githubUrl": "https://github.com/pendle-finance/pendle-core-v2-public",
-    "blockNumber": "19759272.0",
+    "blockNumber": 19759272,
     "blockIssueDate": "2024-04-29"
   },
   {
@@ -877,7 +877,7 @@
     ],
     "relatedTopics": "Yield trading",
     "githubUrl": "https://github.com/pendle-finance/pendle-core-v2-public",
-    "blockNumber": "18669498.0",
+    "blockNumber": 18669498,
     "blockIssueDate": "2023-11-28"
   },
   {
@@ -899,7 +899,7 @@
     ],
     "relatedTopics": "Decentralized lending",
     "githubUrl": "https://github.com/morpho-org/morpho-blue",
-    "blockNumber": "18883124.0",
+    "blockNumber": 18883124,
     "blockIssueDate": "2023-12-28"
   },
   {
@@ -921,7 +921,7 @@
     ],
     "relatedTopics": "Interest rate model",
     "githubUrl": "https://github.com/morpho-org/morpho-blue",
-    "blockNumber": "18883124.0",
+    "blockNumber": 18883124,
     "blockIssueDate": "2023-12-28"
   },
   {
@@ -943,7 +943,7 @@
     ],
     "relatedTopics": "Yield vault",
     "githubUrl": "https://github.com/morpho-org/metamorpho",
-    "blockNumber": "18925584.0",
+    "blockNumber": 18925584,
     "blockIssueDate": "2024-01-03"
   },
   {
@@ -965,7 +965,7 @@
     ],
     "relatedTopics": "Derivatives",
     "githubUrl": "https://github.com/gmx-io/gmx-contracts",
-    "blockNumber": "227091.0",
+    "blockNumber": 227091,
     "blockIssueDate": "2021-08-31"
   },
   {
@@ -987,7 +987,7 @@
     ],
     "relatedTopics": "Derivatives",
     "githubUrl": "https://github.com/gmx-io/gmx-contracts",
-    "blockNumber": "227092.0",
+    "blockNumber": 227092,
     "blockIssueDate": "2021-08-31"
   },
   {
@@ -1009,7 +1009,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/gmx-io/gmx-contracts",
-    "blockNumber": "147903.0",
+    "blockNumber": 147903,
     "blockIssueDate": "2021-07-22"
   },
   {
@@ -1031,7 +1031,7 @@
     ],
     "relatedTopics": "Derivatives",
     "githubUrl": "https://github.com/gmx-io/gmx-synthetics",
-    "blockNumber": "132478802.0",
+    "blockNumber": 132478802,
     "blockIssueDate": "2023-09-19"
   },
   {
@@ -1053,7 +1053,7 @@
     ],
     "relatedTopics": "Derivatives",
     "githubUrl": "https://github.com/gmx-io/gmx-synthetics",
-    "blockNumber": "107737251.0",
+    "blockNumber": 107737251,
     "blockIssueDate": "2023-07-04"
   },
   {
@@ -1076,7 +1076,7 @@
     ],
     "relatedTopics": "Decentralized exchange",
     "githubUrl": "https://github.com/balancer/balancer-v2-monorepo",
-    "blockNumber": "12272146.0",
+    "blockNumber": 12272146,
     "blockIssueDate": "2021-04-19"
   },
   {
@@ -1099,7 +1099,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/balancer/balancer-v2-monorepo",
-    "blockNumber": "10299683.0",
+    "blockNumber": 10299683,
     "blockIssueDate": "2020-06-20"
   },
   {
@@ -1122,7 +1122,7 @@
     ],
     "relatedTopics": "Vote escrow",
     "githubUrl": "https://github.com/balancer/balancer-v2-monorepo",
-    "blockNumber": "14457013.0",
+    "blockNumber": 14457013,
     "blockIssueDate": "2022-03-25"
   },
   {
@@ -1144,7 +1144,7 @@
     ],
     "relatedTopics": "DEX aggregator",
     "githubUrl": "https://github.com/1inch",
-    "blockNumber": "19212918.0",
+    "blockNumber": 19212918,
     "blockIssueDate": "2024-02-12"
   },
   {
@@ -1166,7 +1166,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/1inch",
-    "blockNumber": "11511393.0",
+    "blockNumber": 11511393,
     "blockIssueDate": "2020-12-23"
   },
   {
@@ -1188,7 +1188,7 @@
     ],
     "relatedTopics": "Decentralized Exchange",
     "githubUrl": "https://github.com/sushiswap/sushiswap",
-    "blockNumber": "10794229.0",
+    "blockNumber": 10794229,
     "blockIssueDate": "2020-09-04"
   },
   {
@@ -1210,7 +1210,7 @@
     ],
     "relatedTopics": "Decentralized Exchange",
     "githubUrl": "https://github.com/sushiswap/sushiswap",
-    "blockNumber": "10794261.0",
+    "blockNumber": 10794261,
     "blockIssueDate": "2020-09-04"
   },
   {
@@ -1232,7 +1232,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/sushiswap/sushiswap",
-    "blockNumber": "10736094.0",
+    "blockNumber": 10736094,
     "blockIssueDate": "2020-08-26"
   },
   {
@@ -1254,7 +1254,7 @@
     ],
     "relatedTopics": "DeFi infrastructure",
     "githubUrl": "https://github.com/sushiswap/bentobox",
-    "blockNumber": "12094175.0",
+    "blockNumber": 12094175,
     "blockIssueDate": "2021-03-23"
   },
   {
@@ -1276,7 +1276,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/Synthetixio/synthetix",
-    "blockNumber": "8314597.0",
+    "blockNumber": 8314597,
     "blockIssueDate": "2019-08-09"
   },
   {
@@ -1298,7 +1298,7 @@
     ],
     "relatedTopics": "Stablecoin",
     "githubUrl": "https://github.com/Synthetixio/synthetix",
-    "blockNumber": "8621971.0",
+    "blockNumber": 8621971,
     "blockIssueDate": "2019-09-26"
   },
   {
@@ -1321,7 +1321,7 @@
     ],
     "relatedTopics": "Protocol registry",
     "githubUrl": "https://github.com/rocket-pool/rocketpool",
-    "blockNumber": "13325233.0",
+    "blockNumber": 13325233,
     "blockIssueDate": "2021-09-30"
   },
   {
@@ -1344,7 +1344,7 @@
     ],
     "relatedTopics": "Liquid staking",
     "githubUrl": "https://github.com/rocket-pool/rocketpool",
-    "blockNumber": "13325304.0",
+    "blockNumber": 13325304,
     "blockIssueDate": "2021-09-30"
   },
   {
@@ -1367,7 +1367,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/rocket-pool/rocketpool",
-    "blockNumber": "13325306.0",
+    "blockNumber": 13325306,
     "blockIssueDate": "2021-09-30"
   },
   {
@@ -1389,7 +1389,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/convex-eth/platform",
-    "blockNumber": "12450988.0",
+    "blockNumber": 12450988,
     "blockIssueDate": "2021-05-17"
   },
   {
@@ -1411,7 +1411,7 @@
     ],
     "relatedTopics": "Yield aggregator",
     "githubUrl": "https://github.com/convex-eth/platform",
-    "blockNumber": "12450992.0",
+    "blockNumber": 12450992,
     "blockIssueDate": "2021-05-17"
   },
   {
@@ -1433,7 +1433,7 @@
     ],
     "relatedTopics": "Vote delegation",
     "githubUrl": "https://github.com/convex-eth/platform",
-    "blockNumber": "12293652.0",
+    "blockNumber": 12293652,
     "blockIssueDate": "2021-04-23"
   },
   {
@@ -1455,7 +1455,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/yearn/yearn-vaults",
-    "blockNumber": "10475744.0",
+    "blockNumber": 10475744,
     "blockIssueDate": "2020-07-17"
   },
   {
@@ -1477,7 +1477,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/smartcontractkit/LinkToken",
-    "blockNumber": "4281611.0",
+    "blockNumber": 4281611,
     "blockIssueDate": "2017-09-16"
   },
   {
@@ -1499,7 +1499,7 @@
     ],
     "relatedTopics": "Price oracle",
     "githubUrl": "https://github.com/smartcontractkit/chainlink",
-    "blockNumber": "10606501.0",
+    "blockNumber": 10606501,
     "blockIssueDate": "2020-08-06"
   },
   {
@@ -1521,7 +1521,7 @@
     ],
     "relatedTopics": "Verifiable randomness",
     "githubUrl": "https://github.com/smartcontractkit/chainlink",
-    "blockNumber": "13960731.0",
+    "blockNumber": 13960731,
     "blockIssueDate": "2022-01-07"
   },
   {
@@ -1543,7 +1543,7 @@
     ],
     "relatedTopics": "Cross-chain messaging",
     "githubUrl": "https://github.com/smartcontractkit/ccip",
-    "blockNumber": "18622113.0",
+    "blockNumber": 18622113,
     "blockIssueDate": "2023-11-21"
   },
   {
@@ -1554,7 +1554,7 @@
     "isUpgradeable": false,
     "isVerified": true,
     "isProxy": false,
-    "protocol": "ENS (Ethereum Name Service)",
+    "protocol": "Ethereum Name Service (ENS)",
     "chain": "Ethereum",
     "explorerUrl": "https://etherscan.io/address/0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e",
     "auditReports": [
@@ -1565,7 +1565,7 @@
     ],
     "relatedTopics": "Name registry",
     "githubUrl": "https://github.com/ensdomains/ens-contracts",
-    "blockNumber": "9380380.0",
+    "blockNumber": 9380380,
     "blockIssueDate": "2020-01-30"
   },
   {
@@ -1576,7 +1576,7 @@
     "isUpgradeable": false,
     "isVerified": true,
     "isProxy": false,
-    "protocol": "ENS (Ethereum Name Service)",
+    "protocol": "Ethereum Name Service (ENS)",
     "chain": "Ethereum",
     "explorerUrl": "https://etherscan.io/address/0x57f1887a8BF19b14fC0dF6Fd9B2acc9Af147eA85",
     "auditReports": [
@@ -1587,7 +1587,7 @@
     ],
     "relatedTopics": "Name registry",
     "githubUrl": "https://github.com/ensdomains/ens-contracts",
-    "blockNumber": "9380410.0",
+    "blockNumber": 9380410,
     "blockIssueDate": "2020-01-30"
   },
   {
@@ -1598,7 +1598,7 @@
     "isUpgradeable": false,
     "isVerified": true,
     "isProxy": false,
-    "protocol": "ENS (Ethereum Name Service)",
+    "protocol": "Ethereum Name Service (ENS)",
     "chain": "Ethereum",
     "explorerUrl": "https://etherscan.io/address/0xD4416b13d2b3a9aBae7AcD5D6C2BbDBE25686401",
     "auditReports": [
@@ -1609,7 +1609,7 @@
     ],
     "relatedTopics": "Name registry",
     "githubUrl": "https://github.com/ensdomains/ens-contracts",
-    "blockNumber": "16925608.0",
+    "blockNumber": 16925608,
     "blockIssueDate": "2023-03-28"
   },
   {
@@ -1631,7 +1631,7 @@
     ],
     "relatedTopics": "Multisig wallet",
     "githubUrl": "https://github.com/safe-global/safe-contracts",
-    "blockNumber": "12504268.0",
+    "blockNumber": 12504268,
     "blockIssueDate": "2021-05-25"
   },
   {
@@ -1653,7 +1653,7 @@
     ],
     "relatedTopics": "Multisig wallet",
     "githubUrl": "https://github.com/safe-global/safe-contracts",
-    "blockNumber": "12504126.0",
+    "blockNumber": 12504126,
     "blockIssueDate": "2021-05-25"
   },
   {
@@ -1675,7 +1675,7 @@
     ],
     "relatedTopics": "Multisig wallet",
     "githubUrl": "https://github.com/safe-global/safe-contracts",
-    "blockNumber": "12504265.0",
+    "blockNumber": 12504265,
     "blockIssueDate": "2021-05-25"
   },
   {
@@ -1697,7 +1697,7 @@
     ],
     "relatedTopics": "Stablecoin",
     "githubUrl": "https://github.com/ethena-labs/bbp-public-assets",
-    "blockNumber": "18571358.0",
+    "blockNumber": 18571358,
     "blockIssueDate": "2023-11-14"
   },
   {
@@ -1719,7 +1719,7 @@
     ],
     "relatedTopics": "Yield vault",
     "githubUrl": "https://github.com/ethena-labs/ethena",
-    "blockNumber": "18571359.0",
+    "blockNumber": 18571359,
     "blockIssueDate": "2023-11-14"
   },
   {
@@ -1741,7 +1741,7 @@
     ],
     "relatedTopics": "Distributed validator technology",
     "githubUrl": "https://github.com/ssvlabs/ssv-network",
-    "blockNumber": "17507487.0",
+    "blockNumber": 17507487,
     "blockIssueDate": "2023-06-18"
   },
   {
@@ -1763,8 +1763,8 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/ssvlabs/ssv-network",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "WBTC",
@@ -1785,7 +1785,7 @@
     ],
     "relatedTopics": "Wrapped asset",
     "githubUrl": "https://github.com/WrappedBTC/bitcoin-token-smart-contracts",
-    "blockNumber": "6766284.0",
+    "blockNumber": 6766284,
     "blockIssueDate": "2018-11-24"
   },
   {
@@ -1807,7 +1807,7 @@
     ],
     "relatedTopics": "Liquid restaking",
     "githubUrl": "https://github.com/etherfi-protocol/smart-contracts",
-    "blockNumber": "17664324.0",
+    "blockNumber": 17664324,
     "blockIssueDate": "2023-07-10"
   },
   {
@@ -1829,7 +1829,7 @@
     ],
     "relatedTopics": "Liquid restaking",
     "githubUrl": "https://github.com/etherfi-protocol/smart-contracts",
-    "blockNumber": "17664336.0",
+    "blockNumber": 17664336,
     "blockIssueDate": "2023-07-10"
   },
   {
@@ -1851,7 +1851,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/etherfi-protocol/smart-contracts",
-    "blockNumber": "19288125.0",
+    "blockNumber": 19288125,
     "blockIssueDate": "2024-02-23"
   },
   {
@@ -1873,7 +1873,7 @@
     ],
     "relatedTopics": "Decentralized lending",
     "githubUrl": "https://github.com/liquity/dev",
-    "blockNumber": "12178557.0",
+    "blockNumber": 12178557,
     "blockIssueDate": "2021-04-05"
   },
   {
@@ -1895,7 +1895,7 @@
     ],
     "relatedTopics": "Stablecoin",
     "githubUrl": "https://github.com/liquity/dev",
-    "blockNumber": "12178594.0",
+    "blockNumber": 12178594,
     "blockIssueDate": "2021-04-05"
   },
   {
@@ -1917,7 +1917,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/liquity/dev",
-    "blockNumber": "12178618.0",
+    "blockNumber": 12178618,
     "blockIssueDate": "2021-04-05"
   },
   {
@@ -1939,7 +1939,7 @@
     ],
     "relatedTopics": "Liquidation",
     "githubUrl": "https://github.com/liquity/dev",
-    "blockNumber": "12178565.0",
+    "blockNumber": 12178565,
     "blockIssueDate": "2021-04-05"
   },
   {
@@ -1961,7 +1961,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/dydxfoundation/governance-contracts",
-    "blockNumber": "12809555.0",
+    "blockNumber": 12809555,
     "blockIssueDate": "2021-07-12"
   },
   {
@@ -1983,7 +1983,7 @@
     ],
     "relatedTopics": "Stablecoin",
     "githubUrl": "https://github.com/FraxFinance/fraxlend",
-    "blockNumber": "11465581.0",
+    "blockNumber": 11465581,
     "blockIssueDate": "2020-12-16"
   },
   {
@@ -2005,7 +2005,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/FraxFinance/fraxlend",
-    "blockNumber": "11465584.0",
+    "blockNumber": 11465584,
     "blockIssueDate": "2020-12-16"
   },
   {
@@ -2027,7 +2027,7 @@
     ],
     "relatedTopics": "Liquid staking",
     "githubUrl": "https://github.com/FraxFinance/frxETH-public",
-    "blockNumber": "15686046.0",
+    "blockNumber": 15686046,
     "blockIssueDate": "2022-10-06"
   },
   {
@@ -2049,7 +2049,7 @@
     ],
     "relatedTopics": "Liquid staking",
     "githubUrl": "https://github.com/FraxFinance/frxETH-public",
-    "blockNumber": "15686046.0",
+    "blockNumber": 15686046,
     "blockIssueDate": "2022-10-06"
   },
   {
@@ -2071,7 +2071,7 @@
     ],
     "relatedTopics": "Decentralized exchange",
     "githubUrl": "https://github.com/aerodrome-finance/contracts",
-    "blockNumber": "3200613.0",
+    "blockNumber": 3200613,
     "blockIssueDate": "2023-08-28"
   },
   {
@@ -2093,7 +2093,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/aerodrome-finance/contracts",
-    "blockNumber": "3200550.0",
+    "blockNumber": 3200550,
     "blockIssueDate": "2023-08-28"
   },
   {
@@ -2115,7 +2115,7 @@
     ],
     "relatedTopics": "Cross-chain messaging",
     "githubUrl": "https://github.com/LayerZero-Labs/LayerZero-v2",
-    "blockNumber": "19093715.0",
+    "blockNumber": 19093715,
     "blockIssueDate": "2024-01-26"
   },
   {
@@ -2137,7 +2137,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/LayerZero-Labs/LayerZero-v2",
-    "blockNumber": "19678360.0",
+    "blockNumber": 19678360,
     "blockIssueDate": "2024-04-17"
   },
   {
@@ -2159,7 +2159,7 @@
     ],
     "relatedTopics": "Cross-chain bridge",
     "githubUrl": "https://github.com/wormhole-foundation/wormhole",
-    "blockNumber": "12959638.0",
+    "blockNumber": 12959638,
     "blockIssueDate": "2021-08-04"
   },
   {
@@ -2181,7 +2181,7 @@
     ],
     "relatedTopics": "Cross-chain bridge",
     "githubUrl": "https://github.com/wormhole-foundation/wormhole",
-    "blockNumber": "13217349.0",
+    "blockNumber": 13217349,
     "blockIssueDate": "2021-09-13"
   },
   {
@@ -2203,7 +2203,7 @@
     ],
     "relatedTopics": "Cross-chain bridge",
     "githubUrl": "https://github.com/across-protocol/contracts",
-    "blockNumber": "14819537.0",
+    "blockNumber": 14819537,
     "blockIssueDate": "2022-05-21"
   },
   {
@@ -2225,7 +2225,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/across-protocol/contracts",
-    "blockNumber": "15790016.0",
+    "blockNumber": 15790016,
     "blockIssueDate": "2022-10-20"
   },
   {
@@ -2247,8 +2247,8 @@
     ],
     "relatedTopics": "Decentralized lending",
     "githubUrl": "https://github.com/VenusProtocol/venus-protocol",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": 2471512,
+    "blockIssueDate": "2020-11-22"
   },
   {
     "name": "XVS",
@@ -2269,8 +2269,8 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/VenusProtocol/venus-protocol",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": 858561,
+    "blockIssueDate": "2020-09-27"
   },
   {
     "name": "PancakeV2Factory",
@@ -2291,8 +2291,8 @@
     ],
     "relatedTopics": "Decentralized exchange",
     "githubUrl": "https://github.com/pancakeswap/pancake-swap-core",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": 6809737,
+    "blockIssueDate": "2021-04-23"
   },
   {
     "name": "PancakeV2Router",
@@ -2313,8 +2313,8 @@
     ],
     "relatedTopics": "Decentralized exchange",
     "githubUrl": "https://github.com/pancakeswap/pancake-swap-periphery",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": 6810080,
+    "blockIssueDate": "2021-04-23"
   },
   {
     "name": "CAKE",
@@ -2335,8 +2335,8 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/pancakeswap/pancake-swap-core",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": 693963,
+    "blockIssueDate": "2020-09-22"
   },
   {
     "name": "PancakeV3Factory",
@@ -2357,8 +2357,8 @@
     ],
     "relatedTopics": "Decentralized exchange",
     "githubUrl": "https://github.com/pancakeswap/pancake-v3-contracts",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": 26956207,
+    "blockIssueDate": "2023-04-01"
   },
   {
     "name": "JupiterAggregatorV6",
@@ -2621,7 +2621,7 @@
     ],
     "relatedTopics": "Decentralized Lending",
     "githubUrl": "https://github.com/Instadapp/fluid-contracts-public",
-    "blockNumber": "19239106.0",
+    "blockNumber": 19239106,
     "blockIssueDate": "2024-02-16"
   },
   {
@@ -2643,7 +2643,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/maple-labs",
-    "blockNumber": "12274249.0",
+    "blockNumber": 12274249,
     "blockIssueDate": "2021-04-20"
   },
   {
@@ -2665,7 +2665,7 @@
     ],
     "relatedTopics": "Decentralized Lending",
     "githubUrl": "https://github.com/euler-xyz/ethereum-vault-connector",
-    "blockNumber": "20529207.0",
+    "blockNumber": 20529207,
     "blockIssueDate": "2024-08-14"
   },
   {
@@ -2687,7 +2687,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/euler-xyz",
-    "blockNumber": "13908728.0",
+    "blockNumber": 13908728,
     "blockIssueDate": "2021-12-30"
   },
   {
@@ -2709,7 +2709,7 @@
     ],
     "relatedTopics": "Real World Assets",
     "githubUrl": "https://github.com/ondoprotocol",
-    "blockNumber": "16234210.0",
+    "blockNumber": 16234210,
     "blockIssueDate": "2022-12-21"
   },
   {
@@ -2731,7 +2731,7 @@
     ],
     "relatedTopics": "Real World Assets",
     "githubUrl": "https://github.com/ondoprotocol/usdy",
-    "blockNumber": "17672244.0",
+    "blockNumber": 17672244,
     "blockIssueDate": "2023-07-11"
   },
   {
@@ -2753,7 +2753,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/ondoprotocol",
-    "blockNumber": "14670968.0",
+    "blockNumber": 14670968,
     "blockIssueDate": "2022-04-28"
   },
   {
@@ -2775,7 +2775,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/centrifuge/liquidity-pools",
-    "blockNumber": "12499944.0",
+    "blockNumber": 12499944,
     "blockIssueDate": "2021-05-24"
   },
   {
@@ -2797,7 +2797,7 @@
     ],
     "relatedTopics": "Liquid Restaking",
     "githubUrl": "https://github.com/Kelp-DAO/LRT-rsETH",
-    "blockNumber": "18758282.0",
+    "blockNumber": 18758282,
     "blockIssueDate": "2023-12-10"
   },
   {
@@ -2819,7 +2819,7 @@
     ],
     "relatedTopics": "Liquid Restaking",
     "githubUrl": "https://github.com/Renzo-Protocol/contracts-public",
-    "blockNumber": "18722779.0",
+    "blockNumber": 18722779,
     "blockIssueDate": "2023-12-05"
   },
   {
@@ -2841,7 +2841,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/Renzo-Protocol/contracts-public",
-    "blockNumber": "19718690.0",
+    "blockNumber": 19718690,
     "blockIssueDate": "2024-04-23"
   },
   {
@@ -2863,7 +2863,7 @@
     ],
     "relatedTopics": "Liquid Restaking",
     "githubUrl": "https://github.com/PufferFinance/puffer-contracts",
-    "blockNumber": "19128047.0",
+    "blockNumber": 19128047,
     "blockIssueDate": "2024-01-31"
   },
   {
@@ -2885,7 +2885,7 @@
     ],
     "relatedTopics": "Liquid Staking",
     "githubUrl": "https://github.com/SwellNetwork/v3-core-public",
-    "blockNumber": "17030767.0",
+    "blockNumber": 17030767,
     "blockIssueDate": "2023-04-12"
   },
   {
@@ -2907,7 +2907,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/SwellNetwork/v3-core-public",
-    "blockNumber": "20341507.0",
+    "blockNumber": 20341507,
     "blockIssueDate": "2024-07-19"
   },
   {
@@ -2929,7 +2929,7 @@
     ],
     "relatedTopics": "Liquid Staking",
     "githubUrl": "https://github.com/stader-labs/ethx",
-    "blockNumber": "17416140.0",
+    "blockNumber": 17416140,
     "blockIssueDate": "2023-06-05"
   },
   {
@@ -2951,7 +2951,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/stader-labs/ethx",
-    "blockNumber": "14020088.0",
+    "blockNumber": 14020088,
     "blockIssueDate": "2022-01-17"
   },
   {
@@ -2973,7 +2973,7 @@
     ],
     "relatedTopics": "Restaking",
     "githubUrl": "https://github.com/symbioticfi/core",
-    "blockNumber": "20011341.0",
+    "blockNumber": 20011341,
     "blockIssueDate": "2024-06-03"
   },
   {
@@ -2995,7 +2995,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/tornadocash",
-    "blockNumber": "11474599.0",
+    "blockNumber": 11474599,
     "blockIssueDate": "2020-12-18"
   },
   {
@@ -3017,7 +3017,7 @@
     ],
     "relatedTopics": "Privacy Protocol",
     "githubUrl": "https://github.com/tornadocash",
-    "blockNumber": "9161895.0",
+    "blockNumber": 9161895,
     "blockIssueDate": "2019-12-25"
   },
   {
@@ -3039,7 +3039,7 @@
     ],
     "relatedTopics": "Prediction Markets",
     "githubUrl": "https://github.com/gnosis/conditional-tokens-contracts",
-    "blockNumber": "4023686.0",
+    "blockNumber": 4023686,
     "blockIssueDate": "2020-09-03"
   },
   {
@@ -3061,7 +3061,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/graphprotocol/contracts",
-    "blockNumber": "11446769.0",
+    "blockNumber": 11446769,
     "blockIssueDate": "2020-12-13"
   },
   {
@@ -3083,7 +3083,7 @@
     ],
     "relatedTopics": "Price Oracle",
     "githubUrl": "https://github.com/pyth-network/pyth-crosschain",
-    "blockNumber": "15502058.0",
+    "blockNumber": 15502058,
     "blockIssueDate": "2022-09-09"
   },
   {
@@ -3105,7 +3105,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/Gearbox-protocol",
-    "blockNumber": "13810899.0",
+    "blockNumber": 13810899,
     "blockIssueDate": "2021-12-15"
   },
   {
@@ -3127,7 +3127,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/gitcoinco",
-    "blockNumber": "12422079.0",
+    "blockNumber": 12422079,
     "blockIssueDate": "2021-05-12"
   },
   {
@@ -3150,7 +3150,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/radiant-capital",
-    "blockNumber": "69313622.0",
+    "blockNumber": 69313622,
     "blockIssueDate": "2023-03-13"
   },
   {
@@ -3173,8 +3173,8 @@
     ],
     "relatedTopics": "Decentralized Exchange",
     "githubUrl": "https://github.com/traderjoe-xyz/joe-v2",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": 28371397,
+    "blockIssueDate": "2023-04-06"
   },
   {
     "name": "JOE",
@@ -3196,8 +3196,8 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/traderjoe-xyz/joe-v2",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": 2486442,
+    "blockIssueDate": "2021-06-27"
   },
   {
     "name": "WELL",
@@ -3218,7 +3218,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/moonwell-fi",
-    "blockNumber": "8981602.0",
+    "blockNumber": 8981602,
     "blockIssueDate": "2024-01-08"
   },
   {
@@ -3240,7 +3240,7 @@
     ],
     "relatedTopics": "Decentralized Exchange",
     "githubUrl": "https://github.com/QuickSwap",
-    "blockNumber": "32610688.0",
+    "blockNumber": 32610688,
     "blockIssueDate": "2022-09-02"
   },
   {
@@ -3262,7 +3262,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/QuickSwap",
-    "blockNumber": "27396690.0",
+    "blockNumber": 27396690,
     "blockIssueDate": "2022-04-21"
   },
   {
@@ -3286,8 +3286,8 @@
     ],
     "relatedTopics": "Options Trading",
     "githubUrl": "https://github.com/panoptic-labs/panoptic-v1-core",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "PREMIA",
@@ -3309,8 +3309,8 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/Premian-Labs/premia-contracts",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "FarcasterIdRegistry",
@@ -3331,7 +3331,7 @@
     ],
     "relatedTopics": "Decentralized Social",
     "githubUrl": "https://github.com/farcasterxyz/contracts",
-    "blockNumber": "111816351.0",
+    "blockNumber": 111816351,
     "blockIssueDate": "2023-11-06"
   },
   {
@@ -3353,7 +3353,7 @@
     ],
     "relatedTopics": "Decentralized Social",
     "githubUrl": "https://github.com/farcasterxyz/contracts",
-    "blockNumber": "111816359.0",
+    "blockNumber": 111816359,
     "blockIssueDate": "2023-11-06"
   },
   {
@@ -3376,7 +3376,7 @@
     ],
     "relatedTopics": "Decentralized Social",
     "githubUrl": "https://github.com/lens-protocol/core",
-    "blockNumber": "28384641.0",
+    "blockNumber": 28384641,
     "blockIssueDate": "2022-05-16"
   },
   {
@@ -3398,7 +3398,7 @@
     ],
     "relatedTopics": "Decentralized Exchange",
     "githubUrl": "https://github.com/CrocSwap/CrocSwap-protocol",
-    "blockNumber": "17361664.0",
+    "blockNumber": 17361664,
     "blockIssueDate": "2023-05-29"
   },
   {
@@ -3422,7 +3422,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/ajna-finance/ajna-core",
-    "blockNumber": "15478977.0",
+    "blockNumber": 15478977,
     "blockIssueDate": "2022-09-05"
   },
   {
@@ -3445,7 +3445,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/silo-finance/silo-core-v1",
-    "blockNumber": "13716347.0",
+    "blockNumber": 13716347,
     "blockIssueDate": "2021-11-30"
   },
   {
@@ -3467,7 +3467,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/seamless-protocol",
-    "blockNumber": "5842016.0",
+    "blockNumber": 5842016,
     "blockIssueDate": "2023-10-28"
   },
   {
@@ -3489,8 +3489,8 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/dopex-io/dopex-v2-clamm",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "LYRA",
@@ -3511,7 +3511,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/lyra-finance/lyra-protocol",
-    "blockNumber": "12745435.0",
+    "blockNumber": 12745435,
     "blockIssueDate": "2021-07-02"
   },
   {
@@ -3533,7 +3533,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/Kwenta/token",
-    "blockNumber": "36487225.0",
+    "blockNumber": 36487225,
     "blockIssueDate": "2022-11-09"
   },
   {
@@ -3556,7 +3556,7 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/mux-world/mux-protocol",
-    "blockNumber": "3840.0",
+    "blockNumber": 3840,
     "blockIssueDate": "2021-06-17"
   },
   {
@@ -3578,8 +3578,8 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/level-fi",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": 23830452,
+    "blockIssueDate": "2022-12-12"
   },
   {
     "name": "HoprToken",
@@ -3600,7 +3600,7 @@
     ],
     "relatedTopics": "Privacy Protocol",
     "githubUrl": "https://github.com/hoprnet/hoprnet",
-    "blockNumber": "11887223.0",
+    "blockNumber": 11887223,
     "blockIssueDate": "2021-02-19"
   },
   {
@@ -3644,7 +3644,7 @@
     ],
     "relatedTopics": "Protocol Registry",
     "githubUrl": "https://github.com/marsfoundation/sparklend",
-    "blockNumber": "16776389.0",
+    "blockNumber": 16776389,
     "blockIssueDate": "2023-03-07"
   },
   {
@@ -3666,7 +3666,7 @@
     ],
     "relatedTopics": "Decentralized Lending",
     "githubUrl": "https://github.com/marsfoundation/sparklend",
-    "blockNumber": "16776401.0",
+    "blockNumber": 16776401,
     "blockIssueDate": "2023-03-07"
   },
   {
@@ -3689,7 +3689,7 @@
     ],
     "relatedTopics": "DeFi Smart Account",
     "githubUrl": "https://github.com/Instadapp/dsa-contracts",
-    "blockNumber": "9747241.0",
+    "blockNumber": 9747241,
     "blockIssueDate": "2020-03-26"
   },
   {
@@ -3712,8 +3712,8 @@
     ],
     "relatedTopics": "DeFi Smart Account",
     "githubUrl": "https://github.com/Instadapp/dsa-contracts",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "Comptroller (Benqi)",
@@ -3735,8 +3735,8 @@
     ],
     "relatedTopics": "Decentralized Lending",
     "githubUrl": "https://github.com/Benqi-fi/BENQI-Smart-Contracts",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": 3046286,
+    "blockIssueDate": "2021-08-18"
   },
   {
     "name": "sAVAX",
@@ -3758,8 +3758,8 @@
     ],
     "relatedTopics": "Liquid Staking",
     "githubUrl": "https://github.com/Benqi-fi/BENQI-Smart-Contracts",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": 10079704,
+    "blockIssueDate": "2022-01-26"
   },
   {
     "name": "Router (Stargate)",
@@ -3780,8 +3780,8 @@
     ],
     "relatedTopics": "Cross-Chain Bridge",
     "githubUrl": "https://github.com/stargate-protocol/stargate",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "StargateToken (STG)",
@@ -3802,8 +3802,8 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/stargate-protocol/stargate",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "AuraBooster",
@@ -3825,8 +3825,8 @@
     ],
     "relatedTopics": "Yield Aggregator",
     "githubUrl": "https://github.com/aurafinance/aura-contracts",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "AuraLocker (vlAURA)",
@@ -3848,8 +3848,8 @@
     ],
     "relatedTopics": "Vote Escrow",
     "githubUrl": "https://github.com/aurafinance/aura-contracts",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "CellarV2",
@@ -3870,8 +3870,8 @@
     ],
     "relatedTopics": "Yield Vault",
     "githubUrl": "https://github.com/PeggyJV/cellar-contracts",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "CellarRouter",
@@ -3892,8 +3892,8 @@
     ],
     "relatedTopics": "Yield Vault",
     "githubUrl": "https://github.com/PeggyJV/cellar-contracts",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "GPv2Settlement",
@@ -3914,8 +3914,8 @@
     ],
     "relatedTopics": "Batch Auction DEX",
     "githubUrl": "https://github.com/cowprotocol/contracts",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "GPv2VaultRelayer",
@@ -3936,8 +3936,8 @@
     ],
     "relatedTopics": "Batch Auction DEX",
     "githubUrl": "https://github.com/cowprotocol/contracts",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "BeefyVaultV7",
@@ -3958,8 +3958,8 @@
     ],
     "relatedTopics": "Yield Aggregator",
     "githubUrl": "https://github.com/beefyfinance/beefy-contracts",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": 25906368,
+    "blockIssueDate": "2023-02-23"
   },
   {
     "name": "BIFI Token",
@@ -3980,8 +3980,8 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/beefyfinance/beefy-contracts",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": 649704,
+    "blockIssueDate": "2020-09-20"
   },
   {
     "name": "AlchemistV2",
@@ -4002,8 +4002,8 @@
     ],
     "relatedTopics": "Self-Repaying Loans",
     "githubUrl": "https://github.com/alchemix-finance/v2-foundry",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "TransmuterV2",
@@ -4024,8 +4024,8 @@
     ],
     "relatedTopics": "Self-Repaying Loans",
     "githubUrl": "https://github.com/alchemix-finance/v2-foundry",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "CauldronV4",
@@ -4046,8 +4046,8 @@
     ],
     "relatedTopics": "Decentralized Lending",
     "githubUrl": "https://github.com/Abracadabra-money/abracadabra-money-contracts",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "MagicInternetMoney (MIM)",
@@ -4068,8 +4068,8 @@
     ],
     "relatedTopics": "Stablecoin",
     "githubUrl": "https://github.com/Abracadabra-money/abracadabra-money-contracts",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "RibbonThetaVault",
@@ -4090,8 +4090,8 @@
     ],
     "relatedTopics": "Options Trading",
     "githubUrl": "https://github.com/ribbon-finance/ribbon-v2",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "RBN Token",
@@ -4112,8 +4112,8 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/ribbon-finance/governance",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "NotionalV2Router",
@@ -4134,8 +4134,8 @@
     ],
     "relatedTopics": "Fixed-Rate Lending",
     "githubUrl": "https://github.com/notional-finance/contracts-v2",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "NoteERC20",
@@ -4156,8 +4156,8 @@
     ],
     "relatedTopics": "Governance Token",
     "githubUrl": "https://github.com/notional-finance/contracts-v2",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "SeniorPool",
@@ -4178,8 +4178,8 @@
     ],
     "relatedTopics": "Real World Assets",
     "githubUrl": "https://github.com/goldfinch-eng/mono",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "GoldfinchFactory",
@@ -4200,7 +4200,7 @@
     ],
     "relatedTopics": "Real World Assets",
     "githubUrl": "https://github.com/goldfinch-eng/mono",
-    "blockNumber": "16920051.0",
+    "blockNumber": 16920051,
     "blockIssueDate": "2023-03-27"
   },
   {
@@ -4223,8 +4223,8 @@
     ],
     "relatedTopics": "Decentralized Lending",
     "githubUrl": "https://github.com/trusttoken/contracts-pre22",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "TRU Token",
@@ -4246,8 +4246,8 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/trusttoken/contracts-pre22",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "AugustusSwapper",
@@ -4268,8 +4268,8 @@
     ],
     "relatedTopics": "DEX Aggregator",
     "githubUrl": "https://github.com/paraswap/augustus-v5",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "TokenTransferProxy (Paraswap)",
@@ -4290,8 +4290,8 @@
     ],
     "relatedTopics": "DEX Aggregator",
     "githubUrl": "https://github.com/paraswap/augustus-v5",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "Controller (Harvest)",
@@ -4313,8 +4313,8 @@
     ],
     "relatedTopics": "Yield Aggregator",
     "githubUrl": "https://github.com/harvest-finance/harvest",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "FARM Token",
@@ -4336,8 +4336,8 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/harvest-finance/harvest",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "BadgerToken",
@@ -4359,8 +4359,8 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/Badger-Finance/badger-system",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "Sett (renBTC Vault)",
@@ -4382,8 +4382,8 @@
     ],
     "relatedTopics": "Yield Aggregator",
     "githubUrl": "https://github.com/Badger-Finance/badger-system",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "AgToken (agEUR)",
@@ -4404,8 +4404,8 @@
     ],
     "relatedTopics": "Stablecoin",
     "githubUrl": "https://github.com/AngleProtocol/angle-core",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "StableMaster",
@@ -4426,8 +4426,8 @@
     ],
     "relatedTopics": "Stablecoin",
     "githubUrl": "https://github.com/AngleProtocol/angle-core",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "RSR Token",
@@ -4448,8 +4448,8 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/reserve-protocol/protocol",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "Deployer (RToken Factory)",
@@ -4470,8 +4470,8 @@
     ],
     "relatedTopics": "Stablecoin",
     "githubUrl": "https://github.com/reserve-protocol/protocol",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": 21496754,
+    "blockIssueDate": "2024-12-27"
   },
   {
     "name": "USUAL Token",
@@ -4492,8 +4492,8 @@
     ],
     "relatedTopics": "Governance token",
     "githubUrl": "https://github.com/usual-dao/usual-protocol",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "METH Token",
@@ -4514,8 +4514,8 @@
     ],
     "relatedTopics": "Liquid staking",
     "githubUrl": "https://github.com/mantle-lsp/contracts",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "Staking (mETH)",
@@ -4536,8 +4536,8 @@
     ],
     "relatedTopics": "Liquid staking",
     "githubUrl": "https://github.com/mantle-lsp/contracts",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "SynFuturesV3",
@@ -4559,8 +4559,8 @@
     ],
     "relatedTopics": "Derivatives",
     "githubUrl": "https://github.com/SynFutures/oyster-sdk",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": 193857,
+    "blockIssueDate": "2024-02-29"
   },
   {
     "name": "HMXVaultStorage",
@@ -4581,8 +4581,8 @@
     ],
     "relatedTopics": "Derivatives",
     "githubUrl": "https://github.com/HMXOrg/v2-evm",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   },
   {
     "name": "CrossMarginHandler",
@@ -4603,7 +4603,7 @@
     ],
     "relatedTopics": "Derivatives",
     "githubUrl": "https://github.com/HMXOrg/v2-evm",
-    "blockNumber": "",
-    "blockIssueDate": ""
+    "blockNumber": null,
+    "blockIssueDate": null
   }
 ]

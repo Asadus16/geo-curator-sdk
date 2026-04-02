@@ -402,7 +402,7 @@
   {
     "name": "Ethereum Name Service - OpenZeppelin - V2 registry audit",
     "description": "Audit of ENS name resolver and registry contracts",
-    "project": "ENS (Ethereum Name Service)",
+    "project": "Ethereum Name Service (ENS)",
     "auditors": [
       "OpenZeppelin"
     ],
